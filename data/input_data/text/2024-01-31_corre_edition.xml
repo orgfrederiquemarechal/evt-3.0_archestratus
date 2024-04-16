@@ -90,7 +90,8 @@
         <body>
             <head>Liber Hynotheon</head>
             <div n="1" type="chapitre">
-                <pb n="page_1" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-1.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-1"/>
+                <pb n="page_1" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-1.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-1"/>
                 <div n="1" type="section">
                     <p> In nomine domini <persName ref="#Jésus">Iesus</persName>
                         <choice>
@@ -210,7 +211,9 @@
                 </div>
 
                 <div n="4" type="section">
-                    <pb n="page_2" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-2.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-2"/>
+                    <pb n="page_2"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-2.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-2"/>
                     <p> Tertia altitudo. Hæc vocatur <name type="divin"><choice>
                                 <sic>Hernimoij</sic>
                                 <corr resp="#NC">Hernimoy</corr>
@@ -343,16 +346,17 @@
                     <p> Sexta altitudo. Hæc uocatur <name type="divin">Noxin</name>, et principes,
                         qui morantur in ea, habent potestatem et uirtutem suam ex officio super
                         status <pb n="page_3"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-3.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-3"/> mundi
-                        et mouent et mutant monarchias, imperia et dominia mundi de regione in
-                        regionem per motum cælestem et ordinationem eorum ; et distingunt dominos ii
-                        et a seruis ipsos uirtutibus et moribus illustrant, et mutant ipsas leges,
-                        fides ; regunt subditos in potestate dominorum et mutant pro ut uolunt in
-                        dominos, et in seruos dominos ; et rogant demones et constringunt eos ; et
-                        ex dignitate propria possunt infundere scientiam hominibus uidelicet
-                        musicam, logicam et moralem philosophiam. Nomina principum huius altitudinis
-                        sunt <name type="divin">Heros</name>, <name type="divin">Bissezeos</name>,
-                            <name type="divin">
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-3.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-3"/> mundi et mouent et
+                        mutant monarchias, imperia et dominia mundi de regione in regionem per motum
+                        cælestem et ordinationem eorum ; et distingunt dominos ii et a seruis ipsos
+                        uirtutibus et moribus illustrant, et mutant ipsas leges, fides ; regunt
+                        subditos in potestate dominorum et mutant pro ut uolunt in dominos, et in
+                        seruos dominos ; et rogant demones et constringunt eos ; et ex dignitate
+                        propria possunt infundere scientiam hominibus uidelicet musicam, logicam et
+                        moralem philosophiam. Nomina principum huius altitudinis sunt <name
+                            type="divin">Heros</name>, <name type="divin">Bissezeos</name>, <name
+                            type="divin">
                             <choice>
                                 <sic>Onaijora</sic>
                                 <corr resp="#NC">Onayora</corr>
@@ -479,11 +483,11 @@
                 <div n="10" type="section">
                     <p> Nona altitudo. Hæc uocatur <name type="divin">Suphor</name> et principes qui
                         morantur in ea habent potestatem <pb n="page_4"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-4.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-4"/> et
-                        uirtutem dare pecunias hominibus et etiam illas auferre quomodo illis placet
-                        et ex officio faciunt homines pulcherrimos et etiam uirtutem habent
-                        infundendi omnes scientias. Nomina principum huius altitudinis sunt <name
-                            type="divin"><choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-4.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-4"/> et uirtutem dare
+                        pecunias hominibus et etiam illas auferre quomodo illis placet et ex officio
+                        faciunt homines pulcherrimos et etiam uirtutem habent infundendi omnes
+                        scientias. Nomina principum huius altitudinis sunt <name type="divin"><choice>
                                 <sic>Paijmon</sic>
                                 <corr resp="#NC">Paymon</corr>
                             </choice><!--<app>
@@ -570,8 +574,9 @@
                                 </app>-->
                         <del>pusilanimos</del>, uictoriosos et non. Nomina principum huius
                         altitudinis sunt <pb n="page_5"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-5.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-5"/><name
-                            type="divin">Briel</name>, <name type="divin"><choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-5.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-5"/><name type="divin"
+                            >Briel</name>, <name type="divin"><choice>
                                 <sic>Malamacoij</sic>
                                 <corr resp="#NC">Malamacoy</corr>
                             </choice><!--<app>
@@ -704,7 +709,8 @@
                                 </app>--></name>, <name type="divin">
                             Salmet</name>, <name type="divin">Chamael</name>.</p>
                 </div>
-                <pb n="page_6" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-6.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-6"/>
+                <pb n="page_6" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-6.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-6"/>
                 <div n="8" type="section">
                     <p> Septima et ultima altitudo occidentalis. Hæc uocatur <name type="divin"
                             >Steher</name>
@@ -754,9 +760,10 @@
                             type="divin">Ahahager</name> et principes qui morantur in ea uirtutem et
                         potestatem habent super omnia uenena atterminata et non cognita et faciunt
                         homines perire et <pb n="page_7"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-7.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-7"/> non,
-                        faciunt aperire terras et claudare ut illis uidetur. Nomina principum huius
-                        altitudinis sunt <name type="divin">Agariel</name>, <name type="divin"
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-7.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-7"/> non, faciunt aperire
+                        terras et claudare ut illis uidetur. Nomina principum huius altitudinis sunt
+                            <name type="divin">Agariel</name>, <name type="divin"
                             >Animirnaornus</name>
                         <del>Anirmirnaornus</del>, <name type="divin"><choice>
                                 <sic>Bijleth</sic>
@@ -862,10 +869,10 @@
                                     <rdg wit="#ADIV_5Fb_1">altitunibus</rdg>
                                 </app>--> septentrionalibus et sunt tres.
                             <pb n="page_8"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-8.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-8"/>Prima
-                        altitudo. Hæc uocatur <name type="divin">Hahanahor</name> et principes qui
-                        morantur in ea habent uirtutem et potentiam super fortunam omnis maris et
-                        faciunt pluere et <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-8.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-8"/>Prima altitudo. Hæc
+                        uocatur <name type="divin">Hahanahor</name> et principes qui morantur in ea
+                        habent uirtutem et potentiam super fortunam omnis maris et faciunt pluere et <choice>
                             <sic>grandirari</sic>
                             <corr resp="#NC">grandirare</corr>
                         </choice><!--<app>
@@ -940,9 +947,9 @@
                 </div>
                 <div n="4" type="section">
                     <p> Et est sciendum quod omnes hæ altitudines habent uirtutem et <pb n="page_9"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-9.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-9"/>
-                        potentiam suam dei ♄ id est Saturni et in eius hora ut in tertio tractatu
-                        adnotauimus.</p>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-9.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-9"/> potentiam suam dei ♄ id
+                        est Saturni et in eius hora ut in tertio tractatu adnotauimus.</p>
                 </div>
             </div>
 
@@ -1076,10 +1083,10 @@
                         accendatur nisi tempore operationis. Cum autem sanctum <name type="divin"
                             >Stæleion</name>
                         <pb n="page_10"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-10.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-10"/>
-                        compositum fuit, fiat sigillum in quod sculpantur ipsa nomina uerso modo et
-                        sigillum sit purissimi argenti et auri et tempore operationis ponatur intus
-                        secundam <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-10.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-10"/> compositum fuit, fiat
+                        sigillum in quod sculpantur ipsa nomina uerso modo et sigillum sit purissimi
+                        argenti et auri et tempore operationis ponatur intus secundam <choice>
                             <sic>capsula</sic>
                             <corr resp="#NC">capsulam</corr>
                         </choice><!--<app>
@@ -1172,8 +1179,9 @@
                                         <rdg wit="#ADIV_5Fb_1">sequuntur</rdg>
                                     </app>--> sanctum <name type="divin"
                             >Stælaon</name> altitudinum occidentalium. <pb n="page_11"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-11.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-11"/>Prima
-                        altitudo, fabricatur de cera <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-11.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-11"/>Prima altitudo,
+                        fabricatur de cera <choice>
                             <sic>uiridi</sic>
                             <corr resp="#NC">uiridis</corr>
                         </choice><!--<app>
@@ -1237,13 +1245,16 @@
                         altitudinis et etiam candelæ de cerea coloris sanguinei. Tertia, tertium
                         sanctum <name type="divin">Stahelaon</name> tertiæ altitudinis et etiam
                         candelæ nigri coloris sed clari.</p>
-                    <pb n="page_12" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-12.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-12"/>
+                    <pb n="page_12"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-12.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-12"/>
 
                 </div>
             </div>
 
             <div n="fig1" type="figure">
-                <pb n="page_13" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-13.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-13"/>
+                <pb n="page_13" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-13.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-13"/>
                 <p>Figura prima. Modus formandi <del>fomandi</del> sanctum <name type="divin"
                         >Stahelaon</name>
                     <name type="divin">THETAGRAMMATON</name>
@@ -1254,14 +1265,16 @@
             </div>
 
             <div n="fig2" type="figure">
-                <pb n="page_14" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-14.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-14"/>
+                <pb n="page_14" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-14.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-14"/>
                 <p>Figura secunda. <name type="divin">THETHAGRAMMATON</name>
                     <name type="divin">HEL</name> 1. <name type="divin">Hynoytheon</name> 2. <name
                         type="divin">Ptihaeumaton</name> 3. <name type="divin">Anabona</name> 4.
                         <name type="divin">Ihehoua</name>
                 </p>
             </div>
-            <pb n="page_15" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-15.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-15"/>
+            <pb n="page_15" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-15.jpg"
+                xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-15"/>
             <div n="6" type="chapitre">
                 <div n="1" type="section">
                     <p> Et est sciendum quod omnes altitudines orientales habent potentiam suam et
@@ -1399,8 +1412,9 @@
                 </div>
                 <div n="2" type="section">
                     <p> Nunc sequuntur suffumigationes altitudinum occidentalium. <pb n="page_16"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-16.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-16"/>Prima
-                        altitudo occidentalis suffumiganda est cum odoribus cinnamomi storacis <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-16.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-16"/>Prima altitudo
+                        occidentalis suffumiganda est cum odoribus cinnamomi storacis <choice>
                             <sic>calamitæ</sic>
                             <corr resp="#NC">calamiti</corr>
                         </choice><!--<app>
@@ -1484,9 +1498,9 @@
                                         <rdg wit="#ADIV_5Fb_1">inuocat</rdg>
                                     </app>--> ?) cum stilo nomen magni
                         imperatoris et creatoris <pb n="page_17"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-17.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-17"/>omnium
-                        creaturarum quod est + <name type="divin">Thethagramaton</name> ut in
-                        exemplo. </p>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-17.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-17"/>omnium creaturarum quod
+                        est + <name type="divin">Thethagramaton</name> ut in exemplo. </p>
                 </div>
                 <div n="4" type="section">
                     <p> Nota quod omnes principes omnium altitudinum habent colores et odores pro eo
@@ -1539,8 +1553,8 @@
                         Benignissime, Domine, rogo tuam diuinam maiestatem quantum rogare possum ut
                         mihi famulo tuo n. (n. id est nomen <add place="in margine">id est
                             nomen</add>) tantam gratiam <pb n="page_18"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-18.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-18"/>
-                        concedere digneris </p>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-18.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-18"/> concedere digneris </p>
                 </div>
                 <div n="2" type="section">
                     <p> atque concedas ut possim et <choice>
@@ -1636,7 +1650,8 @@
                                     </app>-->, numerum dierum et tempus
                         dedisti illi potestatem eorum quæ sunt super terram.</p>
                 </div>
-                <pb n="page_19" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-19.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-19"/>
+                <pb n="page_19" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-19.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-19"/>
                 <div n="4" type="section">
                     <p> Posuisti timorem illius super omnem carnem et dominatus bestiarum et
                         uolatilium, creasti ex ipso adiutorium simile sibi consilium et linguam et
@@ -1704,9 +1719,10 @@
                 </div>
                 <div n="4" type="section">
                     <p> Nota <pb n="page_20"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-20.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-20"/> quod
-                        sigilla et caractera principum sunt scribenda in carta uirginea, coloribus
-                        propriis illius altitudinis, uel in panno <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-20.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-20"/> quod sigilla et
+                        caractera principum sunt scribenda in carta uirginea, coloribus propriis
+                        illius altitudinis, uel in panno <choice>
                             <sic>seic</sic>
                             <corr resp="#NC">serico</corr>
                         </choice>
@@ -1735,33 +1751,41 @@
             </div>
 
             <div n="fig3" type="figure">
-                <p><pb n="page_21" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-21.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-21"
-                    />Figura tertia. Sigillum primæ altitudinis orientalis Caractera principum</p>
+                <p><pb n="page_21"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-21.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-21"/>Figura tertia. Sigillum
+                    primæ altitudinis orientalis Caractera principum</p>
             </div>
 
             <div n="fig4" type="figure">
-                <p><pb n="page_22" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-22.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-22"
-                    />Figura quarta. Sigillum secundæ altitudinis orientalis 2.</p>
+                <p><pb n="page_22"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-22.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-22"/>Figura quarta. Sigillum
+                    secundæ altitudinis orientalis 2.</p>
             </div>
 
             <div n="fig5a" type="figure">
-                <p><pb n="page_23" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-23.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-23"
-                    />Figura quinta. Sigillum tertiæ altitudinis</p>
+                <p><pb n="page_23"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-23.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-23"/>Figura quinta. Sigillum
+                    tertiæ altitudinis</p>
             </div>
             <div n="fig5b" type="figure">
                 <p>
-                    <pb n="page_24" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-24.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-24"
-                    /></p>
+                    <pb n="page_24"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-24.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-24"/></p>
             </div>
 
             <div n="13" type="chapitre">
                 <div n="1" type="section">
                     <p>
                         <pb n="page_25"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-25.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-25"/> Est
-                        enim sciendum quod sigillum altitudinis et caractera principum sunt
-                        scribenda hora operationis ab artista et sunt mittenda in foramine et postea
-                        illud claudatur et artista sequatur operationem suam. </p>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-25.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-25"/> Est enim sciendum quod
+                        sigillum altitudinis et caractera principum sunt scribenda hora operationis
+                        ab artista et sunt mittenda in foramine et postea illud claudatur et artista
+                        sequatur operationem suam. </p>
                 </div>
                 <div n="2" type="section">
                     <p> Nos supra diximus quod artista genuflexus suffumigare debet sanctissimum
@@ -1831,7 +1855,8 @@
                                         <lem resp="#NC">Ydios</lem>
                                         <rdg wit="#ADIV_5Fb_1">Ijdios</rdg>
                                     </app>--></name>, <pb n="page_26"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-26.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-26"/>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-26.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-26"/>
                         <name type="divin">Thethagramaton</name>,<del>Hussio, Hel, Helij, Heloij,
                             Heloa</del>
                         <name type="divin">Emanuel</name>, <name type="divin"><choice>
@@ -2116,8 +2141,9 @@
                             type="divin">Relsidion</name>, <name type="divin">Malahahh</name>, <name
                             type="divin">Ruaahhton</name>, <name type="divin">Mesahh</name>, <name
                             type="divin">Tazahh</name>, <pb n="page_27"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-27.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-27"/><name
-                            type="divin">Nispha</name>, <name type="divin"><choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-27.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-27"/><name type="divin"
+                            >Nispha</name>, <name type="divin"><choice>
                                 <sic>Abtijso</sic>
                                 <corr resp="#NC">Abtyso</corr>
                             </choice><!--<app><lem resp="#NC">Abtyso</lem><rdg wit="#ADIV_5Fb_1">Abtijso</rdg></app>--></name>,
@@ -2244,8 +2270,9 @@
                 <div n="1" type="section">
                     <p> Nota. Et nota, o artista, quod debes ter dicere inuocationem, et si non <pb
                             n="page_28"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-28.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-28"/>non
-                        uenerit, tunc cum maxima ueneratione <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-28.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-28"/>non uenerit, tunc cum
+                        maxima ueneratione <choice>
                             <sic>letis</sic>
                             <corr resp="#NC">lotis</corr>
                         </choice><!--<app>
@@ -2326,9 +2353,10 @@
             </div>
 
             <div n="fig6a" type="figure">
-                <p><pb n="page_29" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-29.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-29"
-                    />Figura sexta. Forma uestis artistæ Ex alia parte <name type="divin"
-                        >ELIZBETH</name>
+                <p><pb n="page_29"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-29.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-29"/>Figura sexta. Forma uestis
+                    artistæ Ex alia parte <name type="divin">ELIZBETH</name>
                     <name type="divin">ABESSALOM</name>
                     <name type="divin">AVORRA</name>
                     <name type="divin">ADONAY</name>
@@ -2341,17 +2369,18 @@
             </div>
             <div n="fig6b" type="figure">
                 <p>
-                    <pb n="page_30" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-30.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-30"
-                    /></p>
+                    <pb n="page_30"
+                        facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-30.jpg"
+                        xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-30"/></p>
             </div>
             <div n="19" type="chapitre">
                 <div n="1" type="section">
                     <p>
                         <pb n="page_31"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-31.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-31"/>Supra
-                        diximus quod erat fabricandum sigillum magni Dei et erant sculpenda in illo
-                        nomina ut supra. Sed non diximus modum neque tempus quando debet
-                        fabricari.</p>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-31.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-31"/>Supra diximus quod erat
+                        fabricandum sigillum magni Dei et erant sculpenda in illo nomina ut supra.
+                        Sed non diximus modum neque tempus quando debet fabricari.</p>
                 </div>
                 <div n="2" type="section">
                     <p> Idcirco sigillum est fabricandum die ♃, id est Iouis, uel solis, hora ☿, id
@@ -2457,8 +2486,9 @@
                                         <rdg wit="#ADIV_5Fb_1">Aegipti</rdg>
                                     </app>--> ab homine usque ad pecus, <pb
                             n="page_32"
-                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-32.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-32"/>qui
-                        diuisisti lumen a tenebris, qui fecisti <choice>
+                            facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-32.jpg"
+                            xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-32"/>qui diuisisti lumen a
+                        tenebris, qui fecisti <choice>
                             <sic>luminam</sic>
                             <corr resp="#NC">luminaria</corr>
                         </choice><!--<app>
@@ -2499,7 +2529,8 @@
                 </div>
             </div>
             <div n="fig7" type="figure">
-                <pb n="page_33" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-33.jpg" xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-33"/>
+                <pb n="page_33" facs="data/images/single/lh_5Fb1PetitCahier-FAC-SIMILE_page-33.jpg"
+                    xml:id="lh_5Fb1PetitCahier-FAC-SIMILE_page-33"/>
                 <p>Figura Septima. Hoc est sigillum magnum Dei <name type="divin">HELOEN</name>
                     <name type="divin">ADONAY</name>
                     <name type="divin">PIUS</name>
@@ -2530,303 +2561,339 @@
         </body>
         <back>
             <div n="Liber Hynotheon" type="translation" xml:id="liberhynotheon_fr" xml:lang="fr">
-            
-                <head>Liber Hynotheon</head>
                 <div>
 
                     <div n="1" type="chapitre">
-                        <pb n="page_1"/>
-                        <div n="1" type="section">
-                            <p>Au nom du Seigneur Jésus Christ. Ceci est le livre Hynothéon du très
-                                sage roi Salomon, fils de David Israël, traduit du chaldéen en
-                                latin. Les altitudes orientales sont au nombre de neuf ; il faut
-                                traiter de celles-ci, ainsi que de leurs vertus, dans ce livre, dans
-                                ce premier traité. Dans le second, il faut traiter des altitudes
-                                occidentales, qui sont sept, des méridionales, qui sont cinq, et des
-                                septentrionales, qui sont trois. Dans le troisième, de la manière de
-                                faire le saint Hælaon, et de la manière de le conserver, avant et
-                                après que le maître de l’Art aura commencé son opération, et de la
-                                préparation du maître de l’Art, et de nombreuses remarques en lien
-                                avec cet Art.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-1">
+                            <div n="1" type="section">
+                                <p>Au nom du Seigneur Jésus Christ. Ceci est le livre Hynothéon du
+                                    très sage roi Salomon, fils de David Israël, traduit du chaldéen
+                                    en latin. Les altitudes orientales sont au nombre de neuf ; il
+                                    faut traiter de celles-ci, ainsi que de leurs vertus, dans ce
+                                    livre, dans ce premier traité. Dans le second, il faut traiter
+                                    des altitudes occidentales, qui sont sept, des méridionales, qui
+                                    sont cinq, et des septentrionales, qui sont trois. Dans le
+                                    troisième, de la manière de faire le saint Hælaon, et de la
+                                    manière de le conserver, avant et après que le maître de l’Art
+                                    aura commencé son opération, et de la préparation du maître de
+                                    l’Art, et de nombreuses remarques en lien avec cet Art.</p>
+                            </div>
+                            <div n="2" type="section">
+                                <p> Première altitude orientale. On appelle la première altitude
+                                    Cynos et les princes de cette altitude sont appelés Hrauel,
+                                    Gabriel, Barachiel, Libes, Heliram. Cette altitude exerce son
+                                    pouvoir et son opération a lieu le jour du soleil et à son
+                                    heure, alors que la lune est croissante dans la bonne
+                                    disposition. Avec cette altitude, sont pris en charge les
+                                    naissances des enfants pour une bonne ou une mauvaise fin, comme
+                                    le fait qu’une femme puisse concevoir ou non, et que les arbres
+                                    puissent faire des fruits en quantité ou non, et des choses
+                                    similaires.</p>
+                            </div>
+                            <div n="3" type="section">
+                                <p>Seconde altitude. On appelle cette altitude Corora, son opération
+                                    a lieu et son pouvoir s’exerce sur l’acquisition de tous les
+                                    biens passant entre les mains du prince. Elle a aussi le pouvoir
+                                    de distribuer, d’enlever, de donner en fonction de ce qui lui
+                                    semble bon des revenus et de l’argent. Cette altitude a son
+                                    opération le jour du soleil et à son heure, alors que la lune
+                                    est croissante. Les noms des princes de cette altitude sont Pax,
+                                    Alpharaym, Geongereon, Armon, Gænerion.</p>
+                            </div>
                         </div>
-                        <div n="2" type="section">
-                            <p> Première altitude orientale. On appelle la première altitude Cynos
-                                et les princes de cette altitude sont appelés Hrauel, Gabriel,
-                                Barachiel, Libes, Heliram. Cette altitude exerce son pouvoir et son
-                                opération a lieu le jour du soleil et à son heure, alors que la lune
-                                est croissante dans la bonne disposition. Avec cette altitude, sont
-                                pris en charge les naissances des enfants pour une bonne ou une
-                                mauvaise fin, comme le fait qu’une femme puisse concevoir ou non, et
-                                que les arbres puissent faire des fruits en quantité ou non, et des
-                                choses similaires.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-2">
+                            <div n="4" type="section">
+                                <p>Troisième altitude. On l’appelle Hermoy et elle exerce son
+                                    pouvoir sur les amis, les frères, les proches et les voisins, et
+                                    sur le mouvement de toutes les eaux, de la mer et des rivières,
+                                    et sur le changement corporel de toutes choses de lieu à lieu,
+                                    et sur tout ce qui bouge. Les princes de cette altitude
+                                    empêchent ou permettent un mouvement local selon ce qui leur
+                                    plaît. Les noms des princes de cette altitude sont Yachanay,
+                                    Ziziel, Prinuemator, Yachanay, Helem, Enthithoi.</p>
+                            </div>
+                            <div n="5" type="section">
+                                <p>Quatrième altitude. On l’appelle Panteon, et les princes qui y
+                                    demeurent ont du pouvoir et de la puissance sur les trésors, les
+                                    successions, les biens et celui d’accorder des charges, en
+                                    fonction de ce qui leur semble bon. Les noms des princes de
+                                    cette altitude sont Yaræth, Yran, Arneth, Zanay, Aranoy,
+                                    Susceye.</p>
+                            </div>
+                            <div n="6" type="section">
+                                <p>Cinquième altitude. On l’appelle Cym, et les princes qui y
+                                    demeurent ont le pouvoir, selon leur office, de faire mouvoir
+                                    d’un mouvement céleste tous les êtres vivants selon leur nature,
+                                    afin qu’ils procréent des descendants et de se multiplier dans
+                                    la lignée de chaque espèce, tant sous la terre que sur la terre,
+                                    de la même manière qu’il y a les poissons et les animaux
+                                    volants. Ils régentent et gouvernent le mouvement des animaux.
+                                    Grâce à un don de Dieu, ils peuvent infuser aux hommes les
+                                    sciences naturelles, dont les formes sont la physique, la
+                                    médecine, l’alchimie, et une partie d’entre elles. Les noms des
+                                    princes de cette altitude sont Abnay, Cercy, Crahel, Monosim,
+                                    Aurache, Hanalay.</p>
+                            </div>
+                            <div n="7" type="section">
+                                <p>Sixième altitude. On l’appelle celle-ci Noxin, et les princes qui
+                                    y demeurent exercent par leur office leur pouvoir et leur
+                                    efficience sur les États du monde. De région en région, ils font
+                                    se mouvoir et changent les monarchies, les empires et les
+                                    seigneuries du monde, par un mouvement céleste et par leur
+                                    commandement. Ils distinguent les maîtres des serviteurs et ils
+                                    manifestent leur nature par leurs vertus et leurs mœurs. Ils
+                                    changent les lois elles-mêmes et les loyautés. Ils dirigent ceux
+                                    qui sont soumis au pouvoir des maîtres, et, comme ils le
+                                    veulent, ils les changent en maîtres, et les maîtres en
+                                    serviteurs. Ils invoquent les démons et les soumettent. Grâce à
+                                    leur propre mérite, ils peuvent infuser la science aux hommes, à
+                                    savoir la musique, la logique, et la philosophie morale. Les
+                                    noms des princes de cette altitude sont Heros, Bissezeos,
+                                    Onayora, Echuel, Oymali, Sytain, Ythos, Alphareth, Alay.</p>
+                            </div>
                         </div>
-                        <div n="3" type="section">
-                            <p>Seconde altitude. On appelle cette altitude Corora, son opération a
-                                lieu et son pouvoir s’exerce sur l’acquisition de tous les biens
-                                passant entre les mains du prince. Elle a aussi le pouvoir de
-                                distribuer, d’enlever, de donner en fonction de ce qui lui semble
-                                bon des revenus et de l’argent. Cette altitude a son opération le
-                                jour du soleil et à son heure, alors que la lune est croissante. Les
-                                noms des princes de cette altitude sont Pax, Alpharaym, Geongereon,
-                                Armon, Gænerion.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-3">
+                            <div n="8" type="section">
+                                <p>Septième altitude. On appelle cette altitude Creor, et les
+                                    princes qui y demeurent exercent leur puissance sur les serments
+                                    qui sont faits entre les créatures et Dieu, ainsi qu’entre les
+                                    créatures et d’autres créatures. Ils les forcent par l’angoisse
+                                    de châtiments à observer ce pacte, et ils forcent les démons à
+                                    observer leurs pactes avec les hommes. À l’inverse, ils
+                                    punissent les uns et les autres sur l’ordre de Dieu aussi bien
+                                    dans le premier cas que dans le second. Ils exercent aussi leur
+                                    puissance sur les âmes séparées ; ils les gouvernent et en
+                                    disposent pour une bonne ou mauvaise fin. Ils infligent la mort
+                                    ou la vie aux créatures. Grâce à leur position, ils ont la
+                                    puissance d’infuser la géomancie, la théologie et la magie. Les
+                                    noms des princes de cette altitude sont Amayn, Amas, Anay,
+                                    Geomitio, Gebedonay, Pas, Sarama, Clyominth.</p>
+                            </div>
+                            <div n="9" type="section">
+                                <p> Huitième altitude. On appelle cette altitude Sapheth et les
+                                    princes qui y demeurent ont la puissance et l’efficience de
+                                    concéder la génération pour les êtres vivants en faisant
+                                    procéder à la génération des éléments par les animaux. Les
+                                    princes de cette altitude grâce un ordre de Dieu emmènent les
+                                    hommes de région en région, d’une course très rapide. Ils
+                                    exercent leur emprise sur tout mouvement. Les noms des princes
+                                    de cette altitude sont Zajar, Zabin, Zadanay, Arphel, Alphanay,
+                                    Ladatin. </p>
+                            </div>
+                            <div n="10" type="section">
+                                <p>Neuvième altitude. On appelle Suphor et les princes qui y
+                                    demeurent ont le pouvoir et la puissance d’enrichir les hommes,
+                                    ou encore de prendre leurs biens, selon ce qui leur plaît. Par
+                                    leur office, ils rendent les hommes très beaux. De plus, ils ont
+                                    l’efficience d’infuser toutes les sciences. Le nom des princes
+                                    de cette altitude sont Paymon, Egy, Egysta, Zayn, Zæthau,
+                                    Gratyn. </p>
+                            </div>
                         </div>
-                        <pb n="page_2"/>
-                        <div n="4" type="section">
-                            <p>Troisième altitude. On l’appelle Hermoy et elle exerce son pouvoir
-                                sur les amis, les frères, les proches et les voisins, et sur le
-                                mouvement de toutes les eaux, de la mer et des rivières, et sur le
-                                changement corporel de toutes choses de lieu à lieu, et sur tout ce
-                                qui bouge. Les princes de cette altitude empêchent ou permettent un
-                                mouvement local selon ce qui leur plaît. Les noms des princes de
-                                cette altitude sont Yachanay, Ziziel, Prinuemator, Yachanay, Helem,
-                                Enthithoi.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-4"
+                            xml:id="fr_page-4" next="#fr_page-5">
+                            <div n="11" type="section">
+                                <p> Et il faut savoir que toutes ces altitudes exercent leur
+                                    efficience le jour du soleil, et en son heure, c’est-à-dire de
+                                    la première heure du jour du soleil jusqu’à midi, et quand ceci
+                                    est mis en œuvre par le maître de l’Art, il doit faire un temps
+                                    clair et serein, sans nuage, alors que la lune est croissante.
+                                    Fin du premier traité.</p>
+                            </div>
+                            <div n="2" type="chapitre">
+                                <div n="1" type="section">
+                                    <p> Second traité sur les altitudes occidentales, méridionales
+                                        et septentrionales. Surtout, on a à traiter des occidentales
+                                        qui sont sept, et d’abord de la première.</p>
+                                </div>
+                                <div n="2" type="section">
+                                    <p>Première altitude occidentale. On appelle cette altitude
+                                        occidentale Giphor, et les princes qui y demeurent ont de la
+                                        puissance sur les inimitiés et les amitiés de toutes les
+                                        créatures, et sur les combats, sur les rivalités et sur les
+                                        outrages, et particulièrement sur la conduite des armées et
+                                        sur les armes surtout, et ils veillent à ce que rien de bien
+                                        ou de mal ne soit mené à son terme sans leur commandement et
+                                        leur permission. Par un don de Dieu, ils peuvent infuser aux
+                                        hommes l’astrologie et la science arithmétique. Les princes
+                                        de cette altitude sont Melach, Bedahoih, Gylor, Vauhæl,
+                                        Fumabel, Aryl.</p>
+                                </div>
+                                <div n="3" type="section">
+                                    <p> Seconde altitude. On appelle celle-ci Nayn, et les princes
+                                        qui y demeurent ont de la puissance sur les ennemis et les
+                                        amis, sur les hommes amoureux et les femmes amoureuses. Par
+                                        leur office, ils ont la puissance et l’efficience pour faire
+                                        d’elles et eux des ennemis. Ils ont la maîtrise des rixes et
+                                        des tortures. Ils rendent les hommes belliqueux ou lâches,
+                                        victorieux ou non. Les noms des princes de cette altitude
+                                        sont</p>
+                                </div>
+                            </div>
                         </div>
-                        <div n="5" type="section">
-                            <p>Quatrième altitude. On l’appelle Panteon, et les princes qui y
-                                demeurent ont du pouvoir et de la puissance sur les trésors, les
-                                successions, les biens et celui d’accorder des charges, en fonction
-                                de ce qui leur semble bon. Les noms des princes de cette altitude
-                                sont Yaræth, Yran, Arneth, Zanay, Aranoy, Susceye.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-5"
+                            xml:id="fr_page-5" prev="#fr_page-4">
+                            <div n="3" type="section">
+                                <p>Briel, Malamacoy, Malachim, Radasieh, Baidahath, Odmachiel.</p>
+                            </div>
+                            <div n="4" type="section">
+                                <p> Troisième altitude. On appelle celle-ci Lehæsor, et les princes
+                                    qui y demeurent ont de la puissance et de l’efficience sur
+                                    toutes les infirmités, et par leur office, ils rendent les
+                                    hommes infirmes, ou non. Ils donnent le sommeil aux hommes, ou
+                                    non, et font des choses similaires. Les noms des princes de
+                                    cette altitude sont Selon, Belfry, Ahey, Verechiel, Pactohaget,
+                                    Machdeynchi, Nobemarach.</p>
+                            </div>
+                            <div n="5" type="section">
+                                <p> Quatrième altitude. On appelle celle-ci Chrimehit, et les
+                                    princes qui y demeurent ont de la puissance et du pouvoir sur
+                                    les eaux marines et fluviales, et ont celui de submerger ou non,
+                                    et de noyer les hommes et tous les animaux, ou non. Ils rendent
+                                    les marchands riches ou pauvres, et par leur office, ils donnent
+                                    aux hommes la connaissance de l’efficience de toutes les
+                                    plantes. Les princes de cette altitude sont Galfu, Melchiel,
+                                    Clbeday, Lauyson, Ratyeh, Alyabith.</p>
+                            </div>
+                            <div n="6" type="section">
+                                <p> Cinquième altitude. Celle-ci s’appelle Giephatin, et les princes
+                                    qui y demeurent ont le pouvoir et l’efficience d’infuser l’Art
+                                    aux hommes et d’éclairer leur esprit, ou non. Ils rendent les
+                                    hommes sages, ou non. Par leur office, ils rendent les hommes
+                                    victorieux au jeu, ou non, comme bon leur semble. Les noms des
+                                    princes de cette altitude sont Osthos, Layngyron, Pessino, Fas,
+                                    Han, Syachy, Zamnathor, Camyn.</p>
+                            </div>
+                            <div n="7" type="section">
+                                <p>. Sixième altitude. On l’appelle Agusth, et les princes qui y
+                                    demeurent ont de la puissance et de l’efficience sur tous les
+                                    oiseaux du ciel et les animaux de la terre et les enchanteurs
+                                    ont celui de les attraper ou non, comme bon leur semble. Les
+                                    noms des princes de cette altitude sont Bachay, Son,
+                                    Balchochanth, Anay, Anyal, Salmet, Chamæl.</p>
+                            </div>
                         </div>
-                        <div n="6" type="section">
-                            <p>Cinquième altitude. On l’appelle Cym, et les princes qui y demeurent
-                                ont le pouvoir, selon leur office, de faire mouvoir d’un mouvement
-                                céleste tous les êtres vivants selon leur nature, afin qu’ils
-                                procréent des descendants et de se multiplier dans la lignée de
-                                chaque espèce, tant sous la terre que sur la terre, de la même
-                                manière qu’il y a les poissons et les animaux volants. Ils régentent
-                                et gouvernent le mouvement des animaux. Grâce à un don de Dieu, ils
-                                peuvent infuser aux hommes les sciences naturelles, dont les formes
-                                sont la physique, la médecine, l’alchimie, et une partie d’entre
-                                elles. Les noms des princes de cette altitude sont Abnay, Cercy,
-                                Crahel, Monosim, Aurache, Hanalay.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-6">
+                            <div n="8" type="section">
+                                <p> Septième et ultime altitude occidentale. On l’appelle Steher, et
+                                    les princes qui y demeurent ont la puissance de dévoiler un vol,
+                                    ou non. Ils l’exercent sur les embuscades des voleurs, aussi
+                                    bien sur terre que sur mer. Ils mettent en danger les hommes et
+                                    les femmes, ou non, comme il leur plaît. Les noms des princes de
+                                    cette altitude sont Maxuel, Arahath, Sarohoth, Maguth,
+                                    Mehestrach, Dyebuzon.</p>
+                            </div>
+                            <div n="9" type="section">
+                                <p> Il faut savoir que toutes ces altitudes exercent leur efficience
+                                    le jour ♂, c’est-à-dire celui de Mars, et le maître de l’Art
+                                    doit entreprendre son opération du midi jusqu’au coucher, comme
+                                    nous l’avons noté dans le troisième traité. Fin des altitudes
+                                    occidentales.</p>
+                            </div>
                         </div>
-                        <div n="7" type="section">
-                            <p>Sixième altitude. On l’appelle celle-ci Noxin, et les princes qui y
-                                demeurent exercent par leur office leur pouvoir et leur efficience
-                                sur les États du monde. De région en région, ils font se mouvoir et
-                                changent les monarchies, les empires et les seigneuries du monde,
-                                par un mouvement céleste et par leur commandement. Ils distinguent
-                                les maîtres des serviteurs et ils manifestent leur nature par leurs
-                                vertus et leurs mœurs. Ils changent les lois elles-mêmes et les
-                                loyautés. Ils dirigent ceux qui sont soumis au pouvoir des maîtres,
-                                et, comme ils le veulent, ils les changent en maîtres, et les
-                                maîtres en serviteurs. Ils invoquent les démons et les soumettent.
-                                Grâce à leur propre mérite, ils peuvent infuser la science aux
-                                hommes, à savoir la musique, la logique, et la philosophie morale.
-                                Les noms des princes de cette altitude sont Heros, Bissezeos,
-                                Onayora, Echuel, Oymali, Sytain, Ythos, Alphareth, Alay.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-7">
+                            <div n="3" type="chapitre">
+                                <div n="1" type="section">
+                                    <p> Voici les altitudes méridionales, qui sont cinq. Première
+                                        altitude méridionale. On l’appelle Rahath, et les princes de
+                                        cette altitude ont de l’efficience et du pouvoir sur toutes
+                                        les sciences superstitieuses et sur les maléfices. Et ils
+                                        forcent les démons à faire ce que désirent les hommes, ou
+                                        non, comme il leur plaît. Les noms des princes de cette
+                                        altitude sont Alaharahel, Sasahorohath, Hamaliel, Mirthoath,
+                                        Sulthurohath.</p>
+                                </div>
+                                <div n="2" type="section">
+                                    <p> Seconde altitude. On l’appelle Ahahager, et les princes qui
+                                        y demeurent ont de l’efficience et de la puissance sur tous
+                                        les poisons reconnus et inconnus. Ils font périr les hommes,
+                                        ou non, ils font s’ouvrir et se refermer les terres, comme
+                                        il leur semble bon. Les noms des princes de cette altitude
+                                        sont Agariel, Animirnaornus, Byleth, Sathouiel,
+                                        Mahardahel.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div n="8" type="section">
-                            <p>Septième altitude. On appelle cette altitude Creor, et les princes
-                                qui y demeurent exercent leur puissance sur les serments qui sont
-                                faits entre les créatures et Dieu, ainsi qu’entre les créatures et
-                                d’autres créatures. Ils les forcent par l’angoisse de châtiments à
-                                observer ce pacte, et ils forcent les démons à observer leurs pactes
-                                avec les hommes. À l’inverse, ils punissent les uns et les autres
-                                sur l’ordre de Dieu aussi bien dans le premier cas que dans le
-                                second. Ils exercent aussi leur puissance sur les âmes séparées ;
-                                ils les gouvernent et en disposent pour une bonne ou mauvaise fin.
-                                Ils infligent la mort ou la vie aux créatures. Grâce à leur
-                                position, ils ont la puissance d’infuser la géomancie, la théologie
-                                et la magie. Les noms des princes de cette altitude sont Amayn,
-                                Amas, Anay, Geomitio, Gebedonay, Pas, Sarama, Clyominth.</p>
-                        </div>
-                        <div n="9" type="section">
-                            <p> Huitième altitude. On appelle cette altitude Sapheth et les princes
-                                qui y demeurent ont la puissance et l’efficience de concéder la
-                                génération pour les êtres vivants en faisant procéder à la
-                                génération des éléments par les animaux. Les princes de cette
-                                altitude grâce un ordre de Dieu emmènent les hommes de région en
-                                région, d’une course très rapide. Ils exercent leur emprise sur tout
-                                mouvement. Les noms des princes de cette altitude sont Zajar, Zabin,
-                                Zadanay, Arphel, Alphanay, Ladatin. </p>
-                        </div>
-                        <div n="10" type="section">
-                            <p>Neuvième altitude. On appelle Suphor et les princes qui y demeurent
-                                ont le pouvoir et la puissance d’enrichir les hommes, ou encore de
-                                prendre leurs biens, selon ce qui leur plaît. Par leur office, ils
-                                rendent les hommes très beaux. De plus, ils ont l’efficience
-                                d’infuser toutes les sciences. Le nom des princes de cette altitude
-                                sont Paymon, Egy, Egysta, Zayn, Zæthau, Gratyn. </p>
-                        </div>
-                        <div n="11" type="section">
-                            <p> Et il faut savoir que toutes ces altitudes exercent leur efficience
-                                le jour du soleil, et en son heure, c’est-à-dire de la première
-                                heure du jour du soleil jusqu’à midi, et quand ceci est mis en œuvre
-                                par le maître de l’Art, il doit faire un temps clair et serein, sans
-                                nuage, alors que la lune est croissante. Fin du premier traité.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-8">
+                            <div n="3" type="section">
+                                <p> Troisième altitude. On l’appelle Aehechym, et les princes qui y
+                                    demeurent ont de l’efficience et du pouvoir sur tous les
+                                    instruments de musique et ils rendent les hommes très experts
+                                    dans cette pratique, ou non, de telle sorte que de cette manière
+                                    ces derniers jouent de n’importe quel genre d’instruments, ou
+                                    non, comme il leur semble bon. Les noms des princes de cette
+                                    altitude sont Gebal, Lezioccil, Vahathicy, Ychehmal, Batthoual,
+                                    Hyersehul.</p>
+                            </div>
+                            <div n="4" type="section">
+                                <p> Quatrième altitude. On l’appelle Saharnahoar et les princes de
+                                    cette altitude qui y demeurent ont de la puissance sur l’amour
+                                    des femmes et leur font aimer un homme, ou non, et sur l’amour
+                                    des notables et sur leur bienveillance. Ils leur font aimer les
+                                    hommes, ou non, comme bon leur semble. Les noms des princes de
+                                    cette altitude sont Anæl, Michæl, Fabriel, et Raphæl, Abriel,
+                                    Uriel.</p>
+                            </div>
+                            <div n="5" type="section">
+                                <p> Cinquième et ultime altitude méridionale. On appelle celle-ci
+                                    Iahothatu et les princes qui y demeurent ont de l’efficience et
+                                    de la puissance sur l’invisibilité et rendent les hommes
+                                    invisibles, ou non. Et même, ils font en sorte qu’un homme
+                                    puisse prendre des formes variées et diverses, ou non, comme bon
+                                    leur semble. Les noms des princes de cette altitude sont Orchy,
+                                    Opscihir, Omagistas, Onchy, Hæhuel, Pyleth, Sacay.</p>
+                            </div>
+                            <div n="6" type="section">
+                                <p> Il faut savoir que toutes ces altitudes exercent leur efficience
+                                    et le pouvoir la nuit de ♃, c’est-à-dire celle de Jupiter, et à
+                                    son heure, comme nous l’avons noté dans la troisième traité.</p>
+                            </div>
                         </div>
 
-                    </div>
-                    <div n="2" type="chapitre">
-                        <div n="1" type="section">
-                            <p> Second traité sur les altitudes occidentales, méridionales et
-                                septentrionales. Surtout, on a à traiter des occidentales qui sont
-                                sept, et d’abord de la première.</p>
-                        </div>
-                        <div n="2" type="section">
-                            <p>Première altitude occidentale. On appelle cette altitude occidentale
-                                Giphor, et les princes qui y demeurent ont de la puissance sur les
-                                inimitiés et les amitiés de toutes les créatures, et sur les
-                                combats, sur les rivalités et sur les outrages, et particulièrement
-                                sur la conduite des armées et sur les armes surtout, et ils veillent
-                                à ce que rien de bien ou de mal ne soit mené à son terme sans leur
-                                commandement et leur permission. Par un don de Dieu, ils peuvent
-                                infuser aux hommes l’astrologie et la science arithmétique. Les
-                                princes de cette altitude sont Melach, Bedahoih, Gylor, Vauhæl,
-                                Fumabel, Aryl.</p>
-                        </div>
-                        <div n="3" type="section">
-                            <p> Seconde altitude. On appelle celle-ci Nayn, et les princes qui y
-                                demeurent ont de la puissance sur les ennemis et les amis, sur les
-                                hommes amoureux et les femmes amoureuses. Par leur office, ils ont
-                                la puissance et l’efficience pour faire d’elles et eux des ennemis.
-                                Ils ont la maîtrise des rixes et des tortures. Ils rendent les
-                                hommes belliqueux ou lâches, victorieux ou non. Les noms des princes
-                                de cette altitude sont Briel, Malamacoy, Malachim, Radasieh,
-                                Baidahath, Odmachiel.</p>
-                        </div>
-                        <div n="4" type="section">
-                            <p> Troisième altitude. On appelle celle-ci Lehæsor, et les princes qui
-                                y demeurent ont de la puissance et de l’efficience sur toutes les
-                                infirmités, et par leur office, ils rendent les hommes infirmes, ou
-                                non. Ils donnent le sommeil aux hommes, ou non, et font des choses
-                                similaires. Les noms des princes de cette altitude sont Selon,
-                                Belfry, Ahey, Verechiel, Pactohaget, Machdeynchi, Nobemarach.</p>
-                        </div>
-                        <div n="5" type="section">
-                            <p> Quatrième altitude. On appelle celle-ci Chrimehit, et les princes
-                                qui y demeurent ont de la puissance et du pouvoir sur les eaux
-                                marines et fluviales, et ont celui de submerger ou non, et de noyer
-                                les hommes et tous les animaux, ou non. Ils rendent les marchands
-                                riches ou pauvres, et par leur office, ils donnent aux hommes la
-                                connaissance de l’efficience de toutes les plantes. Les princes de
-                                cette altitude sont Galfu, Melchiel, Clbeday, Lauyson, Ratyeh,
-                                Alyabith.</p>
-                        </div>
-                        <div n="6" type="section">
-                            <p> Cinquième altitude. Celle-ci s’appelle Giephatin, et les princes qui
-                                y demeurent ont le pouvoir et l’efficience d’infuser l’Art aux
-                                hommes et d’éclairer leur esprit, ou non. Ils rendent les hommes
-                                sages, ou non. Par leur office, ils rendent les hommes victorieux au
-                                jeu, ou non, comme bon leur semble. Les noms des princes de cette
-                                altitude sont Osthos, Layngyron, Pessino, Fas, Han, Syachy,
-                                Zamnathor, Camyn.</p>
-                        </div>
-                        <div n="7" type="section">
-                            <p>. Sixième altitude. On l’appelle Agusth, et les princes qui y
-                                demeurent ont de la puissance et de l’efficience sur tous les
-                                oiseaux du ciel et les animaux de la terre et les enchanteurs ont
-                                celui de les attraper ou non, comme bon leur semble. Les noms des
-                                princes de cette altitude sont Bachay, Son, Balchochanth, Anay,
-                                Anyal, Salmet, Chamæl.</p>
-                        </div>
-                        <div n="8" type="section">
-                            <p> Septième et ultime altitude occidentale. On l’appelle Steher, et les
-                                princes qui y demeurent ont la puissance de dévoiler un vol, ou non.
-                                Ils l’exercent sur les embuscades des voleurs, aussi bien sur terre
-                                que sur mer. Ils mettent en danger les hommes et les femmes, ou non,
-                                comme il leur plaît. Les noms des princes de cette altitude sont
-                                Maxuel, Arahath, Sarohoth, Maguth, Mehestrach, Dyebuzon.</p>
-                        </div>
-                        <div n="9" type="section">
-                            <p> Il faut savoir que toutes ces altitudes exercent leur efficience le
-                                jour ♂, c’est-à-dire celui de Mars, et le maître de l’Art doit
-                                entreprendre son opération du midi jusqu’au coucher, comme nous
-                                l’avons noté dans le troisième traité. Fin des altitudes
-                                occidentales.</p>
+                        <div type="page" corresp="#lh_5Fb1PetitCahier-FAC-SIMILE_page-9">
+                            <div n="4" type="chapitre">
+                                <div n="1" type="section">
+                                    <p> Des altitudes septentrionales, au nombre de trois. Première
+                                        altitude. On appelle celle-ci Hahanahor, et les princes qui
+                                        y demeurent ont de l’efficience et du pouvoir sur la fortune
+                                        de mer toute entière. Ils font pleuvoir et tomber de la
+                                        grêle. Ils font trembler la terre et tomber la foudre. Ils
+                                        font s’agiter de très grands vents ou non, comme il leur
+                                        semble bon. Les noms des princes de cette altitude sont
+                                        Lohod, Hadid, Pereon, Chelchezub, Belysuth, Phetuar,
+                                        Gadghahor.</p>
+                                </div>
+                            </div>
+                            <div n="2" type="section">
+                                <p> Seconde altitude. On l’appelle Mahasyoth et les princes de cette
+                                    altitude exercent leur efficience et leur pouvoir sur toutes les
+                                    langues et permettent aux hommes de parler toutes les langues,
+                                    ou non. Ils font succomber les hommes et l’ensemble des êtres
+                                    vivants, ou non, comme bon leur semble. Les noms des princes de
+                                    cette altitude sont Hyshahabhel, Sohamuhahyz, Mothosyhohan,
+                                    Zachohohur, Neher, Dahaol, Bochur.</p>
+                            </div>
+                            <div n="3" type="section">
+                                <p> Troisième et ultime altitude. On l’appelle Sephahahan et les
+                                    princes de cette altitude, ceux qui y demeurent, ont
+                                    l’efficience et le pouvoir de distribuer toutes les semences et
+                                    ils les font germer, ou non. Ils exercent leur domination sur
+                                    toutes sortes d’armes, et ils font échouer les hommes
+                                    invincibles, ou non. En outre, ils rendent les hommes très
+                                    savants dans l’art de la luxure, et ils leur donnent une
+                                    apparence telle qu’ils puissent faire tout ce qu’ils veulent, ou
+                                    non, comme bon leur semble. Les noms des princes de cette
+                                    altitude sont Auubzelon, Zharahol, Raphahasel, Zechriahauel,
+                                    Naniel.</p>
+                            </div>
+                            <div n="4" type="section">
+                                <p> Et il faut savoir que toutes ces altitudes exercent leur
+                                    efficience et leur pouvoir le jour ♄ c’est-à-dire celui de
+                                    Saturne, et à son heure, comme nous l’avons noté dans le
+                                    troisième traité.</p>
+                            </div>
                         </div>
                     </div>
-                    <div n="3" type="chapitre">
-                        <div n="1" type="section">
-                            <p> Voici les altitudes méridionales, qui sont cinq. Première altitude
-                                méridionale. On l’appelle Rahath, et les princes de cette altitude
-                                ont de l’efficience et du pouvoir sur toutes les sciences
-                                superstitieuses et sur les maléfices. Et ils forcent les démons à
-                                faire ce que désirent les hommes, ou non, comme il leur plaît. Les
-                                noms des princes de cette altitude sont Alaharahel, Sasahorohath,
-                                Hamaliel, Mirthoath, Sulthurohath.</p>
-                        </div>
-                        <div n="2" type="section">
-                            <p> Seconde altitude. On l’appelle Ahahager, et les princes qui y
-                                demeurent ont de l’efficience et de la puissance sur tous les
-                                poisons reconnus et inconnus. Ils font périr les hommes, ou non, ils
-                                font s’ouvrir et se refermer les terres, comme il leur semble bon.
-                                Les noms des princes de cette altitude sont Agariel, Animirnaornus,
-                                Byleth, Sathouiel, Mahardahel.</p>
-                        </div>
-                        <div n="3" type="section">
-                            <p> Troisième altitude. On l’appelle Aehechym, et les princes qui y
-                                demeurent ont de l’efficience et du pouvoir sur tous les instruments
-                                de musique et ils rendent les hommes très experts dans cette
-                                pratique, ou non, de telle sorte que de cette manière ces derniers
-                                jouent de n’importe quel genre d’instruments, ou non, comme il leur
-                                semble bon. Les noms des princes de cette altitude sont Gebal,
-                                Lezioccil, Vahathicy, Ychehmal, Batthoual, Hyersehul.</p>
-                        </div>
-                        <div n="4" type="section">
-                            <p> Quatrième altitude. On l’appelle Saharnahoar et les princes de cette
-                                altitude qui y demeurent ont de la puissance sur l’amour des femmes
-                                et leur font aimer un homme, ou non, et sur l’amour des notables et
-                                sur leur bienveillance. Ils leur font aimer les hommes, ou non,
-                                comme bon leur semble. Les noms des princes de cette altitude sont
-                                Anæl, Michæl, Fabriel, et Raphæl, Abriel, Uriel.</p>
-                        </div>
-                        <div n="5" type="section">
-                            <p> Cinquième et ultime altitude méridionale. On appelle celle-ci
-                                Iahothatu et les princes qui y demeurent ont de l’efficience et de
-                                la puissance sur l’invisibilité et rendent les hommes invisibles, ou
-                                non. Et même, ils font en sorte qu’un homme puisse prendre des
-                                formes variées et diverses, ou non, comme bon leur semble. Les noms
-                                des princes de cette altitude sont Orchy, Opscihir, Omagistas,
-                                Onchy, Hæhuel, Pyleth, Sacay.</p>
-                        </div>
-                        <div n="6" type="section">
-                            <p> Il faut savoir que toutes ces altitudes exercent leur efficience et
-                                le pouvoir la nuit de ♃, c’est-à-dire celle de Jupiter, et à son
-                                heure, comme nous l’avons noté dans la troisième traité.</p>
-                        </div>
-                    </div>
-
-                    <div n="4" type="chapitre">
-                        <div n="1" type="section">
-                            <p> Des altitudes septentrionales, au nombre de trois. Première
-                                altitude. On appelle celle-ci Hahanahor, et les princes qui y
-                                demeurent ont de l’efficience et du pouvoir sur la fortune de mer
-                                toute entière. Ils font pleuvoir et tomber de la grêle. Ils font
-                                trembler la terre et tomber la foudre. Ils font s’agiter de très
-                                grands vents ou non, comme il leur semble bon. Les noms des princes
-                                de cette altitude sont Lohod, Hadid, Pereon, Chelchezub, Belysuth,
-                                Phetuar, Gadghahor.</p>
-                        </div>
-                        <div n="2" type="section">
-                            <p> Seconde altitude. On l’appelle Mahasyoth et les princes de cette
-                                altitude exercent leur efficience et leur pouvoir sur toutes les
-                                langues et permettent aux hommes de parler toutes les langues, ou
-                                non. Ils font succomber les hommes et l’ensemble des êtres vivants,
-                                ou non, comme bon leur semble. Les noms des princes de cette
-                                altitude sont Hyshahabhel, Sohamuhahyz, Mothosyhohan, Zachohohur,
-                                Neher, Dahaol, Bochur.</p>
-                        </div>
-                        <div n="3" type="section">
-                            <p> Troisième et ultime altitude. On l’appelle Sephahahan et les princes
-                                de cette altitude, ceux qui y demeurent, ont l’efficience et le
-                                pouvoir de distribuer toutes les semences et ils les font germer, ou
-                                non. Ils exercent leur domination sur toutes sortes d’armes, et ils
-                                font échouer les hommes invincibles, ou non. En outre, ils rendent
-                                les hommes très savants dans l’art de la luxure, et ils leur donnent
-                                une apparence telle qu’ils puissent faire tout ce qu’ils veulent, ou
-                                non, comme bon leur semble. Les noms des princes de cette altitude
-                                sont Auubzelon, Zharahol, Raphahasel, Zechriahauel, Naniel.</p>
-                        </div>
-                        <div n="4" type="section">
-                            <p> Et il faut savoir que toutes ces altitudes exercent leur efficience
-                                et leur pouvoir le jour ♄ c’est-à-dire celui de Saturne, et à son
-                                heure, comme nous l’avons noté dans le troisième traité.</p>
-                        </div>
-                    </div>
-
                     <div n="5" type="chapitre">
                         <div n="1" type="section">
                             <p> Troisième traité De la manière dont doit être confectionné le saint
@@ -2934,7 +3001,7 @@
                     </div>
 
                     <div>
-                        <p>Figure 2 <pb n="im_1"
+                        <p>Figure 2 <pb n="im_2"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_2.jpg"
                             /> Sur le second coffret : THETHAGRAMMATON Sur le premier coffret, au
                             centre : HEL Ensuite à l’angle 1. Hynoytheon 2. Ptihæumaton 3. Anabona
@@ -3213,19 +3280,19 @@
                         </div>
                     </div>
                     <div>
-                        <p>Figure 3 <pb n="im_1"
+                        <p>Figure 3 <pb n="im_3"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_3.jpg"
                             /> Sceau de la première altitude orientale Caractères des princes</p>
                     </div>
 
                     <div>
-                        <p>Figure 4 <pb n="im_1"
+                        <p>Figure 4 <pb n="im_4"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_4.jpg"
                             /> Sceau de la seconde altitude orientale 2.</p>
                     </div>
 
                     <div>
-                        <p>Figure 5 <pb n="im_1"
+                        <p>Figure 5 <pb n="im_5"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_5.jpg"
                             /> Sceau de la troisième altitude</p>
                     </div>
@@ -3417,7 +3484,7 @@
                         </div>
                     </div>
                     <div>
-                        <p> Figure 6 <pb n="im_1"
+                        <p> Figure 6 <pb n="im_6"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_6.jpg"
                             /> Dessin de la tenue du maître de l’Art Sur la manche droite : ELIZBETH
                             Sur la manche gauche : ABESSALOM En triangle : AVORRA ADONAY EMANVEL
@@ -3486,15 +3553,15 @@
                         </div>
                     </div>
                     <div>
-                        <p> Figure 7. <pb n="im_1"
+                        <p> Figure 7. <pb n="im_7"
                                 facs="data/images/single/liber_hynotheon_ms_rennes_adiv_5fb_1_im_7.jpg"
                             /> Ceci est le grand sceau de Dieu HELOEN ADONAY PIUS ANABONA ARANITAN
                             Ceci est la seconde partie du sceau THETHAGRAMMATON ANABONA IHEHOVA
                             HELOEN A W ADONAY </p>
                     </div>
                 </div>
-            
-                </div>
+
+            </div>
         </back>
     </text>
 </TEI>
