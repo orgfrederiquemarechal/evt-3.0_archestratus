@@ -2,19 +2,15 @@
 
 <xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:eg="http://www.tei-c.org/ns/Examples"
-	xmlns:xd="http://www.pnp-software.com/XSLTdoc"
-	xmlns:fn="http://www.w3.org/2005/xpath-functions"
-	xmlns:tei="http://www.tei-c.org/ns/1.0"
-	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eg="http://www.tei-c.org/ns/Examples"
+	xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:fn="http://www.w3.org/2005/xpath-functions"
+	xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
 	exclude-result-prefixes="#all">
 
 	<xd:doc type="stylesheet">
-		<xd:short>
-			EN: This file collects parameters and configurable variables used in the other modules.
-			IT: Questo file è una collezione di parametri e variabili configurabili, usati negli altri moduli.
-		</xd:short>
+		<xd:short> EN: This file collects parameters and configurable variables used in the other
+			modules. IT: Questo file è una collezione di parametri e variabili configurabili, usati
+			negli altri moduli. </xd:short>
 	</xd:doc>
 
 	<!-- GLOBAL -->
@@ -28,11 +24,15 @@
 	<!-- IT: E' possibile modificare i prefissi per puntare ad un server personalizzato, ad esempio:
 		<xsl:param name="filePrefix" select="'http://tuosito.it/evt'"/>
 	-->
-	<xsl:param name="mainPrefix" select="'.'"/> <!-- index -->
-	<xsl:param name="filePrefix" select="'../../..'"/> <!-- file path -->
-	<xsl:param name="dataPrefix" select="'../..'"/> <!-- page -->
+	<xsl:param name="mainPrefix" select="'.'"/>
+	<!-- index -->
+	<xsl:param name="filePrefix" select="'../../..'"/>
+	<!-- file path -->
+	<xsl:param name="dataPrefix" select="'../..'"/>
+	<!-- page -->
 
-	<xsl:param name="imageExt">jpg</xsl:param> <!-- images extension -->
+	<xsl:param name="imageExt">jpg</xsl:param>
+	<!-- images extension -->
 
 	<!-- EN: Main web site for digital edition -->
 	<!-- IT: Sito web principale dell'edizione -->
@@ -42,14 +42,14 @@
 	<!-- EN: Index title -->
 	<!-- IT: Titolo edizione -->
 	<!-- default: 'Codex Viewer' -->
-	<xsl:param name="index_title" select="'Test EVT'"/>
+	<xsl:param name="index_title" select="'Liber Hynotheon'"/>
 
 	<!-- EN: Welcome Message -->
 	<!-- IT: Messaggio di benvenuto -->
 	<!-- default: 'Welcome to an edition created with EVT' -->
 	<xsl:param name="welcomeMsg">
 		<div>
-			<p class="title main">Welcome to an edition created with EVT!</p>
+			<p class="title main">Welcome to an edition of the Liber Hynotheon created with EVT</p>
 		</div>
 		<!--<div>This archive includes a few examples of editions created using EVT,
 			by default you are shown a small excerpt of the
@@ -69,7 +69,7 @@
 	<!-- EN: Hide/Show badge -->
 	<!-- IT: Nascondi/Mostra badge -->
 	<!-- default: true() -->
-	<xsl:param name="badge" select="true()"/>
+	<xsl:param name="badge" select="false()"/>
 	<!-- EN: Set text in badge -->
 	<!-- IT: Imposta testo del badge -->
 	<!-- ex: alpha, beta, stable etc -->
@@ -107,8 +107,8 @@
 	<!-- EN: On/Off Bibliography -->
 	<!-- IT: Attiva/Disattiva Bibliografia -->
 	<!-- default: true() -->
-	<xsl:param name="bibliography" select="true()"/>
-	
+	<xsl:param name="bibliography" select="false()"/>
+
 	<!-- ############## -->
 	<!-- EDITION LEVELS -->
 	<!-- ############## -->
@@ -126,7 +126,8 @@
 		<!-- IT: Se si ha l'edizione diplomatica scrivere <edition>Diplomatic</edition>.
 			 	 Se NON si ha l'edizione diplomatica mettere <edition></edition> -->
 
-		<!-- EN: For processing in the modules: $edition_array[1] --> <!-- IT: Per l'elaborazione nei moduli: $edition_array[1] -->
+		<!-- EN: For processing in the modules: $edition_array[1] -->
+		<!-- IT: Per l'elaborazione nei moduli: $edition_array[1] -->
 
 		<edition>Interpretative</edition>
 		<!-- EN: If you have an interpretative edition put <edition>Interpretative</edition>.
@@ -134,7 +135,8 @@
 		<!-- IT: Se si ha l'edizione interpretativa scrivere <edition>Interpretative</edition>.
 			 	 Se NON si ha l'edizione interpretativa mettere <edition></edition> -->
 
-		<!-- EN: For processing in the modules: $edition_array[2] --> <!-- IT: Per l'elaborazione nei moduli: $edition_array[2] -->
+		<!-- EN: For processing in the modules: $edition_array[2] -->
+		<!-- IT: Per l'elaborazione nei moduli: $edition_array[2] -->
 
 		<!-- EN: To add a new edition it is necessary to add a new line here and -forcedly- a declaration concerning output file in the modules/evt_builder-main.xsl file, under the <xsl:if test="$edition_array[2]!=''" condition>
 				For instance: <edition>New_edition</edition> -->
@@ -147,10 +149,10 @@
 	<xsl:variable name="ed_name1">dipl</xsl:variable>
 	<xsl:variable name="ed_name2">interp</xsl:variable>
 	<!-- Variable -->
-	
+
 	<!-- EN: Enable/Disable translation -->
 	<!-- IT: Attiva/Disattiva traduzione -->
-	<xsl:variable name="translation" select="true()"/> 
+	<xsl:variable name="translation" select="true()"/>
 
 	<!-- Thumb image -->
 	<xsl:variable name="fb_thumb">thumb_fb.jpg</xsl:variable>
@@ -166,26 +168,34 @@
 	<!-- IT: Indicare il nodo xml che contiene il testo da trasformare per ogni livello di edizione -->
 	<!--<xsl:variable name="ed_content" select="if(//tei:text/tei:group[@xml:id='group']) then(//tei:text/tei:group[@xml:id='group']/name()) else ( //tei:body/name() )"/>-->
 	<xsl:variable name="ed_content" select="
-		if(//tei:text/tei:group)
-			then(//tei:text/tei:group/name())
-		else ( //tei:text/name() )"/>
+			if (//tei:text/tei:group)
+			then
+				(//tei:text/tei:group/name())
+			else
+				(//tei:text/name())"/>
 
 	<!-- EN: Starting point for the split of elements containing pb and lb -->
 	<!-- IT: Punto di partenza per la divisione degli elementi contententi pb/lb -->
 	<!--<xsl:variable name="start_split" select="if(//tei:text/tei:group[@xml:id='group']) then(//tei:text/tei:group[@xml:id='group']/name()) else( if(//tei:body/tei:div[@subtype='edition_text']) then(//tei:body/tei:div[@subtype='edition_text']/name()) else(//tei:body/name()) )"/>-->
 	<!-- Retrocompatiblità gestita solo per documenti unitari -->
 	<xsl:variable name="start_split" select="
-		if(//tei:text/tei:group)
-				then(//tei:text/tei:group/name())
-		else(
-			if(count(//tei:body/tei:div[@subtype='edition_text'])>1)
-				then(//tei:body/tei:div[@subtype='edition_text']/name())
-			else(//tei:text/tei:body/name() ))"/>
+			if (//tei:text/tei:group)
+			then
+				(//tei:text/tei:group/name())
+			else
+				(
+				if (count(//tei:body/tei:div[@subtype = 'edition_text']) > 1)
+				then
+					(//tei:body/tei:div[@subtype = 'edition_text']/name())
+				else
+					(//tei:text/tei:body/name()))"/>
 
 	<!-- EN: Indicate the maximum depth of pb/lb with relatively to the element stated in the variable $start_split-->
 	<!-- IT: Indica la profondità massima dei pb/lb rispetto all'elemento inserito della variabile $start_split-->
-	<xsl:variable name="start_split_depth" select="//node()[name()=$start_split]/count(ancestor-or-self::node())"/>
-	<xsl:variable name="max_depth" as="xs:integer" select="max(((max(//tei:pb/count(ancestor-or-self::node())) - //node()[name()=$start_split]/count(ancestor-or-self::node())), (max(//tei:lb/count(ancestor-or-self::node())) - //node()[name()=$start_split]/count(ancestor-or-self::node())), (max(//tei:cb/count(ancestor-or-self::node())) - //node()[name()=$start_split]/count(ancestor-or-self::node()))))"/>
+	<xsl:variable name="start_split_depth"
+		select="//node()[name() = $start_split]/count(ancestor-or-self::node())"/>
+	<xsl:variable name="max_depth" as="xs:integer"
+		select="max(((max(//tei:pb/count(ancestor-or-self::node())) - //node()[name() = $start_split]/count(ancestor-or-self::node())), (max(//tei:lb/count(ancestor-or-self::node())) - //node()[name() = $start_split]/count(ancestor-or-self::node())), (max(//tei:cb/count(ancestor-or-self::node())) - //node()[name() = $start_split]/count(ancestor-or-self::node()))))"/>
 	<!-- EN: Highest depth of a pb relatively to the body: max(//tei:pb/count(ancestor-or-self::node())) - //tei:body/count(ancestor-or-self::node())
 		     Highest depth of a lb relatively to the body: max(//tei:lb/count(ancestor-or-self::node())) - //tei:body/count(ancestor-or-self::node())
 	-->
@@ -218,7 +228,7 @@
 			- 'info'  se si vogliono visualizzare le informazioni sul manoscritto al primo caricamento
 			Qualsiasi altro valore varrà come 'image'
 	-->
-	<xsl:variable name="left_frame_default_content" select="'image'" />
+	<xsl:variable name="left_frame_default_content" select="'image'"/>
 
 	<!-- EN: Set default content on first load for right frame choosing between text or text front info
 			Possible values are:
@@ -232,57 +242,57 @@
 			- 'info'  se si vogliono visualizzare le informazioni sul testo al primo caricamento
 			Qualsiasi altro valore varrà come 'text'
 	-->
-	<xsl:variable name="right_frame_default_content" select="'text'" />
+	<xsl:variable name="right_frame_default_content" select="'text'"/>
 
 	<!-- BUTTONS PRESENCE AND POSITION -->
 
 	<!-- EN: Show/Hide Txt/Img Link Button in interface -->
 	<!-- IT: Mostra/Nascondi pulsante Txt/Img Link nell'interfaccia web -->
 	<!-- default: true() -->
-	<xsl:param name="txtimg_link_button" select="true()"/>
+	<xsl:param name="txtimg_link_button" select="false()"/>
 
 	<!-- EN: Show/Hide Hotspot Button in interface -->
 	<!-- IT: Mostra/Nascondi pulsante Hotspot nell'interfaccia web -->
 	<!-- default: true() -->
-	<xsl:param name="hs_button" select="true()"/>
+	<xsl:param name="hs_button" select="false()"/>
 
 	<!-- EN: Show/Hide Magnifier Button in interface -->
 	<!-- IT: Mostra/Nascondi pulsante Lente di ingrandimento nell'interfaccia web -->
 	<!-- default: true() -->
-	<xsl:param name="mag_button" select="true()"/>
+	<xsl:param name="mag_button" select="false()"/>
 
 	<!-- EN: Show/Hide Thumbnails Button in interface -->
 	<!-- IT: Mostra/Nascondi pulsante Thumbnails nell'interfaccia web -->
 	<!-- default: true() -->
-	<xsl:param name="thumbs_button" select="true()"/>
+	<xsl:param name="thumbs_button" select="false()"/>
 
 	<!-- EN: Show/Hide Viscoll Button in interface -->
 	<!-- IT: Mostra/Nascondi pulsante Viscoll nell'interfaccia web -->
 	<!-- default: false() -->
 	<xsl:param name="viscoll_button" select="false()"/>
-	
+
 	<!-- VISCOLL -->
 	<!-- In order to let Viscoll work properly, you need to prepare the collation scheme and the image list, as it is explained in the point 1 and 2 of 
 		Viscoll documentation (https://github.com/leoba/VisColl). First create your collation model, 
 		then prepare the image list as indicated (or just have an encoded xml TEI file containing a facsimile section) 
 		and process it at http://138.197.87.173:8080/xproc-z/visualize-collation/ -->
-	
+
 	<!-- EN: Path to xml file containing viscoll scheme. 
 		If you need to use an online resource, put the complete URL (e.g: http://www.mysite.com/viscollScheme.xml).
 		Otherwise put the file in data/input_data/text folder and just put here the relative path starting from that folder. -->
 	<!-- IT: Percorso al file xml contenente lo schema viscoll.
 		Se si usa una risorsa online, inserire il percorso completo (ex. http://www.ilmiosito.it/schemaViscoll.xml).
 		Altrimenti copiare il file nella cartella data/input_data/text e inserire qui solo percorso relativo a partire da quella cartella. -->
-<!--	<xsl:param name="viscoll_scheme_path">text/viscoll/VB-quireStructure.xml</xsl:param>-->
-	
+	<!--	<xsl:param name="viscoll_scheme_path">text/viscoll/VB-quireStructure.xml</xsl:param>-->
+
 	<!-- EN: Path to xml file containing viscoll images list. 
 		If you need to use an online resource, put the entire path (e.g: http://www.mysite.com/viscollImagelist.xml).
 		Otherwise put the file in data/input_data/text folder and just put here the relative path starting from that folder. -->
 	<!-- IT: Percorso al file xml contenente la lista delle immagini necessaria al corretto funzionamento di viscoll.
 		Se si usa una risorsa online, inserire il percorso completo (ex. http://www.ilmiosito.it/viscollImagelist.xml).
 		Altrimenti copiare il file nella cartella data/input_data/text e inserire qui solo percorso relativo a partire da quella cartella. -->
-<!--	<xsl:param name="viscoll_image_list_path">text/viscoll/VB_14-15-imageList.xml</xsl:param>-->
-	
+	<!--	<xsl:param name="viscoll_image_list_path">text/viscoll/VB_14-15-imageList.xml</xsl:param>-->
+
 	<!-- EN: Show/Hide Edition level selector in interface -->
 	<!-- IT: Mostra/Nascondi selettore Livello/i Edizione nell'interfaccia web -->
 	<!-- default: true() -->
@@ -294,14 +304,14 @@
 	<xsl:param name="pp_selector_pos" select="'right'"/>
 
 	<!-- EN: Choose whether or not to group pages by document in the selector -->
-    <!-- IT: Scegli se raggruppare o meno le pagine per documento nel selettore apposito -->
-    <!-- default: true() -->
-    <xsl:param name="pp_selector_doc_grouping" select="true()"/>
+	<!-- IT: Scegli se raggruppare o meno le pagine per documento nel selettore apposito -->
+	<!-- default: true() -->
+	<xsl:param name="pp_selector_doc_grouping" select="true()"/>
 
-    <!-- EN: Choose whether or not having a tooltip on pages option showing the belonging document  -->
-    <!-- IT: Scegli se avere un tooltip sulle opzioni delle pagine che mostra il/i documento/i di appartenenza -->
-    <!-- default: false() -->
-    <xsl:param name="pp_selector_doc_tooltip" select="true()"/>
+	<!-- EN: Choose whether or not having a tooltip on pages option showing the belonging document  -->
+	<!-- IT: Scegli se avere un tooltip sulle opzioni delle pagine che mostra il/i documento/i di appartenenza -->
+	<!-- default: false() -->
+	<xsl:param name="pp_selector_doc_tooltip" select="false()"/>
 
 	<!-- EN: On/Off Search -->
 	<!-- IT: Attiva/Disattiva Ricerca -->
@@ -311,12 +321,12 @@
 	<!-- EN: On/Off Virtual Keyboard for search -->
 	<!-- IT: Attiva/Disattiva Tastiera virtuale per ricerca -->
 	<!-- default: true() -->
-	<xsl:param name="virtual_keyboard_search" select="true()"/>
+	<xsl:param name="virtual_keyboard_search" select="false()"/>
 
 	<!-- EN: On/Off Bottom Navbar -->
 	<!-- IT: Attiva/Disattiva Barra di navigazione in fondo alla pagina -->
 	<!-- default: true() -->
-	<xsl:param name="bottom_navbar" select="true()"/>
+	<xsl:param name="bottom_navbar" select="false()"/>
 	<!-- EN: Initial status of Bottom Navbar (only works if $bottom_navbar=true()) -->
 	<!-- IT: Stato iniziale della barra di navigazione (considerato solo se $bottom_navbar=true())-->
 	<!-- possible values: 'collapsed' | 'expanded' -->
@@ -331,8 +341,8 @@
 	<!-- EN: On/Off Lines/Prose visualization Button -->
 	<!-- IT: Attiva/Disattiva Bottone di visualizzazione Versi/Prosa  -->
 	<!-- default: true() -->
-	<xsl:param name="prose_verses_toggler" select="true()"/>
-	
+	<xsl:param name="prose_verses_toggler" select="false()"/>
+
 	<!-- EN: On/Off Tooltip indicating language encoded in @xml:lang -->
 	<!-- IT: Attiva/Disattiva Tooltip per la visualizzazione della lingua degli elementi che presentano @xml:lang  -->
 	<!-- default: false() -->
@@ -381,6 +391,7 @@
 			<persName active="true"/>
 			<placeName active="false"/>
 			<orgName active="false"/>
+			<name type="divin" active="true" label="Noms divins"/>
 		</group>
 		<group label="INTERESTING_ELEMENTS" active="false">
 			<roleName active="true"/>
@@ -398,40 +409,50 @@
 			<novelistic active="true"/>
 			<mixed active="true"/>
 		</group>
-		<group label="OTHERS" active="true">
+		<group label="OTHERS" active="false">
 			<seg type="kenning" active="true" label="KENNING"/>
 		</group>
 	</xsl:variable>
-	
+
 	<!-- EN: Information about EVT -->
 	<!-- IT: Informazioni su EVT  -->
 	<xsl:param name="evtTxt">
-		<p>EVT (Edition Visualization Technology) is a software for creating and browsing digital editions of manuscripts
-			based on text encoded according to the TEI XML schemas and Guidelines. This tool was born as part of the DVB (<a
-				href="http://vbd.humnet.unipi.it/" target="blank"> Digital Vercelli Book</a>) project in order to allow the
-			creation of a digital edition of the Vercelli Book, a parchment codex of the late tenth century, now preserved in
-			the Archivio e Biblioteca Capitolare of Vercelli and regarded as one of the four most important manuscripts of the
-			Anglo-Saxon period as regards the transmission of poetic texts in the Old English language. </p>
-		<p>To ensure that it will be working on all the most recent web browsers, and for as long as possible on the World
-			Wide Web itself, EVT is built on open and standard web technologies such as HTML, CSS and JavaScript. Specific
-			features, such as the magnifying lens, are entrusted to jQuery plugins, again chosen among the open source and
-			best supported ones to reduce the risk of future incompatibilities. The general architecture of the software,
-			in any case, is modular, so that any component which may cause trouble or turn out to be not completely up to
-			the task can be replaced easily.</p>
-		<p>For more information about how to use and/or customize EVT please refer to the EVT Manual included in the
-			archive you downloaded, in the "doc" folder.</p>
+		<p>EVT (Edition Visualization Technology) is a software for creating and browsing digital
+			editions of manuscripts based on text encoded according to the TEI XML schemas and
+			Guidelines. This tool was born as part of the DVB (<a href="http://vbd.humnet.unipi.it/"
+				target="blank"> Digital Vercelli Book</a>) project in order to allow the creation of
+			a digital edition of the Vercelli Book, a parchment codex of the late tenth century, now
+			preserved in the Archivio e Biblioteca Capitolare of Vercelli and regarded as one of the
+			four most important manuscripts of the Anglo-Saxon period as regards the transmission of
+			poetic texts in the Old English language. </p>
+		<p>To ensure that it will be working on all the most recent web browsers, and for as long as
+			possible on the World Wide Web itself, EVT is built on open and standard web
+			technologies such as HTML, CSS and JavaScript. Specific features, such as the magnifying
+			lens, are entrusted to jQuery plugins, again chosen among the open source and best
+			supported ones to reduce the risk of future incompatibilities. The general architecture
+			of the software, in any case, is modular, so that any component which may cause trouble
+			or turn out to be not completely up to the task can be replaced easily.</p>
+		<p>For more information about how to use and/or customize EVT please refer to the EVT Manual
+			included in the archive you downloaded, in the "doc" folder.</p>
 		<p>EVT is used in the following projects:</p>
 		<ul>
-			<li><a href="http://pelavicino.labcd.unipi.it/" target="blank">Codice Pelavicino Digitale</a></li>
-			<li><a href="http://vbd.humnet.unipi.it/" target="blank">Vercelli Book Digitale</a></li>
+			<li>
+				<a href="http://pelavicino.labcd.unipi.it/" target="blank">Codice Pelavicino
+					Digitale</a>
+			</li>
+			<li>
+				<a href="http://vbd.humnet.unipi.it/" target="blank">Vercelli Book Digitale</a>
+			</li>
 		</ul>
-		<p>EVT has a home page <a href="http://evt.labcd.unipi.it/" target="blank">here</a> and an older one in the <a
-				href="https://sourceforge.net/p/evt-project/" target="blank">SourceForge</a> repository, but development is done
-			on <a href="https://github.com/evt-project/evt-builder" target="blank">GitHub</a>: if you are interested in
-			learning more about EVT and/or in adapting it to your specific needs please contact the project Director, Roberto
-			Rosselli Del Turco <a href="mailto:roberto.rossellidelturco@gmail.com" target="_top"
+		<p>EVT has a home page <a href="http://evt.labcd.unipi.it/" target="blank">here</a> and an
+			older one in the <a href="https://sourceforge.net/p/evt-project/" target="blank"
+				>SourceForge</a> repository, but development is done on <a
+				href="https://github.com/evt-project/evt-builder" target="blank">GitHub</a>: if you
+			are interested in learning more about EVT and/or in adapting it to your specific needs
+			please contact the project Director, Roberto Rosselli Del Turco <a
+				href="mailto:roberto.rossellidelturco@gmail.com" target="_top"
 				>roberto.rossellidelturco@gmail.com</a>.</p>
-		<p>If you have any suggestions or spot an error/bug please contact us at <a href="mailto:evt.developers@gmail.com"
-				>evt.developers@gmail.com</a></p>
+		<p>If you have any suggestions or spot an error/bug please contact us at <a
+				href="mailto:evt.developers@gmail.com">evt.developers@gmail.com</a></p>
 	</xsl:param>
 </xsl:stylesheet>
