@@ -17,7 +17,7 @@ body {
 
 /* space between paragraphs */
 p {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 /* display of specific tags */
@@ -39,11 +39,11 @@ body {
 }
 
 span.inline_note i.open_note {
-  counter-increment: css-counter 1;
+    counter-increment: css-counter 1;
 }
 
 span.inline_note i.open_note:before {
-  content: counters(css-counter, ".") "";
+    content: counters(css-counter, ".") "";
 }
 
 /* display of miscellaneous elements */
@@ -85,6 +85,38 @@ span.interp-choice_popup_corr span.interp-corr {
 .interp-del {
     /* text-decoration: line-through; */
     display: none;
+}
+
+/* front page display */
+
+#text_frame[data-page="liber_hynotheon_front"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#text_frame[data-page="liber_hynotheon_front"] div div {
+    font-size: 1em;
+}
+
+#text_frame[data-page=liber_hynotheon_front] h1[data-type="main"] {
+    font-size: 200% !important;
+    font-style: italic;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: blue;
+}
+
+#text_frame[data-page=liber_hynotheon_front] h1[data-type="sub"] {
+    padding-bottom: 2em;
+}
+
+span[data-tagname="hi"] {
+    font-weight: bold;
+/*    font-variant: small-caps;*/
+/*    color: blue;*/
+}
+
+.lb {
+    padding-bottom: .5em;
 }
 
 /*.tooltip_text {
