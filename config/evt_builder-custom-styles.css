@@ -3,8 +3,7 @@
  * IT: Questo file è stato predisposto per accogliere regole CSS personalizzate
  */
 
-
-/*Custom styles Classnum*/
+/* CUSTOM STYLES: CLASSNUM */
 
 body {
     font-family: 'Libertinus Serif', Times, Junicode, serif;
@@ -20,6 +19,41 @@ p {
     margin-bottom: 12px;
 }
 
+/* display of title page (front matter) */
+
+#text[data-doc="liberhynotheon"] {
+    display: inline;
+    vertical-align: middle;
+}
+
+#text_frame[data-page="liber_hynotheon_front"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#text_frame[data-page="liber_hynotheon_front"] div div {
+    font-size: 1em;
+}
+
+#text_frame[data-page=liber_hynotheon_front] h1[data-type="main"] {
+    font-size: 200% !important;
+    font-style: italic;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    color: blue;
+}
+
+#text_frame[data-page=liber_hynotheon_front] h1[data-type="sub"] {
+    padding-bottom: 1.5em;
+}
+
+span[data-tagname="hi"] {
+    font-weight: bold;
+}
+
+.lb {
+    padding-bottom: .5em;
+}
+
 /* display of specific tags */
 .option[data-value="name"][data-type="divin"] .filter_color {
     color: yellow;
@@ -32,7 +66,7 @@ p {
     background: yellow;
 }
 
-/* display numbers for notes */
+/* display of notes: numbering */
 
 body {
     counter-reset: css-counter 0;
@@ -46,7 +80,17 @@ span.inline_note i.open_note:before {
     content: counters(css-counter, ".") "";
 }
 
-/* display of miscellaneous elements */
+/* diplay of tooltip boxes containing the text of notes  */
+
+span[class="tooltip_text"]:before {
+    content: counters(css-counter, ".") ". ";
+}
+
+span[class="tooltip_text"] {
+    text-align: left;
+}
+
+/* display of corrections */
 
 .dipl-corr {
     color: blue;
@@ -86,42 +130,6 @@ span.interp-choice_popup_corr span.interp-corr {
     /* text-decoration: line-through; */
     display: none;
 }
-
-/* front page display */
-
-#text_frame[data-page="liber_hynotheon_front"] {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#text_frame[data-page="liber_hynotheon_front"] div div {
-    font-size: 1em;
-}
-
-#text_frame[data-page=liber_hynotheon_front] h1[data-type="main"] {
-    font-size: 200% !important;
-    font-style: italic;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    color: blue;
-}
-
-#text_frame[data-page=liber_hynotheon_front] h1[data-type="sub"] {
-    padding-bottom: 2em;
-}
-
-span[data-tagname="hi"] {
-    font-weight: bold;
-/*    font-variant: small-caps;*/
-/*    color: blue;*/
-}
-
-.lb {
-    padding-bottom: .5em;
-}
-
-/*.tooltip_text {
-    text-align: left;
-}*/
 
 /* font */
 
