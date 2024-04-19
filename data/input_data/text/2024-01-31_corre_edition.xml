@@ -87,6 +87,53 @@
     </teiHeader>
 
     <text n="Liber Hynotheon" type="prose" xml:id="liberhynotheon" xml:lang="lat">
+
+        <front>
+
+            <titlePage type="document_front">
+
+                <lb/>
+                <lb/>
+
+                <docTitle>
+                    <titlePart type="main">Liber Hynotheon</titlePart>
+                    <titlePart type="sub">Une édition numérique</titlePart>
+                </docTitle>
+
+                <lb/>
+
+                <docAuthor>Nicolas Corre</docAuthor>
+
+                <docEdition>Première édition (2024)</docEdition>
+
+                <lb/>
+                <lb/>
+                <lb/>
+
+                <byline>Transcription, encodage et traduction de Nicolas Corre</byline>
+                <byline>dans le cadre de son mémoire de master 2</byline>
+                <byline>sous la direction de Valérie Fauvinet-Ranson</byline>
+
+                <lb/>
+                <lb/>
+
+                <byline>Avec les conseils d'Aurélien Berra pour la conception de l'édition
+                    numérique</byline>
+
+                <lb/>
+                <lb/>
+                <lb/>
+
+                <docImprint>
+                    <pubPlace>Nanterre</pubPlace>
+                    <publisher>Université Paris-Nanterre</publisher>
+                    <date>2024</date>
+                </docImprint>
+
+            </titlePage>
+
+        </front>
+
         <body>
             <head>Liber Hynotheon</head>
             <div n="1" type="chapitre">
