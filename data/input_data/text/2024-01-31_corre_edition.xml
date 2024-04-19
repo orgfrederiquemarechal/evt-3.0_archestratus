@@ -92,6 +92,10 @@
 
             <titlePage type="document_front">
 
+                <pb n="Titre" xml:id="liber_hynotheon_front"/>
+
+
+
                 <lb/>
                 <lb/>
 
@@ -102,35 +106,50 @@
 
                 <lb/>
 
-                <docAuthor>Nicolas Corre</docAuthor>
+                <!--<docAuthor>Nicolas Corre</docAuthor>-->
 
-                <docEdition>Première édition (2024)</docEdition>
+                <!--<docEdition>Première édition (2024)</docEdition>-->
 
                 <lb/>
                 <lb/>
                 <lb/>
 
-                <byline>Transcription, encodage et traduction de Nicolas Corre</byline>
+                <byline>Transcription, encodage et traduction de<lb/><hi>Nicolas Corre</hi></byline>
+
+                <lb/>
+                <lb/>
+
                 <byline>dans le cadre de son mémoire de master 2</byline>
-                <byline>sous la direction de Valérie Fauvinet-Ranson</byline>
+                <byline>sous la direction de <hi>Valérie Fauvinet-Ranson</hi></byline>
 
                 <lb/>
                 <lb/>
 
-                <byline>Avec les conseils d'Aurélien Berra pour la conception de l'édition
-                    numérique</byline>
+                <byline>et avec les conseils d'Aurélien Berra</byline>
+                <byline>pour la conception de l'édition numérique</byline>
 
                 <lb/>
                 <lb/>
                 <lb/>
 
                 <docImprint>
-                    <pubPlace>Nanterre</pubPlace>
                     <publisher>Université Paris-Nanterre</publisher>
+                    <lb/>
                     <date>2024</date>
                 </docImprint>
-
+                <pb type="end"/>
             </titlePage>
+
+            <div>
+
+                <head>Liber Hynotheon</head>
+
+                <lb/>
+
+                <div type="paratext" subtype="intro">
+                    <p>Le <title>Liber Hynotheon</title> est un texte… [résumé]</p>
+                </div>
+            </div>
 
         </front>
 
