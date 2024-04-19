@@ -208,7 +208,7 @@
 		     If false() you need to put your own xslt transformations in modules/elements/evt_builder-generate-text_label.xsl -->
 	<!-- IT: Attiva/Disattiva generazione standard dell'etichetta del selettore testuale in base all'id.
 		     Se false() e' necessario aggiungere le proprie trasformazioni xslt nel file modules/elements/evt_builder-generate-text_label.xsl -->
-	<xsl:param name="defaulTextLabel" select="true()"/>
+	<xsl:param name="defaulTextLabel" select="false()"/>
 
 	<!-- ################# -->
 	<!-- INTERFACE CONTROL -->
