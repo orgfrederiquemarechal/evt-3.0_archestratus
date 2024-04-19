@@ -17,6 +17,7 @@
    </editions>
    <textpage>
       <text n="liberhynotheon" label="Liber Hynotheon">
+         <pb n="Titre">liber_hynotheon_front</pb>
          <pb n="1">liber_hynotheon_ms_adiv_5fb1_page-1</pb>
          <pb n="2">liber_hynotheon_ms_adiv_5fb1_page-2</pb>
          <pb n="3">liber_hynotheon_ms_adiv_5fb1_page-3</pb>
@@ -60,6 +61,10 @@
       </text>
    </textpage>
    <pages>
+      <pair>
+         <pb n="Titre">liber_hynotheon_front</pb>
+      </pair>
+      <pair/>
       <pair>
          <pb n="1">liber_hynotheon_ms_adiv_5fb1_page-1</pb>
       </pair>
