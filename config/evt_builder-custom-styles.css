@@ -32,6 +32,20 @@ p {
     background: yellow;
 }
 
+/* display numbers for notes */
+
+body {
+    counter-reset: css-counter 0;
+}
+
+span.inline_note i.open_note {
+  counter-increment: css-counter 1;
+}
+
+span.inline_note i.open_note:before {
+  content: counters(css-counter, ".") "";
+}
+
 /* display of miscellaneous elements */
 
 .dipl-corr {
