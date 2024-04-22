@@ -16,174 +16,262 @@
       <edition data-key="interp">Interpretative</edition>
    </editions>
    <textpage>
-      <text n="liberhynotheon" label="Liber Hynotheon">
-         <pb n="Titre">liber_hynotheon_front</pb>
-         <pb n="1">liber_hynotheon_ms_adiv_5fb1_page-1</pb>
-         <pb n="2">liber_hynotheon_ms_adiv_5fb1_page-2</pb>
-         <pb n="3">liber_hynotheon_ms_adiv_5fb1_page-3</pb>
-         <pb n="4">liber_hynotheon_ms_adiv_5fb1_page-4</pb>
-         <pb n="5">liber_hynotheon_ms_adiv_5fb1_page-5</pb>
-         <pb n="6">liber_hynotheon_ms_adiv_5fb1_page-6</pb>
-         <pb n="7">liber_hynotheon_ms_adiv_5fb1_page-7</pb>
-         <pb n="8">liber_hynotheon_ms_adiv_5fb1_page-8</pb>
-         <pb n="9">liber_hynotheon_ms_adiv_5fb1_page-9</pb>
-         <pb n="10">liber_hynotheon_ms_adiv_5fb1_page-10</pb>
-         <pb n="11">liber_hynotheon_ms_adiv_5fb1_page-11</pb>
-         <pb n="12">liber_hynotheon_ms_adiv_5fb1_page-12</pb>
-         <pb n="13">liber_hynotheon_ms_adiv_5fb1_page-13</pb>
-         <pb n="14">liber_hynotheon_ms_adiv_5fb1_page-14</pb>
-         <pb n="15">liber_hynotheon_ms_adiv_5fb1_page-15</pb>
-         <pb n="16">liber_hynotheon_ms_adiv_5fb1_page-16</pb>
-         <pb n="17">liber_hynotheon_ms_adiv_5fb1_page-17</pb>
-         <pb n="18">liber_hynotheon_ms_adiv_5fb1_page-18</pb>
-         <pb n="19">liber_hynotheon_ms_adiv_5fb1_page-19</pb>
-         <pb n="20">liber_hynotheon_ms_adiv_5fb1_page-20</pb>
-         <pb n="21">liber_hynotheon_ms_adiv_5fb1_page-21</pb>
-         <pb n="22">liber_hynotheon_ms_adiv_5fb1_page-22</pb>
-         <pb n="23">liber_hynotheon_ms_adiv_5fb1_page-23</pb>
-         <pb n="24">liber_hynotheon_ms_adiv_5fb1_page-24</pb>
-         <pb n="25">liber_hynotheon_ms_adiv_5fb1_page-25</pb>
-         <pb n="26">liber_hynotheon_ms_adiv_5fb1_page-26</pb>
-         <pb n="27">liber_hynotheon_ms_adiv_5fb1_page-27</pb>
-         <pb n="28">liber_hynotheon_ms_adiv_5fb1_page-28</pb>
-         <pb n="29">liber_hynotheon_ms_adiv_5fb1_page-29</pb>
-         <pb n="30">liber_hynotheon_ms_adiv_5fb1_page-30</pb>
-         <pb n="31">liber_hynotheon_ms_adiv_5fb1_page-31</pb>
-         <pb n="32">liber_hynotheon_ms_adiv_5fb1_page-32</pb>
-         <pb n="33">liber_hynotheon_ms_adiv_5fb1_page-33</pb>
-         <pb n="figure-1">figure-1</pb>
-         <pb n="figure-2">figure-2</pb>
-         <pb n="figure-3">figure-3</pb>
-         <pb n="figure-4">figure-4</pb>
-         <pb n="figure-5">figure-5</pb>
-         <pb n="figure-6">figure-6</pb>
-         <pb n="figure-7">figure-7</pb>
+      <text n="archestratus" label="Archestrate de Géla">
+         <pb n="Titre">archestratus_front</pb>
+         <pb n="1">archestratus_ms_a_fr_1_fake_test_no_file</pb>
+         <pb n="2">archestratus_ms_a_fr_2</pb>
+         <pb n="3">archestratus_ms_a_fr_3</pb>
+         <pb n="4">archestratus_ms_a_fr_4_fake_test_no_file</pb>
+         <pb n="5">archestratus_ms_a_fr_5</pb>
+         <pb n="6">archestratus_ms_a_fr_6</pb>
+         <pb n="7">archestratus_ms_a_fr_7</pb>
+         <pb n="8">archestratus_ms_a_fr_8</pb>
+         <pb n="9">archestratus_ms_a_fr_9</pb>
+         <pb n="10">archestratus_ms_a_fr_10</pb>
+         <pb n="11">archestratus_ms_a_fr_11</pb>
+         <pb n="12">archestratus_ms_a_fr_12</pb>
+         <pb n="13">archestratus_ms_a_fr_13</pb>
+         <pb n="14">archestratus_ms_a_fr_14</pb>
+         <pb n="15">archestratus_ms_a_fr_15</pb>
+         <pb n="16">archestratus_ms_a_fr_16</pb>
+         <pb n="17">archestratus_ms_a_fr_17</pb>
+         <pb n="18">archestratus_ms_a_fr_18</pb>
+         <pb n="19">archestratus_ms_a_fr_19</pb>
+         <pb n="20">archestratus_ms_a_fr_20</pb>
+         <pb n="21">archestratus_ms_a_fr_21</pb>
+         <pb n="22">archestratus_ms_a_fr_22</pb>
+         <pb n="23">archestratus_ms_a_fr_23</pb>
+         <pb n="24">archestratus_ms_a_fr_24</pb>
+         <pb n="25">archestratus_ms_a_fr_25</pb>
+         <pb n="26">archestratus_ms_a_fr_26</pb>
+         <pb n="27">archestratus_ms_a_fr_27</pb>
+         <pb n="28">archestratus_ms_a_fr_28</pb>
+         <pb n="29">archestratus_ms_a_fr_29</pb>
+         <pb n="30">archestratus_ms_a_fr_30</pb>
+         <pb n="31">archestratus_ms_a_fr_31</pb>
+         <pb n="32">archestratus_ms_a_fr_32</pb>
+         <pb n="33">archestratus_ms_a_fr_33</pb>
+         <pb n="34">archestratus_ms_a_fr_34</pb>
+         <pb n="35">archestratus_ms_a_fr_35</pb>
+         <pb n="36">archestratus_ms_a_fr_36</pb>
+         <pb n="37">archestratus_ms_a_fr_37</pb>
+         <pb n="38">archestratus_ms_a_fr_38</pb>
+         <pb n="39">archestratus_ms_a_fr_39</pb>
+         <pb n="40">archestratus_ms_a_fr_40</pb>
+         <pb n="41">archestratus_ms_a_fr_41</pb>
+         <pb n="42">archestratus_ms_a_fr_42</pb>
+         <pb n="43">archestratus_ms_a_fr_43</pb>
+         <pb n="44">archestratus_ms_a_fr_44</pb>
+         <pb n="45">archestratus_ms_a_fr_45</pb>
+         <pb n="46">archestratus_ms_a_fr_46</pb>
+         <pb n="47">archestratus_ms_a_fr_47</pb>
+         <pb n="48">archestratus_ms_a_fr_48</pb>
+         <pb n="49">archestratus_ms_a_fr_49</pb>
+         <pb n="50">archestratus_ms_a_fr_50</pb>
+         <pb n="51">archestratus_ms_a_fr_51</pb>
+         <pb n="52">archestratus_ms_a_fr_52</pb>
+         <pb n="53">archestratus_ms_a_fr_53</pb>
+         <pb n="54">archestratus_ms_a_fr_54</pb>
+         <pb n="55">archestratus_ms_a_fr_55</pb>
+         <pb n="56">archestratus_ms_a_fr_56</pb>
+         <pb n="57">archestratus_ms_a_fr_57</pb>
+         <pb n="58">archestratus_ms_a_fr_58</pb>
+         <pb n="59">archestratus_ms_a_fr_59</pb>
+         <pb n="60">archestratus_ms_a_fr_60</pb>
+         <pb n="61">archestratus_ms_a_fr_61</pb>
+         <pb n="62">archestratus_ms_a_fr_62</pb>
       </text>
    </textpage>
    <pages>
       <pair>
-         <pb n="Titre">liber_hynotheon_front</pb>
+         <pb n="Titre">archestratus_front</pb>
       </pair>
       <pair/>
       <pair>
-         <pb n="1">liber_hynotheon_ms_adiv_5fb1_page-1</pb>
+         <pb n="1">archestratus_ms_a_fr_1_fake_test_no_file</pb>
       </pair>
       <pair>
-         <pb n="2">liber_hynotheon_ms_adiv_5fb1_page-2</pb>
+         <pb n="2">archestratus_ms_a_fr_2</pb>
       </pair>
       <pair>
-         <pb n="3">liber_hynotheon_ms_adiv_5fb1_page-3</pb>
+         <pb n="3">archestratus_ms_a_fr_3</pb>
       </pair>
       <pair>
-         <pb n="4">liber_hynotheon_ms_adiv_5fb1_page-4</pb>
+         <pb n="4">archestratus_ms_a_fr_4_fake_test_no_file</pb>
       </pair>
       <pair>
-         <pb n="5">liber_hynotheon_ms_adiv_5fb1_page-5</pb>
+         <pb n="5">archestratus_ms_a_fr_5</pb>
       </pair>
       <pair>
-         <pb n="6">liber_hynotheon_ms_adiv_5fb1_page-6</pb>
+         <pb n="6">archestratus_ms_a_fr_6</pb>
       </pair>
       <pair>
-         <pb n="7">liber_hynotheon_ms_adiv_5fb1_page-7</pb>
+         <pb n="7">archestratus_ms_a_fr_7</pb>
       </pair>
       <pair>
-         <pb n="8">liber_hynotheon_ms_adiv_5fb1_page-8</pb>
+         <pb n="8">archestratus_ms_a_fr_8</pb>
       </pair>
       <pair>
-         <pb n="9">liber_hynotheon_ms_adiv_5fb1_page-9</pb>
+         <pb n="9">archestratus_ms_a_fr_9</pb>
       </pair>
       <pair>
-         <pb n="10">liber_hynotheon_ms_adiv_5fb1_page-10</pb>
+         <pb n="10">archestratus_ms_a_fr_10</pb>
       </pair>
       <pair>
-         <pb n="11">liber_hynotheon_ms_adiv_5fb1_page-11</pb>
+         <pb n="11">archestratus_ms_a_fr_11</pb>
       </pair>
       <pair>
-         <pb n="12">liber_hynotheon_ms_adiv_5fb1_page-12</pb>
+         <pb n="12">archestratus_ms_a_fr_12</pb>
       </pair>
       <pair>
-         <pb n="13">liber_hynotheon_ms_adiv_5fb1_page-13</pb>
+         <pb n="13">archestratus_ms_a_fr_13</pb>
       </pair>
       <pair>
-         <pb n="14">liber_hynotheon_ms_adiv_5fb1_page-14</pb>
+         <pb n="14">archestratus_ms_a_fr_14</pb>
       </pair>
       <pair>
-         <pb n="15">liber_hynotheon_ms_adiv_5fb1_page-15</pb>
+         <pb n="15">archestratus_ms_a_fr_15</pb>
       </pair>
       <pair>
-         <pb n="16">liber_hynotheon_ms_adiv_5fb1_page-16</pb>
+         <pb n="16">archestratus_ms_a_fr_16</pb>
       </pair>
       <pair>
-         <pb n="17">liber_hynotheon_ms_adiv_5fb1_page-17</pb>
+         <pb n="17">archestratus_ms_a_fr_17</pb>
       </pair>
       <pair>
-         <pb n="18">liber_hynotheon_ms_adiv_5fb1_page-18</pb>
+         <pb n="18">archestratus_ms_a_fr_18</pb>
       </pair>
       <pair>
-         <pb n="19">liber_hynotheon_ms_adiv_5fb1_page-19</pb>
+         <pb n="19">archestratus_ms_a_fr_19</pb>
       </pair>
       <pair>
-         <pb n="20">liber_hynotheon_ms_adiv_5fb1_page-20</pb>
+         <pb n="20">archestratus_ms_a_fr_20</pb>
       </pair>
       <pair>
-         <pb n="21">liber_hynotheon_ms_adiv_5fb1_page-21</pb>
+         <pb n="21">archestratus_ms_a_fr_21</pb>
       </pair>
       <pair>
-         <pb n="22">liber_hynotheon_ms_adiv_5fb1_page-22</pb>
+         <pb n="22">archestratus_ms_a_fr_22</pb>
       </pair>
       <pair>
-         <pb n="23">liber_hynotheon_ms_adiv_5fb1_page-23</pb>
+         <pb n="23">archestratus_ms_a_fr_23</pb>
       </pair>
       <pair>
-         <pb n="24">liber_hynotheon_ms_adiv_5fb1_page-24</pb>
+         <pb n="24">archestratus_ms_a_fr_24</pb>
       </pair>
       <pair>
-         <pb n="25">liber_hynotheon_ms_adiv_5fb1_page-25</pb>
+         <pb n="25">archestratus_ms_a_fr_25</pb>
       </pair>
       <pair>
-         <pb n="26">liber_hynotheon_ms_adiv_5fb1_page-26</pb>
+         <pb n="26">archestratus_ms_a_fr_26</pb>
       </pair>
       <pair>
-         <pb n="27">liber_hynotheon_ms_adiv_5fb1_page-27</pb>
+         <pb n="27">archestratus_ms_a_fr_27</pb>
       </pair>
       <pair>
-         <pb n="28">liber_hynotheon_ms_adiv_5fb1_page-28</pb>
+         <pb n="28">archestratus_ms_a_fr_28</pb>
       </pair>
       <pair>
-         <pb n="29">liber_hynotheon_ms_adiv_5fb1_page-29</pb>
+         <pb n="29">archestratus_ms_a_fr_29</pb>
       </pair>
       <pair>
-         <pb n="30">liber_hynotheon_ms_adiv_5fb1_page-30</pb>
+         <pb n="30">archestratus_ms_a_fr_30</pb>
       </pair>
       <pair>
-         <pb n="31">liber_hynotheon_ms_adiv_5fb1_page-31</pb>
+         <pb n="31">archestratus_ms_a_fr_31</pb>
       </pair>
       <pair>
-         <pb n="32">liber_hynotheon_ms_adiv_5fb1_page-32</pb>
+         <pb n="32">archestratus_ms_a_fr_32</pb>
       </pair>
       <pair>
-         <pb n="33">liber_hynotheon_ms_adiv_5fb1_page-33</pb>
+         <pb n="33">archestratus_ms_a_fr_33</pb>
       </pair>
       <pair>
-         <pb n="figure-1">figure-1</pb>
+         <pb n="34">archestratus_ms_a_fr_34</pb>
       </pair>
       <pair>
-         <pb n="figure-2">figure-2</pb>
+         <pb n="35">archestratus_ms_a_fr_35</pb>
       </pair>
       <pair>
-         <pb n="figure-3">figure-3</pb>
+         <pb n="36">archestratus_ms_a_fr_36</pb>
       </pair>
       <pair>
-         <pb n="figure-4">figure-4</pb>
+         <pb n="37">archestratus_ms_a_fr_37</pb>
       </pair>
       <pair>
-         <pb n="figure-5">figure-5</pb>
+         <pb n="38">archestratus_ms_a_fr_38</pb>
       </pair>
       <pair>
-         <pb n="figure-6">figure-6</pb>
+         <pb n="39">archestratus_ms_a_fr_39</pb>
       </pair>
       <pair>
-         <pb n="figure-7">figure-7</pb>
+         <pb n="40">archestratus_ms_a_fr_40</pb>
+      </pair>
+      <pair>
+         <pb n="41">archestratus_ms_a_fr_41</pb>
+      </pair>
+      <pair>
+         <pb n="42">archestratus_ms_a_fr_42</pb>
+      </pair>
+      <pair>
+         <pb n="43">archestratus_ms_a_fr_43</pb>
+      </pair>
+      <pair>
+         <pb n="44">archestratus_ms_a_fr_44</pb>
+      </pair>
+      <pair>
+         <pb n="45">archestratus_ms_a_fr_45</pb>
+      </pair>
+      <pair>
+         <pb n="46">archestratus_ms_a_fr_46</pb>
+      </pair>
+      <pair>
+         <pb n="47">archestratus_ms_a_fr_47</pb>
+      </pair>
+      <pair>
+         <pb n="48">archestratus_ms_a_fr_48</pb>
+      </pair>
+      <pair>
+         <pb n="49">archestratus_ms_a_fr_49</pb>
+      </pair>
+      <pair>
+         <pb n="50">archestratus_ms_a_fr_50</pb>
+      </pair>
+      <pair>
+         <pb n="51">archestratus_ms_a_fr_51</pb>
+      </pair>
+      <pair>
+         <pb n="52">archestratus_ms_a_fr_52</pb>
+      </pair>
+      <pair>
+         <pb n="53">archestratus_ms_a_fr_53</pb>
+      </pair>
+      <pair>
+         <pb n="54">archestratus_ms_a_fr_54</pb>
+      </pair>
+      <pair>
+         <pb n="55">archestratus_ms_a_fr_55</pb>
+      </pair>
+      <pair>
+         <pb n="56">archestratus_ms_a_fr_56</pb>
+      </pair>
+      <pair>
+         <pb n="57">archestratus_ms_a_fr_57</pb>
+      </pair>
+      <pair>
+         <pb n="58">archestratus_ms_a_fr_58</pb>
+      </pair>
+      <pair>
+         <pb n="59">archestratus_ms_a_fr_59</pb>
+      </pair>
+      <pair>
+         <pb n="60">archestratus_ms_a_fr_60</pb>
+      </pair>
+      <pair>
+         <pb n="61">archestratus_ms_a_fr_61</pb>
+      </pair>
+      <pair>
+         <pb n="62">archestratus_ms_a_fr_62</pb>
       </pair>
    </pages>
    <idno/>

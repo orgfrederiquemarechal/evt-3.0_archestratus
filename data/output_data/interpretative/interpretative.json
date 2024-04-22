@@ -3,1073 +3,505 @@
 					 
 								{ 
 									"line" : "|", 
-									"text" : "Liber Hynotheon", 
-									"tags" : "liberhynotheon|Liber Hynotheon", 
+									"text" : " ", 
+									"tags" : "archestratus|Archestrate de Géla", 
 									"loc" : "no_page_info|no_page_info",
 									"inFront": "false"
 								}, 
 							
 									{
 										"line" : "no line info|no line info", 
-										"text" : "In nomine domini Iesus Chisti. Liber est Hijnothéon  sapientissimi Salomonis regis, filii DauidIsrael, de Caldes in Latinum. Altitudines orientis sunt nouem de quibus in hoc libro primo tractatu tractandum est, et de illius uirtutibus. In secundo, est tractandum de altitudinibus occidentalibus, quæ sunt septem, et meridionalibus quæ sunt quinque, et septentrionalibus quæ sunt tres. In tertio, de modo faciendi sanctum Hælaon, et de modo seruandia artista antequam et postquam operationem suam hanc inceperit et de preparatione [[artistiae]] artistæ et de multis adnotationibus ad hanc artem pertinentibus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-1|1",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Prima altitudo orientis. Altitudo prima uocatur Cijnos, et principes huius altitudinis uocantur Hrauel, Gabriel, Barachiel, Libes, Heliram, et hæc altitudo habet operationem suam et potentiam die Solis et eius hora Luna crescente in bona dispositione et cum ista altitudine disponuntur natiuitates natorum ad bonum uel malum finem aliqua mulier concipere uel non et arbores fructus facere in quantitate, uel non, et hæc similia.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-1|1",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Secunda altitudo. Hæc altitudo uocatur Corora et habet operationem et potentiam suam super omnem acquisitionem rerum transitarum per manus illius principis, et etiam habet potestatem distribuere, auferre, donare pro ut eis uidetur redditus et pecuniam, habet operationem suam die Solis et eius hora luna crescente. Nomina principum huius altitudinis sunt Pax, Alpharaijm, Geongereon, Armon, Gænerion.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-1|1",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tertia altitudo. Hæc vocatur Hernimoij [[Hermoij]] et habet potentiam suam super amicos, fratres, propinquos et vicinos et super motum omnium aquarum, maris et fluminum, et super mutationem corporalem omnium rerum de loco ad locum et super omne id quod mouet. Motum localem impediunt et expediunt prout principibus huius altitudinis placet. Nomina principum huius altitudinis sunt Ijachanaij, Ziziel, Prinuemator [[Priuemator]], Ijachanaij, Helem, Enthithoi.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-2|2",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quarta altitudo. Hæc uocatur Panteon et principes qui morantur in ea habent potestatem, et potentiam super thesaurisantessuccessiones, rera et donare dignitates pro ut eis uidetur. Nomina principum huius altitudinis sunt Ijræth, Ijran, Arneth, Zanaij, Aranoij, [[Susee]] Susceije.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-2|2",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quinta altitudo. Hæc uocatur Cijm et principes qui morantur in ea habent potestatem [[potentiam]] ex officio suo cum motu cæli mouere omnia animantia secundum naturam ad filios procreandi multiplicandi in genere omnium spetie earum , tam sub terra quam supra terram, ut sunt pisces et uolatilia animantia ; et gubernant et regunt motum animalium et ex dono Dei possunt naturales scientias infundere super homines cuius modi sunt phisica, medicina, alchimia et earum partem. Nomina principum huius altitudinis sunt Abnaij, Cercij, Crahel [[Erahel]], Monosim, Aurache, Hanalaij.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-2|2",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Sexta altitudo. Hæc uocatur Noxin, et principes, qui morantur in ea, habent potestatem et uirtutem suam ex officio super status",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-2|2",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "mundi et mouent et mutant monarchias, imperia et dominia mundi de regione in regionem per motum cælestem et ordinationem eorum ; et distingunt dominos ii et a seruis ipsos uirtutibus et moribus illustrant, et mutant ipsas leges, fides ; regunt subditos in potestate dominorum et mutant pro ut uolunt in dominos, et in seruos dominos ; et rogant demones et constringunt eos ; et ex dignitate propria possunt infundere scientiam hominibus uidelicet musicam, logicam et moralem philosophiam. Nomina principum huius altitudinis sunt Heros, Bissezeos,  Onaijora, Echuel, Oijmali, Sijtain, Ijthos, Alphareth, Alaij.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-3|3",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Septima altitudo. Hæc altitudo appellatur Creor et principes qui morantur in ea habent potestatem super sacramentis [[puramentis]] quæ fiunt inter craturas et Deum, et inter creaturas et creaturas. Et cogunt eos per poenales angustias ad obseruantiam illus pacti, et cogunt demones obseruare pacte hominibus et e conuerso et puniunt utrosque iussu Dei tam in primis quam in secundis motibus. Et habent potestatem super animas separatas et eas regunt et ordinant ad bonum uel malum finem et exessent mortem et uitam super creaturas et ex dignitate infundere habent geomantiam, theologiam et magiam. Nomina principum huius altitudinis sunt Amaijn, Amas, Anaij, Geomitio, Gebedonaij, Pas,ne Sarama, Clijominth.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-3|3",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Octaua altitudo. Hæc altitudo appellatur Sapheth et principes qui morantur in ea habent potestatem et uirtutem infundendi generationiselementorum ab animalibus et generationes concedere ad animalia et principes huius altitudinis iussu Dei ferunt homines de regione in regionem cursu uelocissimo et omni motui prædominium habent. Nomina principum huius altitudinis sunt Zajar, Zabin, Zadanaij, Arphel, Alphanaij, Ladatin.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-3|3",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Nona altitudo. Hæc uocatur Suphor et principes qui morantur in ea habent potestatem",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-3|3",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "et uirtutem dare pecunias hominibus et etiam illas auferre quomodo illis placet et ex officio faciunt homines pulcherrimos et etiam uirtutem habent infundendi omnes scientias. Nomina principum huius altitudinis sunt Paijmon, Egij, Egijsta, Zaijn, Zæthau, Gratijn.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-4|4",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes hæ altitudines habent uirtutem suam die solis, et eius hora, id est in prima hora die solis usque ad meridiem et quando ab artista fiunt, debet esse tempus clarum, et serenum non nubilosum luna crescente. Finis primi tractatus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-4|4",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tractatus secundus de altitudinibus occidentalibus, meridionalibus [[meridionalib]] et septentrionalibus. In primis tractandum est de occidentalibus quæ sunt septem et primum de prima.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-4|4",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Prima altitudo occidentalis. Hæc altitudo occidentalis uocatur Giphor et principes, qui morantur in ea, potestatem habent super inimicitias et amicitias omnium creaturarum et super praesia et contentiones et contumelias et omnino super exercitus adducendos et arma utique seruare nihil ad finem perduci boni uel mali nisi ordinatione et permissu eorum. Et ex dono Dei possunt super homines. Nomina principum huius altitudinis sunt Melach, Bedahoih, Gijlor, Vauhael, Fumabel, Arijl.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-4|4",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Secunda altitudo. Hæc appellatur Naijn, et principes qui morantur in ea potestatem habent super inimicos et amicos, super homines amatores et mulieres amatrices. Et potestatem habent et uirtutem ex officio faciendi illos et illas inimicari. Et dominium habent super rixas et quæstiones. Et faciunt homines bellicosos et pussilanimos [[pusilanimos]], uictoriosos et non. Nomina principum huius altitudinis sunt",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-4|4",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Briel, Malamacoij, Malachim, Radasieh, Baidahath, Odmachiel.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-5|5",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tertia altitudo. Hæc uocatur Lehæsor, et principes qui morantur in ea habent potestatem et uirtutem super omnes infirmitates et ex officio reddunt homines infirmos uel non. Dant somnum hominibus uel non, et faciunt hæc similia. Nomina principum huius altitudinis sunt Selon, Belfrij, Aheij, Verechiel, Pactohabret [[Pactohahet]], Machdeijnchi, Nobemarach [[Noberiarach]].",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-5|5",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quarta altitudo. Hæc uocatur Chrimehit, et principes, qui morantur in ea, habent potestatem et potentiam super aquas maris et fluminum, et submergere uel non, homines et omnia animalia inundare uel non. Faciunt mercatores diuites et pauperes et ex officio dant hominibus cognitionem et uirtutem omnium herbarum. Nomina principum huius altitudinis sunt Galfu, Melchiel, Clbedaij, Lauijson, Ratijeh, Alijabith.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-5|5",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quinta altitudo. Hæc uocatur Giephatin, et principes qui morantur in ea habent potentiam et uirtutem infundere artus super homines et intellectus illustrare uel non, faciunt homines sapientes et non, et ex officio faciunt homines uictores in ludo, uel non, sicut illis uidetur. Nomina principum huius altitudinis sunt Osthos, Laijngijron, Pessino, Fas, Han, Sijachij, Zamnathor, Camijn.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-5|5",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Sexta altitudo. Hæc uocatur Agusth et principes qui morantur in ea habent potestatem et uirtutem super omnia uolatilia cæli et animalia terræ cauiatores capere illas uel non, ut illis uidetur. Nomina principum huius altitudinis sunt Bachaij, Son,  Balchochanth, Anaij, Anijal,  Salmet, Chamael.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-5|5",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Septima et ultima altitudo occidentalis. Hæc uocatur Steher [[Heher]], et principes qui morantur in ea potestatem habent notum facere furtum uel non, et super insidias latronum tam terræ quam maris et periculare faciunt homines et mulieres uel non, ut illis placet. Nomina principum huius altitudinis sunt Maxuel, Arahath, Sarohoth, Maguth, Mehestrach, Dijebuzon.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-6|6",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes hæ altitudines habent uirtutem suam die ♂ id est Martis et artista incipere debet operationem suam a meridie usque ad occasum sicut adnotauimus in tertio tractatu. Finis altitudinum occidentalium.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-6|6",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Hæ sunt altitudines meridionales et sunt quinque. Prima altitudo meridionalis. Hæc uocatur Rahath, et principes huius altitudinis uirtutem et [[potem habent super oia uenena atterminata et non cognita, et faciunt hoes perire et non, faciunt aperire terras et claudere ut illis uidetur, noa principum huius alnis sunt, Agariel Animirnaormes Bijleth Sathouiel Mahardehel]] potentiam habent super omnes scientias superstitiosas et super maleficia et cogunt demones facere quidquid uolunt homines uel non, ut illis placet. Nomina principum huius altitudinis sunt Alaharahel, Sasahorohath, Hamaliel, Mirthoath, Sulthurohath.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-6|6",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Secunda altitudo. haec Hæc uocatur Ahahager et principes qui morantur in ea uirtutem et potestatem habent super omnia uenena atterminata et non cognita et faciunt homines perire et",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-6|6",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "non, faciunt aperire terras et claudare ut illis uidetur. Nomina principum huius altitudinis sunt Agariel, Animirnaornus [[Anirmirnaornus]], Bijleth, Sathouiel, Mahardahel.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tertia altitudo. Hæc uocatur Ahecchijm et principes, qui morantur in ea, uirtutem et potentiam habent super omnia instrumenta musicæ et reddunt homines sapientissimos in illo exercitio, uel non, ita et taliter ut ipsi sonauerint quælibet genera instrumentorum, uel non, ut illis uidetur. Nomina principum huius altitudinis sunt Gebal, Lezioccil, Vahathicij, Ijchenal [[Ijchehal]], Batthoual, Hijersehul.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quarta altitudo. Hæc uocatur Saharnahoar, et principes huius altitudinis, qui morantur in ea, habent potestatem super amorem mulierum et faciunt homines amari ab illis uel non et super amorem principum et super beneuolentiam et faciunt homines amari uel non ut illis uidetur. Nomina principum huius altitudinis sunt Anæl, Michæl, Fabriel, et Raphæl, Abriel, Vriel.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Quinta et ultima altitudo meridionalis. Hæc uocatur Iahothahu et principes, qui morantur in ea, habent uirtutem et potestatem super inuisibilitatum et faciunt homines inuisibiles uel non. Et etiam faciunt ut homo possit accipere uarias et diuersas formas, uel non, pro ut eis uidetur. Nomina principum huius altitudinis sunt Orchij, Opscihir, Omagistas, Onchij, Hæhuel, Pijleth, Sacaij.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes hæ altitudines habent uirtutem suam et potentiam in nocte ♃, id est Iouis, et eius hora, sicut adnotauimus in tertio tractatu.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "De altitunibus septentrionalibus et sunt tres.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-7|7",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Prima altitudo. Hæc uocatur Hahanahor et principes qui morantur in ea habent uirtutem et potentiam super fortunam omnis maris et faciunt pluere et grandirari faciunt [[faaunt]] terræ motus, cadere fulgura, coruscare uentos maximos, uel non, ut eis uidetur. Nomina principum huius altitudinis sunt Lohod, Hadid, Pereon, Chelchezub, Belijsuth, Phetuar, Gadghahor.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-8|8",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Secunda altitudo. Hæc altitudo uocatur Mahasijoth, et principes huius altitudinis habent uirtutem et potentiam suam super omnes linguas et faciunt, ut homines loquantur omnes linguas uel non, et faciunt consumare homines et cuncta animantia et non, pro ut eis uidetur. Nomina principum huius altitudinis sunt Hijshahabhel, Sohamuhahijz, Mothosijhohan [[Motholijhohan]], Zachohohur, Neher, Dahaol [[Dahaal]], Bochur.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-8|8",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tertia et ultima altitudo. Hæc uocatur Sephaphahan et principes huius altitudinis qui morantur in ea habent uirtutem et potentiam suam distrugendi omnia semina et faciunt illa nasci uel non. Et habent dominium super omnia genera armorum et faciunt offendere homines inuincibiles uel non, et etiam faciunt homines sapientissimos in arte luxoriae et apparentiam faciunt ut ipsi faciant quidquid uolunt uel non, ut eis uidetur. Nomina principum huius altitudinis sunt Auubzelon, Zharahol, Raphahasel, Zechriahauel, Naniel.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-8|8",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes hæ altitudines habent uirtutem et ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-8|8",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "potentiam suam dei ♄ id est Saturni et in eius hora ut in tertio tractatu adnotauimus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-9|9",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Tractatus tertius. De modo fabricandi sanctum Stahelaon [[Haelaon]]. Nos fabricamus sanctum Stahelaon [[Haelaon]] hoc modo. In die ☿, id est Mercurii, accipiemus ceram nouam albam absque ulla sorde de imunditia et illam suffumigauimus olebano, costo et croco. Et postea formauimus illum ut in exemplo apparet : in primis de illa cera fac capsulam longitudinis palmi unius et latitudinis palmi semis [[fermix]] et in quolibet angulo foramen. Et in foramine scribatur cum stillo argentonouo ad hoc fabricato ; et nomina Dei [[diuini]] uiui scripti debent die operationis. In primo foramine, scribatur Adonaij, Helijonn, Pius. In secundo, Hhælijm [[Sthælijm]], Steloij[[Stheloij]], Stelij. In tertio, Ioth, Beth, Agla. In quarto, Tethagramaton [[Chethagramaton]], Sudaij et Ija.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-9|9",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod sanctum Hælaon [[Sthaelaon]], dum fabricatur, in angulum et angulum ut in figura signum nostrum faciendum est ; et inter signum ut [[et]] signum scribatur cum stillo argenteo ad hoc fabricato, ut in exemplo, in medio autem ficti debet nomen sanctum Hel, ut in exemplo, in medio stanctum nomen Hel ; et capsula non debet esse uacua et supra capsula illam alia fabricari debet de eadem cera ut in exemplo, longitudinis palmi semis et latitudinis ad proportionem. Et hæc debet esse uacua et supra primam capsulam candelæ septem debent permanere et supra capsulam debent esse foramina mittendi dictas candelas.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-9|9",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Cauendum autem est ne aliqua illius candelæ t accendatur nisi tempore operationis. Cum autem sanctum Stæleion",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-9|9",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "compositum fuit, fiat sigillum in quod sculpantur ipsa nomina uerso modo et sigillum sit purissimi argenti et auri et tempore operationis ponatur intus secundam capsula. Et mittatur in diua diua secunda capsula de odoribus olebani, ligni aloe, storacis et calamitæ et illa cooperiatur panno serico albo. Hæc sunt nomina sigilli Steloen Adonay, Pius, Anabona, Aranithan, ut melius uideri potest in exemplo et tempore operationis non preparationis accenduntur candelæ. Et habeas petitionem scriptam in carta uirginea non petendo aliquid quod non pertineat ad officium illius altitudinis et dictam petitionem mitte apud sigillum in capsula.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-10|10",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et nota quod illud sigillum sufficit in omnibus altitudinibus et operationibus sed [[ad]] sanctum Hahelaon [[Haelaon]] est fabricandum secundum altitudines. Prima altitudo, fabricatur de cera alba et etiam candelæ. Secunda, sanctum Hælaon [[Staelaon]] secundæ altitudinis et etiam candelæ fabricatur de cera neffei [[reffei]] coloris. Tertia, sanctum Hælaon [[Staelaon]] tertiæ altitudinis et etiam candelæ de cera [[azzurea]] croca. Quarta, sanctum Hælaon [[Staelaon]] quartæ altitudinis et etiam candelæ de cera azzura. Quinta, sanctum Hælaon quintæ altitudinis de cera uiridi coloris. Sexta, sanctum Hælaon sextæ altitudinis de cera uiolacea. Septima, sanctum Haelaon septimæ altitudinis de cera carnei coloris. Octaua, sanctum  Hælaon octauæ altitudinis de cera coloris uiridi et liuidi. Nona, sanctum Hælaon nonæ altitudinis de cera bijssima.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-10|10",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Nunc sequuntur sanctum Stælaon altitudinum occidentalium.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-10|10",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Prima altitudo, fabricatur de cera uiridi coloris et etiam candelæ. Secunda, secundae de cera rubicundici. Tertia, tertiæ de cera zaura. Quarta, quartæ de cera alba. Quinta, quintæ de cera leonata. Sexta, sextæ de cera rubea. Septima, septimæ de cera uiridi coloris.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-11|11",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Nunc sequuntur sanctum Stahelaon altitudinum meridionalum. Prima, primæ sanctum Stahelaon et eius candelæ in ista altitudine fabricantur de cera crocei coloris. Secunda, secundæ de cera albi coloris sed fusca. Tertia, tertiæ de cera uiolacea. Quarta, quartæ de cera coloris florem pesicarum [[perricarum]]. Quinta, quintæ de cera carnea et etiam candelæ.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-11|11",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Nunc sequuntur sanctum Stælaon altitudinis septemtrionalis. Prima, primum sanctum Stahelaon primæ altitudinis et etiam candelæ de cera nigra. Secunda, secundum sanctum Stahelaon secundæ altitudinis et etiam candelæ de cerea coloris sanguinei. Tertia, tertium sanctum Stahelaon tertiæ altitudinis et etiam candelæ nigri coloris sed clari.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-11|11",
+										"text" : "φησί",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_1_fake_test_no_file|1",
 										"inFront": "false"
 									},
 								 
 								{ 
-									"line" : "liber_hynotheon_ms_adiv_5fb1_page-12|par 12", 
-									"text" : " ", 
-									"tags" : "liberhynotheon|Liber Hynotheon", 
-									"loc" : "liber_hynotheon_ms_adiv_5fb1_page-11|11",
+									"line" : "archestratus_ms_a_fr_2|par 2", 
+									"text" : "Fragment 2 (Ath. 1. 4d-e) 01 πρὸς δὲ μιᾷ πάντας δειπνεῖν ἁβρόδαιτι τραπέζῃ. 02 έ̓στωσαν δʹ ἢ τρεῖς ἢ τέσσαρες οἱ ξυνάπαντες 03 ἢ τῶν πέντε γε μὴ πλείους· ἤδη γὰρ ἂν εἴη 04 μισθοφόρων ἁρπαξιβίων σκηνὴ στρατιωτῶν.", 
+									"tags" : "archestratus|Archestrate de Géla", 
+									"loc" : "archestratus_ms_a_fr_1_fake_test_no_file|1",
 									"inFront": "false"
 								}, 
 							
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Figura prima. Modus formandi [[fomandi]] sanctum Stahelaon THETAGRAMMATON HEL 1. Hynoytheon 2. Pthiaeumaton 3. Anbona 4. Yhehoua",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-13|13",
+										"text" : "Fragment 3 (Ath. 1. 29a-d) εἶθʹ ὁπόταν πλήρωμαι Διὸς Σωτῆρος ἕλησθε, // ἤδη χρὴ γεραόν, πολιὸν σφόδρα κρατοφοροῦτα // οἶνον, ὑγρὴν χαίτην λευκῷ πεπυκασμένον ἄνθει // πίνειν, ἐκ Λέσβου περικύμονος ἐκγεγαῶτα. // τὸν δʹ ἀπὸ Φοινίκης ἱερᾶς τὸν Βύβλιον αἰνῶ, // οὐ μέντοι κείνῳ γε παρεξισῶ αὐτον. ἂν γὰρ // ἐξαίφνας αὐτοῦ γεύσῃ μὴ πρόσθεν ἐθισθείς, // εὐώδης μέν σοι δόξει τοῦ Λεσβίου εἶναι // μᾶλλον, ἔχει γὰρ τοῦτο χρόνου διὰ μῆκος ἄπλατον·// πινόμενος δʹ ἥσσων πολλῷ. κεῖνος δὲ δοκήσει // οὐκ οἴνῳ σοι ἔχειν ὅμοιον γέρας, ἀμβροσίᾳ δέ. // εἰ δέ τι σκώπτουσιν ἀλαζονοχαυνοφλύαροι // ὡς ἅδιστος ἔφυ πάντων Φοινίκιος οἶνος, // οὐ προσέχω τὸν νοῦν αὐτοῖς. // ἔστι δὲ καὶ Θάσιος πίνειν γενναῖος, ἐὰν ᾖ // πολλαῖς πρεσβεύων ἐτέρου οἲνου περικαλλέσιν ὤραις. // οἶδα δὲ κἀξ ἄλλων πόλεων βοτρυοσταγῆ ἔρνη // εἰπεῖν αἰνῆσαί τε καὶ οὔ με λέληθʹ ὀνομῆναι. // ἀλλ’ οὐθὲν τἆλλʹ ἐστὶν ἁπλῶς πρὸς Λέσβιον οἶνον. // ἀλλά τινες χαίρουσιν ἐπαινοῦντες τὰ παρʹ αὐτοῖς.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_3|3",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Figura secunda. THETHAGRAMMATON HEL 1. Hynoytheon 2. Ptihaeumaton 3. Anabona 4. Ihehoua",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-14|14",
+										"text" : "Fragment 4 (Ath. 2. 56c) ῥυσαὶ δρυπεπεῖς παρακείσθωσάν σοι ἐλαῖαι",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_4_fake_test_no_file|4",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes altitudines orientales habent potentiam suam et uirtutem die solis et eius hora et tempus operationis est [[et]] a principio diei solis usque ad meridiem.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 5 (Ath. 2. 64a) βολβῶν καὶ καυλῶν χαίρειν λέγω ὀξυβάφοισι // τ’ ταῖς παροψίσι πάσῃσι.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_5|5",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Omnes altitudines occidentales habent uirtutem et potentiam suam die ♂, id est Martis, et tempus operationis est a meridie usque ad occasum. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 6 (Ath. 3. 92d-e) τοὺς μῦς θʹ ἡ Αἶνος ἔχει μεγάλους, ὄστρεια δʹ Ἄβυδος, // τὰς ἄρκτους Πάριον, τοὺς δὲ κτένας ἡ Μιτυλίνη, // πλείστους δʹ Ἀμβρακία παρέχει καὶ ἄπλατα μετʹ αὐτῶν. // Μεσσήνῃ δὲ πελωριαδαῖς στενοπορθμίδᾳ κόγχας // κὰν Ἐφέσῳ λήψει τὰς λείας οὔτι πονηράς. // τήθεα Καλχηδών, τοὺς κήρυκας δʹ ἐπιτρίψαι // ὁ Ζεὺς τούς τε θαλασσογενεῖς καὶ τοὺς ἀγοραίους, // πλὴν ἑνὸς ἀνθρώπου, κεῖνος δέ μοί ἐστιν ἑταῖρος // Λέσβον ἐπιστάφυλον ναίων, Ἀγάθων δὲ καλεῖται.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_6|6",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Omnes altitudines meridionales habent potentiam suam in nocte ♃, id est Iouis, et tempus operationis et incipiendum a tertia hora noctis usque ad octauam.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 7 (Ath. 3. 101b-e) ἀεὶ δὲ στεφάνοισι κάρα παρὰ δαῖτα πυκάζου // παντοδαποῖς, οἷς ἄν γαίας πέδον ὄλβιον ἀνθῇ, // καὶ στακτοῖσι μύροις ἀγαθοῖς χαίτην θεράπευε, // καὶ σμύρναν λίβανόν τε πυρὸς μαλακὴν ἐπὶ τέφραν // βάλλε πανημέριος, Ζυρίης εὐώδεα κάρπον, // ἐμπίνοντι δὲ σοι φερέτω τοιόνδε τράγημα, // γαστέρα καὶ μήτραν ἑφθὴν ὑὸς ἔν τε μίνῳ // ἔν τʹ ὄξει δριμεῖ καὶ σιλφίῳ ἐμβεβαῶσαν // ὀρνίθων τε ὀπτῶν ἁπαλὸν γένος, ὡς ἂν ὑπάρχῃ // ὥρη. τῶν δὲ Ζυρακοσίων τούτων ἀμέλησον, // οἳ πίνουσι μόνον βατράχων τρόπον, οὐδὲν ἔδοντες. // ἀλλὰ συμπείθου κείνοις, ἃ δʹ ἐγὼ λέγω ἔσθε // βρωτά. τὰ δʹ ἄλλα γʹ ἐκεῖνα τραγήματα πάντα πέφυκε // πτωχείας παράδειγμα καλῆς, ἑφθῆς τʹ ἐρέβινθοι // καὶ κύαμοι καὶ μῆλα καὶ ἰσχάδες. ἀλλὰ πλακοῦντα // αἴνει Ἀθήνησιν γεγενημένον· εἰ δὲ ἄν που // αὐτον ἔχῃς, ἑτέρωθι μέλι ζήτησον ἀπελθὼν // Ἀττικόν, ὡς τοῦτʹ ἔστιν ὃ ποιεῖ κεῖνον ὑβριστήν. // οὕτω τοι δεῖ ζῆν τὸν ἐλεύθερον ἢ κατὰ τῆς γῆς // καὶ κατὰ τοῦ βαράθρου καὶ Ταρτάρου ἐς τὸν ὄλεθρον // ἥκειν καὶ κατορωρύχθαι σταδίους ἀναρίθμήτους.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_7|7",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : ". Omnes altitudines septemtrionales habent uirtutem et operationem suam ♄, id est Saturni, et in eius hora luna decrescente si ad malum finem, si autem ad bonum finem in nocte ☿, id est Mercurii, incipiendo a secunda (uelaiauel a prima) hora noctis usque ad nonam operatione luna crescente in pari numero.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 8 (Ath. 3. 104f-5a) ἀλλὰ παρεὶς λῆρον πολὺν άστακὸν ὠνοῦ // τὸν τὰς χεῖρας ἔχοντα μακρὰς ἄλλως τε βαρείας, // τοὺς δὲ πόδας μικρούς, βραδέως δʹἐπὶ γαῖαν ὀρούει. // εἰσὶ δὲ πλεῖστοι μὲν πάντων ἀρετῃ τε κράπιστοι // ἐν Λιπάραις. πολλοὺς δὲ καὶ Ἑλλήσποντος ἀθροίζει.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_8|8",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Sciendum etiam et quod omnia sanctissima Hahelam sunt facienda ut primum orientes et nulla alia differentia est nisi coloris et omnia nomina scripta in primo subscribenda etiam sunt in cæteris et sunt facienda quomodo superius dictum est.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 9 (Ath. 3. 105e) ἤν δέ ποτʹ εἰς Ἴασον Καρῶν πόλιν εἰσαφίκηαι, // καρῖδʹ εὐμεγέθη λήψεις, σπανία δὲ πρίασθαι. // ἐν δὲ Μακηδονίᾳ τε καὶ Ἀμβρακίᾳ μάλα πολλαί.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_9|9",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et est sciendum quod omnes altitudines habent suffumigia separata ; idcirco illa adnotauimus primum de altitunibus orientalibus. Prima altitudo orientalis suffumiganda est odoribus olibani et costis. Secunda, secunda cum odoribus mirre et mastici. Tertia, tertia cum odoribus camphere atque cijnamomo. Quarta, quarta cum odoribus sandaloni rubroni et croci. Quinta, quinta cum odoribus garofilorum. Sexta, sexta cum odoribus h storacis calamiti et cinamomi. Septima, septima cum odoribus olibani et croci. Octaua, octaua cum odoribus sandasoni et mirrhæ. Nona, nona cum odoribus ligni aloe et belguioni.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 10 (Ath. 3. 111e-12b) πρῶτα μὲν οὖν δώρων μεμνήσομαι ἠυκόμοιο // Δήμητρος, φίλε Μόσχε· σὺ δʹ ἐν φρεσὶ βάλλεο σῄσιν. // ἔστι γὰρ οὖν τὰ κράτιστα λαβεῖν βέλτιστά τε πάντων, // εὐκάρπου κριθῆς καθαρῶς ἠσκημένα πάντα, // ἐν Λέσβῳ, κλεινῆς Ἐρέσου περικύμονι μαστῷ, // λευκότερʹ αἰθερίας χιόνος. θεοὶ εἴπερ ἔδουσιν // ἄλφιτα, ἐκεῖθεν ἰὼν Ἑρμῆς αὐτοῖς ἀγοράζει. // ἐστὶ δὲ κἀν Θήβαις ταῖς ἑπταπύλοις ἐπιεικῆ // κἀν Θάσῳ ἐν τʹ ἄλλαις πόλεσίν τισιν, ἀλλὰ γίγαρτα // φαίνοντα πρὸς ἐκεῖνας· ἀφεὶς τὰ δʹ ἐπιστασο δόξης· // στρογγυλοδίντος δὲ τετριμμένος εὖ κατὰ χεῖρα // κόλλιξ Θεσσαλικός σοι ὑπαρχέτω, ὃν καλέουσι // κεῖνοι κριμματίαν, οἱ δʹ ἄλλοι χόνδρινον ἄρτον. // εἶτα τὸν ἐν Τεγέαις σεμιδάλεος υἱὸν ἐπαινῶ // ἐγκρυφίαν. τὸν δʹ εἰς ἀγορὰν ποιεύμενον ἄρτον // αἱ κλειναὶ παρέχουσι βροτοῖς κάλλιστον Ἀθῆναι. // ἐν δὲ φέρει σταφύλοις ̓Ερυθροῖς ἐκλιβάνου ἐλθὼν // λευκὸς αβραι θάλλων ὥραις τέρψει παρὰ δεῖπνον.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_10|10",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nunc sequuntur suffumigationes altitudinum occidentalium. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-15|15",
+										"text" : "Fragment 11 (Ath. 3. 112b-c) ἔστω δʹἤ σοι ἀνὲρ Φοῖνιξ ἣ Λυδὸς ἐν οἴκῳ // ὄστις ἐπιστήμων ἔσται σοι ὁ κατʹἦμαρ // σίτοιο cf. Casaubon παντοίας ἰδέας τεύκων ὡς ἄν σὺ κελεύης.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_11|11",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Prima altitudo occidentalis suffumiganda est cum odoribus cinnamomi storacis calamitæ. Secunda cum odoribus croci et camphoræ. Tertia cum odoribus thuris et mirrhe. Quarta cum odoribus bongici et garofilorum. Quinta cum odoribus storacis calamiti et croci. Sexta cum odoribus camphoræ et bengioi. Septima cum odoribus radicum phie et anglicæ.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 12 (Ath. 3. 116f-17b) καὶ Ζικελοῦ θύννου τέμαχος // τμηθὲν ὅτʹ ἐν βίκοισι ταριχεύσθαι ἔμελλεν. // σαπέρδῃ δʹ ἐνέπω κλαίειν μακρά, Μοντικῷ ὄψῳ, // καὶ τοῖς κεῖνον ἐπαινοῦσιν· παῦροι γὰρ ἴσασιν // ἀνθρώπων, ὅ τι φαῦλον ἔφυ καὶ ἀκιδνὸν κενεόν τε ἔδεσμα . // ἀλλὰ τριταῖον ἔχειν σκόμβρον πρὶν ἐς ἁλμυρὸν ὕδωρ // ἐλθεῖν ἀμφορέως εντονεον ἡμιτάριχον. // ἂν δʹ ἀφίκῃ κλεινοῦ Βυζαντίου εἰς πόλιν ἁγνήν, // ὡραίου φάγε μοι τέμαχος πάλιν· ἔστι γὰρ ἐσθλὸν // καὶ μαλακόν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_12|12",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nunc sequuntur suffumigationes altitudinum meridionalium. Prima altitudo meridionalis suffumiganda est cum odoribus croci sturacis calamite. Secunda cum odoribus thuris et radicum iridis. Tertia, cum odoribus, cum odoribus myrrhæ et radicum ciceris. Quarta cum odoribus camphoræ et storacis calamiti. Quinta cum odoribus radicum assari et ligni aloes.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 13 (Ath. 4. 162b, 163c-e) => fin du fragment 35 ἀλλʹ οὐ πολλοὶ ἴσασι βροτῶν τόδε θεῖον ἔδεσμα, // οὐδʹ ἔσθειν ἐθέλουσιν ὅσοι κόυφαν γε λεβώδη // ψυχὴν κέκτηνται θνητῶν τʹ εἰσίν ἀπόπληκτοι, // ὡς δʹ ἀνθρωποφάγου τοῦ θηρίου ὄντος. ἅπας δὲ // ἰχθὺς σάρκα φιλεῖ βροτεάν, ἄν που περικύρσῃ. // ὥστε πρέπει καθαρῶς ὁπόσοι τάδε μωρολογοῦσι // τοῖς λαχάνοις προσάγειν καὶ πρὸς Διόδωρον ἰόντας // τὸν σοφὸν ἐγκρατέως μετʹ ἐκείνου πυθαγορίζειν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_13|13",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Sequuntur suffumigationes altitudinium septentrionalium. Prima cum odoribus storacis et cinnamomi. Secunda cum odoribus cum ligno aloes et camphoræ. Tertia cum odoribus myrrhæ et thuris.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 14 (Ath. 7. 278a-d et 7. 313e-14a) τὴν δʹ ἀμίαν φθινοπώρου, ὅταν Πλειὰς καταδύνῃ, // πάντα τρόπον σκεύαζε. τί σοι τάδε μυθολογεύω ; // οὐ γὰρ μὴ σε διαφθείρῃ γʹ , οὐδʹ ἄν ἐπιθυμῇς. // εἰ δʹ ἐθέλεις καὶ τοῦτο δαήμεναι, ὦ φίλε Μόσχε, // ὅντινα χρή σε τρόπον κείνην διαθεῖναι ἄριστα, // ἐν συκῆς φύλλοις καὶ ὀριγάνῳ οὐ μάλα πολλῇ. // μὴ τυρόν, μὴ λῆρον· ἁπλῶς δʹ οὕτως θεραπεύσας // ἐν συκῆς φύλλοις σχοίνῳ κατάδησον ἄνωθεν, // εἶθʹ ὑπὸ θερμὴν ὦσον ἔσω σποδόν, ἐν φρεσὶ καιρὸν // γινώσκων ὁπότʹ ἐστʹ ὀπτή, καὶ μὴ κατακαύσῃς. // ἔστω δʹ αὕτη σοι Βυζαντίου ἐξ ἐρατεινοῦ, // εἴπερ ἔχειν ἀγαθὴν ἐθέλεις· κἂν ἐγγὺς ἁλῷ που // τοῦδε τόπου, κεδνὴν λήψει· τηλοῦ δὲ θαλάσσης // Ἑλλησποντιάδος χείρων, κἂν κεινὸν ἀμείψῃς // Αἰγαίου πελάγους ἔναλον πόρον, οὐκέθʹ ὁμοία // γίνεται, ἀλλὰ καταισχύνει τὸν πρόσθεν ἔπαινον.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_14|14",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Sciendum est quod omnes altitudines ad bonam partem tam orientales quam occidentales, meridionales et septentrionales, sint incipiendæ istæ operationes tempore sereno et claro et non nubiloso luna crescente in pari numero ; si autem ad malum finem incipiendæ modo contrario id est tempore nubiloso. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 15 (Ath. 7. 278d-e) ὅπου ἐστὶν ἕκαστον // κάλλιστον βρωτόν τε",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_15|15",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod stillum argenteum est fabricandum die solis hora ☿ id est Mercurii luna crescente et cum illo scribe nomina : sanctum est Stælaon.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 16 (Ath. 7. 284e) Βοσπόρου ἐκπλεύσαντα τὰ λευκότατʹ · ἀλλὰ προσέστω // μηδὲν ἐκεῖ στερεᾶς σαρκὸς Μαιώτιδι λίμνῃ // ἰχθύος αὐξηθέντος, ὄν ἐν μέτρῳ οὐ θέμις εἰπεῖν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_16|16",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod in secunda capsula scribi debet tempore operationis (finita inuocat ?) cum stilo nomen magni imperatoris et creatoris",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-16|16",
+										"text" : "Fragment 17 (Ath. 7. 285b-c) τὴν ἀφύην μίνθου πᾶσαν πλὴν τὴν ἐν Ἀθήναις· // τὸν γόνον ἐξαυδῶ, τὸν ἀφρὸν καλέουσιν Ἴωνες. // καὶ λαβὲ πρόσφατον αὐτὸν ἐν εὐκόλποισι Φαλήρου // ἀγκῶσι ληφθένθʹ ἱεροῖς· κἀν τῇ περικλύστῳ // ἐστὶ Ῥόδῳ γενναῖος, ἐὰν ἐπιχώριος ἔλθῃ. ἂν δέ τις που ἱμείρῃς αὐτοῦ γεύσασθαι, ὁμοῦ χρὴ // κνίδας ὀψωνεῖν, τὰς αμφικόμους ἀκαλήφας. // εἰς ταὐτὸν μίξας δʹ αὐτὰς ἐπὶ τηγάνου ὄπτα, // εὐώδη τρίψας ἄνθη λαχάνων ἐν ἐλαίῳ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_17|17",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "omnium creaturarum quod est + Thethagramaton ut in exemplo.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 18 (Ath. ACE 7. 285e-286a et A 7. 294f-5a) ἐν δὲ ̔Ρόδῳ γαλεὸν τὸν ἀλώπεκα, κἂν ἀποθνῄσκειν // μέλλῃς, ἂν μὴ σοι πωλεῖν ἐθέλῃ, ἅρπασον αὐτόν, // ὅν καλέουσι Συρακόσιοι κύνα πίονα, κἆθʹ // ὕστερον ἤδη πάσχʹ ὅ τί σοι πεπρωμένον ἐστίν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_18|18",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod omnes principes omnium altitudinum habent colores et odores pro eo quod iussu Dei omnipotentis regunt et gubernant mundum et faciunt nasci et corrumpi [[corumpi]] colores et odores ut eis uidetur.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 19 (Ath. 7. 286c) Βάρταχον, δʹ ἔνθʹ ἄν ἴδῃς, ὀψώνει // καὶ γαστρίον αὐτοῦ // σκεύασον.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_19|19",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod sanctissimum Stahelaon ut diximus est fabricandum die ☿, id est Mercurii, luna crescente ad bonam partem, si autem ad malum a contrario ; et finito illud reponat in loco mundissimo. Et antequam reponatur, suffumagandum est odoribus propriis altitudinis et tempore operationis illo uti ut dicendum est.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 20 (Ath. 7. 286d-e) καὶ βατίδʹ ἑφθὴν ἔσθε μέσου χειμῶνος ἐν ὥρῃ, // καῖ ταύτῃ τυρὸν καῖ σίλφιον. ἅττα τε σάρκα // μὴ πίειραν ἔχῃ πόντου τέκνα, τῷδε τρόπῳ χρὴ // σκευάζειν. ἤδὴ σοι ἐγὼ τὰδε δεύτερον αὐδῶ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_20|20",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod nomina et signa ex utraque parte capsulæ scribenda sunt et in aliis duabus partibus signum nostrum sufficit.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 21 (Ath. 7.288a-b et 7. 330a-b) εἶτα λαβεῖν ψήτγαν μεγάλην τὴν ὑπότρηχυν // βούγλωσσον, ταύτην δὲ θέρευς καὶ Χαλκίδρα κεδνήν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_21|21",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "De preparationibus artistæ. Ante operationem, oportet ut artista sit secretus et solus uel cum uno socio fidelissimo et habeat cubiculum mundatum ab omni sorde et immunditia. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 22 (Ath. 7. 293e-f) γόγγρου μὲν γὰρ ἔχεις κεφαλήν, φίλος, ἐν Σικυῶνι // πίονος ἰσχυροῦ μεγάλου καὶ πάντα τὰ κοῖλα. // εἶτα χρόνον πολὺν ἕψε χλόῃ περίπαστον ἐν ἅλμῃ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_22|22",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et illud ante preparationem suffumiget et cum odoribus illius altitudinis quod efficere uult per spatium quinque dierum bis in die finitis quinque diebus, debet ieiunare tres dies et mane et sero etiam suffumigare cubiculum odoribus propriis illius altitudinis. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 23 (Ath. 7. 294a) καὶ γόγγρος σπουδαῖος ἁλίσκεται, ὥστε τοσοῦτον // τῶν ἄλλων πάντων ὄψων κρατεῖ οὗτος, ὅσον περ // θύννος ὁ πιότατος τῶν φαυλοτάτων κορακίνων.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_23|23",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Finita suffumigatione, recitare debet psalmos patris nostri Dauid scilicet 71 ; 142 ; 85 ; 45 ; 16 ; 5 ; 1 ; quibus finitis, dicere debet Deo orationem hanc genibus flexis in medio cubiculi.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 24 (Ath. 7. 295c) ἀλλὰ μοι ὀψώνει γλαύκου κεφαλὴν ἐν Ὀλυνθῳ // καὶ Μεγάροις · σεμνοῖς γὰρ ἁλίσκεται ἐκ τενάγιστῆς.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_24|24",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Oratio. « Deus Abraham, Deus Isaac, Deus Iacob, Deus Moisi, Deus omnium in te sperantium, Deus meus et protector uitæ meæ, Domine, o Benignissime, Domine, rogo tuam diuinam maiestatem quantum rogare possum ut mihi famulo tuo n. (n. id est nomen id est nomen) tantam gratiam",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-17|17",
+										"text" : "Fragment 25 (Ath. 7. 298e-9a) ἔγχελυν αἰνῶ μὲν πᾶσαν, πολὺ δέ ἐστὶ κρατίστη // Ῥηγίου ἀντιπέρας πορθμοῦ ληφθεῖσα θαλάσσης. // ἔνθα σὺ τῶν ἄλλων πάντων, Μεσσήνιε, θνητῶν // βρῶμα τιθεὶς τοιόνδε διὰ στόματος πλεονεκτεῖς. // οὐ μὴν ἀλλὰ κλέος γὰρ ετης μέγα κάρτα φέρουσι // Κωπαῖ αι καὶ Στρυμόνιαι, μεγάλαι τε γάρ εῖσι // καὶ τὸ πάχος θαυμασταί. ὅμως δʹ οἶμαι βασιλεύει // πάντων τῶν περὶ δαῖτα καὶ ἡδονῇ ἡγεμονεύει // ἔγχελυς, ἣ φύσει ἐστὶν ἀπύρηνος μόνος ἰχθύς.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_25|25",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "concedere digneris",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 26 (Ath. 7. 300d-e) τὸν δʹ ἔλοπα ἔσθε μάλιστα Συρακούσαις ἐνὶ κλίναις, // τόν γε κρατιστεύοντα. οὖτος γὰρ αὖ ἐστιν ἐκεῖθεν // τὴν ἀρχὴν γεγονώσθʹ ην καν η περὶ νήσους // ἢ περὶ τὴν ἄλλην που ἁλῷ γὴν ἢ περὶ Κρήτην, // λεπτὸς καὶ στερεὸς καὶ κυματοπλὴξ ἀφικνεῖται.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_26|26",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "atque concedas ut possim et uoleam facere operationem meam quam uolo incipere et tantam gratiam concedere ut petitionem cordis mei habeat absque fallacia per tuam maximam uirtutem et potestatem.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 27 (Ath. 7. 301c-d) καὶ λεβίαν λαβεῖν οσχετον, ἥπατον, ἐν περικλύστῳ // * Μόσχε Δήλῳ καὶ Τήνῳ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_27|27",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Domine, Deus meus, auribus percipe orationem meam et intende [[intenda]] uoci deprecationis meæ, dum oro ad te, dum oro ad te, dum extollo manus meas ad templum sanctum tuum. Fiat, fiat, fiat ».",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 28 (Ath. 7. 301f-2b) ἀμφὶ δὲ τὴν ἱεράν τε καὶ εὐρύχωρον Σάμον ὄψῃ // θύννον ἁλισκόμενον σπουδῇ μέγαν, ὃν καλέουσιν // ὄρκυν, ἄλλοι δʹ αὖ κῆτος. τούτου δὲ θεοῖς χρὴ // ὀψωνεῖν ἃ πρέπει ταχέως καὶ μητέρι τιμῆς. // ἔστι δὲ γενναῖος Βυζαντίῳ ἔν τε Καρύστῳ, // ἐν Σικελῶν δὲ κλυτῇ νήσῳ Κέφαλοι δʹ εἰ σʹ ἀμείνους // πολλῷ τῶνδε τρέφει θύννους καὶ Τυνδαρὶς ἀκτή. // ἂν δὲ ποτʹ Ἰταλίας ἱερᾶς Εἰπώνιον ἔλθῃς, // ἑρπετὸν εἰς ὕδατος στεφάνους· πολὺ δὴ πολὺ πάντων // ἐνταῦθʹ εἰσὶν ἄριστοι ἔχουσί δὲ τέρματα νίκης. // οἱ δʹ ἐπὶ τῶνδε τόπων πεπλανημένοι εἰσὶν ἐκεῖθεν // πολλὰ περάσαντες πελάγη βρυχίου διὰ πόντου· // ὧιτʹ αὐτοὺς ἡμεῖς θηρεύομεν ὄντας ὡρους.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_28|28",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod in cubiculo sit tabula parata cum linteis et supra stabulam ponatura artista sanctum Stahelaon cum maxima ueneratione et genuflexus suffumiget illud odoribus illius altitudinis quam posse operatur et finita suffumigatione dicat :",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 29 (Ath. 7. 303e-f) καὶ θύννης οὐραῖον ἔχειν, ἣν θυννίδα φωνῶ // τὴν μεγάλην, ἧς μητρόπολις Βυζάντιόν ἐστιν. // εἶτα τεμὼν αὐτην ὀρθῶς ὄπτησον ἅπασαν // ἀλσὶ μοῦνον λεπτοῖσι πάσας καὶ ἐλαίῳ ἀλείψας, // θερμά τʹ ἔχειν τεμάχη βάπτων δριμεῖαν ἐς ἅλμην. // κἃν ξηρὰν ἐθέλῃς ἔσθειν, γενναῖα πέλονται, // ἀθανάτοισι θεοῖσι φυὴν καὶ εἶδος ὁμοιαι· // ἂν δʹ ὄξει ῥάνας παραθῇς , ἀπόλωλεν ἐκείνη.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_29|29",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Oratio. « Deus [[meus]] cuius dietas sine fine, Deus creator omnium creaturarum, principium et finis, Deus  Adonay, Deus Iahoua, Deus Cados et Deus omnium in te sperantium, Deus uirtuosissimus atque sapientissimus et seruator cordium, miserere mei et intende uoci deprecationis meæ dum oro ad te, [[deum]] dum extollo manus meas ad templum sanctum tuum.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 30 (Ath. 7. 304d) ἵππουρος δὲ Καρύστιός ἐστιν ἄριστος · // ἄλλως τʹ εὔοψον σφόδρα χωρίον ἐστὶ Κάρυστος.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_30|30",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Tu autem [[domine]], Deus meus, suauis et uenis et patiens, et, et in consilio tuo disponens omnia, Domine Deus qui sedes sub Cherubim, tu es solus regum omnium terræ, tu fecisti cælum et terram inclina aurem tuam et exaudi, aperi Domine occulos tuos. Et uide et exaudi omnia uerba mea et exaudi me",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 31 (Ath. 7. 305e-f) αὐτὰρ ἐς Ἀμβρακίαν ἐλθὼν εὐδαίμονα χώραν // τὸν καρπὸν, ἂν ἐσίδῃς, ὠνοῦ καὶ κατάλειπε, // κἂν ἰσόχρυσος ἔῃ, μή σοι νέμεσις καταπνεύσῃ // δεινὴ ἀπʹ ἀθανάτων· τὸ γάρ ἐστιν νέκταρος ἄνθος. // τούτου δὲ θέμις ἐστὶ φαγεῖν θνητοῖσιν ἅπασιν // οὐδʹ ἐσιδεῖν ὄσσοισιν, ὅσοις μὴ πλεκτὸν ὕφασμα // σχοίνου ἑλιοτρόφου κοίλου χείρεσσιν ἔχοντες // εἰώθασι δονεῖν ψήφους αἴθωνι λογισμῷ // κἄρθρων μηλείων ἐπὶ γῆν δωρήματα βάλλων.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_31|31",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Deus qui creasti de terra hominem, et secundum imaginem [[immaginem]] tuam fecisti, et iterum conuertisti ipsum in illum, et secundum tuam diuinitatem uestisti illum uirtute, numerum dierum et tempus dedisti illi potestatem eorum quæ sunt super terram.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-18|18",
+										"text" : "Fragment 32 (Ath. 7. 306b) κίθαρον δὲ κελεύω, // ἐὰν μὲν λευκὸς ἔῃ στερεός τε πεφύκῃ, // ἕψειν εἰς ἅλμην καθαρὰν βαιὰ φύλλα καθέντα · // ἂν δʹ ᾖ πυρρὸς ἰδεῖν καὶ μὴ λιάν μέγας, ὀπτᾶν // ὀρθῇ κεντήσαντα δέμας νεοθηγεῖ μαχαίρᾳ. // καὶ πολλῷ τυρῷ καὶ ἐλαίῳ τοῦτον ἄλειφε· // χαίρει γὰρ δαπανῶντας ὁρῶν, ἔστιν δʹ ἀκόλαστος.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_32|32",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Posuisti timorem illius super omnem carnem et dominatus bestiarum et uolatilium, creasti ex ipso adiutorium simile sibi consilium et linguam et oculos et aures et cor dedisti illis excogitandi, et disciplina intellectis repleuisti illos ; scientia, spiritus, sensu impleuisti cor illorum, et mala et bona ostendisti illis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 33 (Ath. 7. 307b) θαυμαστοὶ δʹ εἰσὶ τῶν κεστρέων οἱ περὶ Ἄβδηρα ἁλισκόμενοι, ὡς καὶ ̓Αρχέστρατος εἴρηκε. δεύτεροι δὲ οἱ ἐκ Σινώπης.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_33|33",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Recordare, benignissime Deus quoniam dixisti in æternum misericordia edificabitur. Exaudi, piissime Domine, uocem meam et petitionem uocis meæ concede. Fiat, fiat, fiat. ».",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 34 (Ath. 7.307d) κεστρέα δʹ Αἰγίνης ἐξ ἀμφιρύτης ἀγόραζε, // ἀνδράσι τʹ ἀστείοισιν ὁμιλήσεις.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_34|34",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et hæc est preparatio antequam incipiat operationem suam artista.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 35 (Ath. 7. 310a, b-e, vv. 1-17) => Fragment 13 ἐν δὲ Τορωναίων ἄστει τοῦ καρχαρία χρὴ // τοῦ κυνὸς ὀψωνεῖν ὑπογάστρια κοῖλα κάτωθεν, // εἶτα κυμίνῳ αὐτὰ πάσας ἁλὶ μὴ συχνῷ ὄπτα. // ἄλλο δʹ ἐκεῖσε, φίλη κεφαλή, μηδὲν προσενέγκῃς, // εἰ μὴ γλαυκὸν ἔλαιον. ἐπειδὰν δʹ ὀπτὰ γένηται, // ἤδη τριμμάτιόν δέ φέρειν καὶ ἐκεῖνα μετʹ αὐτοῦ. // ὅσσα δʹ ἂν ἐν λοπάδος κοίλης πληρώμασιν ἕψῃς, // μήθʹ ὕδατος πληγὴν μήτ́ οἴνινον ὄξος // συμμίξῃς, ἀλλʹ αὐτὸ μόνον κατάχευον ἔλαιον // αὐχμηρόν τε κύμινον, ὁμοῦ δʹ εὐώδεα φύλλα. // ἕψε δʹ ἐπʹ ἀνθρακιῆς φλόγα τούτοις μὴ προσενεγκὼν // καὶ κίνει πυκινῶς, μὴ προσκαυθέντα λάθῃ σε. // ἀλλʹ οὐ πολλοὶ ἴσασι βροτῶν τόδε θεῖον ἔδεσμα, // οὐδʹ ἔσθειν ἐθέλουσιν ὅσοι κόυφαν γε λεβώδη // ψυχὴν κέκτηνται θνητῶν τʹ εἰσίν ἀπόπληκτοι, // ὡς δʹ ἀνθρωποφάγου τοῦ θηρίου ὄντος. ἅπας δὲ // ἰχθὺς σάρκα φιλεῖ βροτεάν, ἄν που περικύρσῃ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_35|35",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota quod, dum artista genuflexus orat, debent esse sex candelæ accensæ super tabulam et finita supra dicta oratione, scribere debebit nomen magnum et terribile cum maxima deuotione. Hoc est  Thethagramaton dilectens maiusculis cum stilo argenteo. Et est scribendum dictum sanctum nomen in secunda capsula, ut dictum est, et artista habeat petitionem scriptam in carta uirginea et mittat uel u illam prope sigillum, ut supra adnotauimus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 36 (Ath. 7. 311a-c) λάμβανε δʹ ἐκ Γαίσωνος, ὅταν Μίλητον ἵκηαι, // κεστρέα τὸν κέφαλον καὶ τὸν θεόπαιδα λάβρακα· // εἰσὶ γὰρ ἐνθάδʹ ἄριστοι, ὁ γὰρ τόπος ἐστὶ τοιοῦτος. // πιότεροι δʹ ἕτεροι πολλοὶ Καλυδῶνί τε κλεινῇ // Ἀμβρακίᾳ τʹ ἐνι πλουτοφόρῳ Βόλβῃ τ́ ἐνὶ λίμνῃ, // ἀλλʹ οὐκ εὐώδη γαστρὸς κέκτηνται ἀλοιφὴν // οὐδʹ οὕτω δριμεῖαν. ἐκεῖνοι δʹ εἰσίν, ἑταῖρε, // τὴν ἀρετὴν θαυμαστοί. ὅλους δʹ αὐτοὺς ἀλεπίστους // ὀπτήσας μαλακοὺς χρηστῶς προσένεγκε διʹ ἅλμης. // μηδὲ προσέλθῃ σοί πρὸς τοὖψον τοῦτο ποιοῦντι // μήτε Συρακόσιος μηθεὶς μήτε Ἰταλιώτης· // οὐ γὰρ ἐπίστανται χρηστοὺς σκευαζέμεν ἰχθῦς, // ἀλλὰ διαφθείρουσι κακῶς τυροῦντες ἅπαντα // ὄξει τε ῥαίνοντες ὑγρῷ καὶ σιλφίου ἄλμῃ. // τῶν δὲ πετραίων ἰχθυδίων τῶν τρισκαταράτων // πάντων εἰσίν ἄριστοι ἐπισταμένως διαθεῖναι // καὶ πολλὰς ἰδέας κομψῶς παρὰ δαιτὶ δύνανται // ὀψαρίων τεύχειν γλίσχρων ἡδυσματολήρων.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_36|36",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et postea, cum maxima ueneratione, candelas accendat sanctissimi Stahelaon ; quibus accensis suffumiget denuo sanctissumum Stahelaon. Et finita suffumigatione genuflexu incipiat operationem suam hoc modo.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 37 (Ath. 7. 311e-f) τὸν δὲ λάτον τὸν κλεινὸν ἐν Ἰταλῃ πολυδένδρῳ // ὁ Σκυλλαῖος ἔκει πορθμός, θαυμαστὸν ἔδεσμα.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_37|37",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nos supra diximus quod prima capsula non debeat esse uacua et non debet esse uacua sed debebit fieri foramen intus ab artista cum stillo argenteo usque ad sanctum nomen Stahelaon et intus mittere sigillum altitudinis et caractera principum cum suis nominibus et postea foramen illud claudere. Antequam artista mittat sigillum altitudinis et caractera principum [[in formaine debet suffumigare]] in foramine debet suffumigare illa odoribus propriis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 38 (Ath. 7. 312f-13a) Ἰταλίας δὲ μεταξὺ κατὰ στενοκύμονα πορθμόν, // ἡ πλωτὴ μύραινα καλουμένη ἄν ποτε ληφθνῇ, // ὠνοῦ· τοῦτο γὰρ ἐστιν ἐκεῖ θαυμαστὸν ἔδεσμα.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_38|38",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-19|19",
+										"text" : "Fragment 39 (Ath. 7. 313.e -14 a) // μόρμυρος αἰγιαλεύς, κακὸς ἰχθὺς οὐδέ ποτʹ ἐσθλός",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_39|39",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "quod sigilla et caractera principum sunt scribenda in carta uirginea, coloribus propriis illius altitudinis, uel in panno seic eiusdem coloris cum croco [[aqua]] aqua rosarum et musco.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-20|20",
+										"text" : "Fragment 40 (Ath. 7. 313e–14a) // κεστρέα τὸν θαυμαστόν, ὃταν χειμὼν ἀφίκηται",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_40|40",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et sciendum est quod sigilla altitudinum orientalum sunt scribenda calamo aquilino et etiam caractera principum. Sigilla altitudinum occidentalium sunt scribenda et caractera principum calamo pauonis. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-20|20",
+										"text" : "Fragment 41 (Ath. 7.314d) καὶ νάρκην ἑφθὴν ἐν ἐλαίῳ ἠδὲ καὶ οἴνῳ // καὶ χλόῃ εὐώδει καὶ βαιῷ ξύσματι τυροῦ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_41|41",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Sigilla altitudinum meridionalium et etiam caractera principum sunt scribenda calamo ~ papæ, extracto ex ala sinistra. Sigilla altitudinum septentrionalium ac etiam caractera principum scribenda sunt cum calamo hirundinis extracto ex ala dextra si ad bonum finem sunt, si ad malum finem calamo galli nigri. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-20|20",
+										"text" : "Fragment 42 (Ath. 7. 314e-f) ἀλλὰ λαβὲ ξιφίου τέμαχος Βυζάντιον ἐλθών, // οὐραίου τε αὐτὸν τὸν σφόνδυλον. ἔστι δὲ κεδνὸς // κὰν πορθμῷ πρὸς ἄκραις Πελωριάδος προχοαῖσι.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_42|42",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Hæc sunt sigilla et caractera altitudinum occidentalium, postea uero adnotabimus illa de cæteris altitudinibus sequentes.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-20|20",
+										"text" : "Fragment 43 (Ath. 7. 315f-16a) τὸν δʹὄνον *ἀνοηδων, τὸν καλλαρίαν καλέουσιν, // *Canter : Ανθηδων ἐκτρέφη εὐμεγέθη, σομφὴν δὲ τρέφει τινὰ σάρκα, // καλῶς οὐχ ἡδεῖαν ἔμοιγε, ἄλλʹ // ὑδαίνουσαν· χαίρει γὰρ ὁ μὲν τούτοις, ὁ δʹ ἐκείνοις.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_43|43",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Figura tertia. Sigillum primæ altitudinis orientalis Caractera principum",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-21|21",
+										"text" : "Fragment 44 (Ath. 7. 318f) πώλυποι ἔν τε θάσῳ καὶ Καρίᾳ εἰσιν ἄριστοι. // καὶ Κέρκορα τρέφει πολλοὺς μεγάλους τε τὸ πλῆθος.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_44|44",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Figura quarta. Sigillum secundæ altitudinis orientalis 2.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-22|22",
+										"text" : "Fragment 45 (Ath. 7. 319 d-e) καὶ σελάχη μέντοι καινὴ Μίλητος ἄριστα // ἐκτρέφει. ἀλλὰ γε χρὴ ῥίνης λόγον ἢ πλατυνώτου // λειοβάτου ποιεῖσθαι ; ὁμῶς κροκόδειλον ἄνοπτον // δαισαίμην ἀπʹ ἰπνου τερπνὸν παίδεσσιν Ἰώνων.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_45|45",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Figura quinta. Sigillum tertiæ altitudinis",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-23|23",
+										"text" : "Fragment 46 (Ath. 7. 320a, vv. 1-3) σκάρον ἐξ Ἐφέσου ζήτει, χειμῶνι δὲ τρίγλαν // ἔσθιʹ ἐνι ψαφαρῇ ληφθέντα Τειχιοέσσῃ, // Μιλήτου κώμῃ Καρῶν πέλας ἀγκυλοκώλων. ",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_46|46",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : " ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-23|23",
+										"text" : "Fragment 47 (Ath. 7. 320a-b) καὶ σκάρον ἐν παράλῳ Καλχηδόνι τὸν μέγαν ὄπτα // πλύνας εὖ· χρηστὸν δὲ καὶ ἐν Βυζαντίῳ ὄψει // καὶ μέγεθος, κυκλίας ἴσον ἀσπίδι νῶτα φοροῦντα. // *Ribbeck remplace νῶτα par σῶμα τοῦτον ὅλον θεράπευε τρόπον τοιόνδε. λαβών νῦν, // ἡνίκʹ ἂν εὖ τυρῷ τε καὶ ἐλαίῳ πάντα πυκασθῇ, // κρίβανον ἐς θερμὸν κρέμασον κἄπειτα κατόπτα· // πάσσειν δʹ ἁλσὶ κυμινοτρίβοις καὶ γλαυκῷ ἐλαίῳ // ἐκ χειρὸς κατακρουνίζων θεοδέγμονα πηγήν.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_47|47",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-24|24",
+										"text" : "Fragment 48 (Ath. 7. 320f-1a) ἐν δὴ Θάσῳ τὸν σκορπίον ὠνοῦ, ἂν ᾖ // μὴ μείων πυγόνος· μεγάλου δʹ ἀπὸ χεῖρας ἴαλλε.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_48|48",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : " ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-24|24",
+										"text" : "Fragment 49 (Ath. 7. 321c-d) ἡνίκα δʹ ἂν δύνοντος ἐν οὐρανῷ Ὠρίωνος // μήτηρ οἰνοφόρου βότρυος χαίτην ἀποβάλλῃ, // τῆμος ἔχειν ὀπτὸν σαργὸν τυρῷ κατάπαστον // εὐμεγέθη θερμὸν δριμεῖ δεδαϊγμένον ὄξει· // σκληρὸς γὰρ φύσει ἐστίν. ἅπαντα δέ μοι θεράπευε // τὸν στερεὸν τοιῷδε τρόπῳ μεμνημένος ἰχθύν. // τὸν δʹ ἀγαθὸν μαλακόν τε φύσει καὶ πίονα σάρκα // ἁλσὶ μόνον λεπτοῖσι πάσας καὶ ἐλαίῳ ἀλείψας· // τὴν ἀρετὴν γὰρ ἔχει τῆς τέρψιος αὐτος ἐν αὑτῷ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_49|49",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Est enim sciendum quod sigillum altitudinis et caractera principum sunt scribenda hora operationis ab artista et sunt mittenda in foramine et postea illud claudatur et artista sequatur operationem suam. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 50 (Ath. 7. 321e) σάλπην δὲ κακὸν μὲν ἔγωγε // ἰχθυὺν εῖς ἀεὶ κρίνω· βρωτὴ δὲ μάλιστα // ἐστὶ θεριζομένου σίτου· λαβὲ δʹ ἐν Μιτυλήνῃ // αὐτην.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_50|50",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nos supra diximus quod artista genuflexus suffumigare debet sanctissimum Hælaon et, finita suffumigatione, incipere in tractatum sequentem coniurationem etiam genuflexus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 51 (Ath. 7. 322c) ἀυτὰρ σινόδοντα μὲν ὅν ζήτει παχὺν εἶναι · *Morel : μόνον // ἐκ πορθμοῦ δὲ λαβεῖν πειρῶ καὶ τοῦτον, ἑταῖρε. // ταὐτα δὲ ταῦτα κυρῶ φράζων καὶ πρὸς σέ, Κλεαινε.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_51|51",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nota. Sciendum tamen est quod preparatio illa seu oratio quæ incipit « Deus Abraham, Deus Israel » et est dicenda ante primam horam illius planetæ, quæ [[qua]] operatur altitudo. Etiam est sciendum quod artista, dum scribit sigillum altitudinis et caractera principum debet etiam genuflexus permanere.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 52 (Ath. 7. 324b) // σηπίαι Ἀβδήροις τε Μαρωνίᾳ τʹ ἐνι μέσσῃ",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_52|52",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Hæc est inuocatio seu coniuratio principum altitudinis et est dicenda ab artista magno robore et credere quod petitionem cordis sui quam misit prope sigillum in prima capsula quæ manet super sanctum Hahelaon certe habuerit ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 53 (Ath. 7. 325d-e) κἀν Θάσῳ ὀψώνει τρίγλην, κοὐ χείρονα λήψῃ // ταύτης· ἐν δὲ τῷ χείρω, κεδνὴ δὲ καὶ αὐτὴ. // *Τέω, Schneider ἐν δʹ ̓Ερυθραῖς ἀγαθὴ θηρεύεται αἰγιαλῖτις.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_53|53",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "quoniam experientiam fecimus et habuimus quidquid a nobis optatum est. In primis est dicendum nomen altitudinis et postea nomen principum illius altitudinis et debet manere artista dum hæc dicit genuflexus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 54 (Ath. 7. 326b) καὶ νεαροῦ μεγάλου τʹ αὐλωπία ἐν θέρι ὠνοῦ // κρανίον, ὅταν Φαέτων πυμάτην ἁψῖδα διφρεύῃ· // καὶ παράθες θερμὸν ταχέως καὶ τρῖμμα μετʹ αὐτοῦ· // ὄπτα δʹ ἀμφʹ ὀβελίσκον ἑλὼν ὑπογάστριον αὐτοῦ.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_54|54",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Inuocatio seu coniuratio. « Sic adoro nomen sanctum Dei adorabile in æternum quod uos e cælestes potestates atque angelicæ uirtutes inuitis et obeditis creatori uestro. Adiuro, exoro, expostulo Deum sanctum, Deum uiuum, Deum uerum, uisibilium et inuisibilium creaturarum creatorem omnium, per diademam, coronam sui capitis, per nomen illud quod est timendum ab omnibus creatoris cælestibus terestribus et infernalibus quod scribitur quatuor litteris, id est Voth, Beth, Agla, Aenar",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 55 (Ath. 7. 326d) τευθίδες ἐν Διῳ τῷ Πιερκῷ παρὰ χεῦμα // Βαφύρα · καὶ ἐν Ἀμβρακίᾳ παμπληθέας ὄψει.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_55|55",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "et omnia alia nomina nobis cognita quae sunt hæc uidelicet On,  Caph, Adicarday, Cbij, On, Abuinon, Ijdios,",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-25|25",
+										"text" : "Fragment 56 (Ath. 7. 326f-7a) ἐν δʹ Αἴνῳ καὶ τῷ Πόντῳ τὴν ὗν ἀγόραζε, // ἣν καλέουσί τινες θνητῶν ψαμμῖτιν ὀρυκτήν. // τούτου τήν κεφαλὴν ἕψει μηδὲν προσενεγκῶν // ἥδυσμʹ , ̓αλλʹ ἐς μόνον ὕδωρ ἐνθεὶς καὶ θαμὰ κείνων // ὕσσωπον παράθες τρίψας, κἂν ἄλλο τι χρῄζῃς, // δριμὺ διεὶς ὄξος. κᾆτʹ ἐμβάπτευ καὶ ἐπείγου // οὕτως ὡς πνίγεσθαι ὑπὸ σπουδῆς καταπίνων. // τὴν λοφιὰν δʹ ὀπτᾶν αὐτῆς καὶ τἆλλα τὰ πλεῖστα.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_56|56",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Thethagramaton,[[Hussio, Hel, Helij, Heloij, Heloa]] Emanuel, Adonaij, Agloto, Pantongraton, Hussio, Hel, Helij, Heloij, Heloa, Helija, Helijen, Elijoa, Elijona, Elij, Vasala, Valij, Teul, Vaul, Vau, Seu, Signasis, Aghetan, Abijonitas, Ieue, Techtron, Techtron, Alausim, Chalbatl,[[Ieue]] Iobel, Onio, Vna, Saluator, A et O ego sum qui sum, Aehec, Sehoua, Anabona, Ijsaron, Alijeon, Sijalos, Ane, Adneth, Esba, Athoth, Ijotlija, Aijan, Aijac, Dijeron, Zasadaij, Oin, Vlath, Vnias, Ijonas, Otheth, Ihegh, Abamor, Adijos, Vertahel, Bemon, Zeloij, Zeraij, Manaij, Alba, Abatha, Nethon, Auhulo, Anarna, Sanel, Ferglaon, Daijclan, Machanhal, Agija, Araij, Looh, Pothozetda, Zelietenero, Aga, Betha, Than, Opeto, Ijpatos, Sosa, Saijeth, Bonsaga, Arasij, Yael, Lanur, Abijacs, Bagoge, Bijonel, Ogoga, Asæ, Faufalon, Alon, Vla, Elaon, Heman, Halla, Euaij, Lienederon, Thegal, Seghahab, Zachijhe, Achata [[Aghata]], Abratha, Abrateh, Athamaij, Anahoman, Ijota, Yot, Onan, Nathaman, Ban, Tagas, Gadeon, Iehu, Ogiron, Vzion, Orinhi, On, Oleha, Dansath, Neouul, Soraij, I, Iender, Onoico, Agor, Sahuh, Vam, Hemon, Vam, Amas, Saophaij, Abgiach, Ijlen, Araham, Eijn, Castos, Rabo, Seij, Gule, Hase, Cassiacolo, Igas, Taco, Orchie, Aranel, Aimix, Sarsamahehim, Malathim, Sabachijssim, Osturmina, Hel, Sardaij, Panthangramaton, Edicos, Pachaij, Moel, Medandala, Nehauch, Soraij, Cados, Nau, Anona, Alabaij, Amura, Araora, ARANTHAN, Homousijon, Esenehye, Achata, Au, Ah, Iender,  Cos, Zhije, Hhasidz, Zadie, Sedaij, Gibor, Hhesed, Relsidion, Malahahh, Ruaahhton, Mesahh, Tazahh,",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-26|26",
+										"text" : "Fragment 57 (Ath. 7. 327d-e) Σειρίου ἀντέλλοντος δεῖν τὸν φάγρον ἐσθίειν // δόλῳ τʹ Εἰρετρίᾳ τε κατʹ εὐλιμένους ἁλὸς οἴκους . // *Δήλῳ τὴν κεφαλὴν δʹ αὐτοῦ μόνον ὠνοῦ καὶ μετʹ ἐκείνης // οὐραῖον· τὰ δὲ λοιπὰ δόμον μηδʹ εἰσενέγκῃς.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_57|57",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Nispha, Abtijso, Abhelahab, Ijlen, Eijhelnas, Rasni, Fas, Arij, Rirhohh, Heehfilo, Hemeheij, Lehohth, Nijas, Glagla, Asato, Hascheije, Aumar, Sol, Thauth, Va, Benchi, Sthason, Adonias, Adon, Abiashar, Abiagail, Elcana, Elnathan, Ezieniel, Cios, Sachiel, Sedecsias, Sadael, Ozielozias, [[Ieosna Selum Somer Thari]] Meschias, Manahem, Tesitas, Iohacas, Ieosna, Selum, Somer, Thari, Salomich, Phanuel, Oscheo",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
+										"text" : "Fragment 58 (Ath. 7.328a) τὸν χρόμιν ἐν Πέλλῃ λήψῃ μεγάν – ἔστι δὲ πίων, // ἄνθέρος ἢ – καὶ ἐν Ἀμβρακίᾳ. // cf. Casaubon : ἄν θέρος ᾒ",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_58|58",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "ut hanc petitionem sanctam super sanctum Hahelaon prope sigillum quæ complenda est ex officio uestro compleatis. O uos potestates angelicæ splendidissimæ et decore a Deo electæ et præordinatæ, complete hanc petitionem. Amen. Fiat, fiat, fiat ».",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
+										"text" : "Fragment 59 (Ath. 7. 328b) χρύσοφρυν ἐξ Ἐφέσου τὸν πίονα μὴ παράλειπε, // ὅν κεῖνοι καλέουσιν ἰωνίσκον. λαβὲ δʹ αὐτόν, // θρέμμα Σελινοῦντος σεμνοῦ, πλῦνον δὲ νιν ὀρθῶς, // εἶθʹ ὄλον ὀπτήσας παράθες κἄν ᾖ δεκάπηχυς.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_59|59",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Finita inuocatione, apparebit unus princeps illus altitudinis, indutus stola candida in uiso pulcherrimi iuuenis et flores roseis in capite suo deferens ad modum coronæ. Tunc artista habeat parum uas ad modum praxidis noui, et intus mittat carbones ex rosma uino accensos et super illos proiiciat de odoribus altitudinis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
+										"text" : "Fragment 60 (Ath. 9. 383b) περίεργον δʹ ἐστὶν ὡς ἀληθῶς τὸ πολὺ τῶν μαγείρων γένος περί τε τὰς ἱστορίας καὶ τὰ ὀνόματα. λέγουσι γοῦν αὐτῶν οἱ λογιώτατοι “γόνυ κνήμης ἔγγιον” καὶ // περιῆλθον Ἀσίαν καὶ Εὐρώπην.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_60|60",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et quam cito ipse sentiat odores, tunc dulciter alloquentur artistæ. Et dicet « quid petis ? adquid uocatis principes nostræ altitudinis ? ». Et artista cum ueneratione respondeat ut « hæc petitio quæ eis ex officio incumbit, mihi ab eis sit concedenda ».",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
+										"text" : "Fragment 61 (Ath. 9. 384b) καὶ σιτευτοῦ χηνὸς ὁμοῦ σκευάζει νεοττόν, // ὀπτὸν ἁπλῶς καὶ τόνδε.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_61|61",
 										"inFront": "false"
 									},
 								
 									{
 										"line" : "no line info|no line info", 
-										"text" : "Et debet artista dicere suam petitionem non petendo aliquid quod non pertineat ad illorum officium, et procul dubio obtinebit petitionem suam. Tunc respondet « concedimus tibi petitionem tuam » et dabit artistæ signum unum et nomen ignotum hominibus.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et quando uoluerit cum illo postea loqui, suffimigit, et genuflexus, dicat nomen principis illius altitudinis et ueniet et alloquetur cum eo.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Nota. Et nota, o artista, quod debes ter dicere inuocationem, et si non ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-27|27",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "uenerit, tunc cum maxima ueneratione letis manibus aqua rosarum cum sigillo magni Dei, sigilla, candelas sancti Hahelaon, in pari numero, et postea ad locum suum repones sigillum et reitera per duas alias uices inuocationem, et procul dubio, antequam lumen ueniat, ad figuram sigilli, nuntius apparebit et quidquid uoleris obtinebis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Postquam princeps dabit artistæ nomen ignotum et petitionem cordis sui satisfecerit, artista [[debebit]] debet genuflexus iterum suffimigium illi facere cum odoribus illius altitudinis et finito dicere cum ueneratione :",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "« Maximas gratias ago uobis principibus altitudinis », et debet nominare nomen altitudinis « quoniam meæ satisfecistis uoluntati idcirco, o potestas incomprehensibilis, uide cor meum et pete quiquid uis quoniam sum paratus facere omnia ».",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : ". Tunc ipse maxima cum grauitate cum artista alloquetur, et postea euocarit tunc artista surget et extinguet candelas. Et cum maxima ueneratione, sanctum Hahelaon reponat in loco mundissimo cum odoribus illius altitudinis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Scias, o Artista, quod quando operationem tuam facis, debes te uestire ueste alba ut subucula sacerdotalis, et in ueste sunt scribenda cum coloribus altitudinis hæc nomina et caractera ut exemplo apparebit. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et postquam siue peris suffumigare illam odoribus altitudinis. Et nota quod in ueste scribere debes nomina et caractera die ☿, id est Mercurii, et hora solis, luna crescente, in pari numero.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et postea illam seruare in loco mundissimo, et tempore operationis (non preparationis) se uestire illa, et finita operatione illam lauare aqua rosarum et seruare. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et in omnibus altitudinibus sunt scribenda nomina et nulla alia differentia est nisi color et ueste illa potest uti in omnibus operationibus, multa alia mihi erant dicenda sed quoniam cognoui non esse necessaria, idcirco finem ponam Hijnothitheo.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et scias, o Artista, quod melior est liber hic quam thesaurum, quoniam si feceris operationes altitudinis, habebis quidquid optaueris. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et scias quod omnes altitudines operati sumus. Et uerae sunt quoniam habuimus optatum nostrum. Et liber iste uere uocari posest thesaurum thesaurorum.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-28|28",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Figura sexta. Forma uestis artistæ Ex alia parte ELIZBETH ABESSALOM AVORRA ADONAY EMANVEL OZA SAPHAD ELCANA ELIMELGH",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-29|29",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : " ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-29|29",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-30|30",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : " ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-30|30",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Supra diximus quod erat fabricandum sigillum magni Dei et erant sculpenda in illo nomina ut supra. Sed non diximus modum neque tempus quando debet fabricari.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Idcirco sigillum est fabricandum die ♃, id est Iouis, uel solis, hora ☿, id est Mercurii, et nomina et signa ut in exemplo sunt sculpenda die solis uel ♀, luna [[cresce]] crescente, in pari numero et eius hora uel hora Iouis.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et postquam sigillum erit completum, suffumigare illud debet artista cum odoribus ligni aloe, costi, storauis calamite, bengioi et olebani. Finita [[sul]] suffumigatione [[suffumigare]] illud reponere in sanctum Hahelaon.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Et scias quod sufficit in omnibus altitudinibus hoc sigilum et etiam quod finita operatione illud est seruandum in panno serico rubeo cum odoribus et est mittendum in capsula lignea cum maxima ueneratione. ",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Scias quod finita suffumigatione cum ueneratione genuflexus debes dice hanc orationem Deo.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Oratio. O Adonay, Saday, Heloijn, qui es A et ω, hoc est principium et finis absque principio et fine, in quo uiuens homo cognoscit, Rex sum Imperator excellens qui Deus es, Rex regum, dominantium Dominus, qui etiam es pius, misericors, clemens, benignus, gloriosus",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "mundum tenens manu tua, et omne quod creatur est in potestate tua et conseruas, qui cælorum continens firmamentum, qui tronos et abistos intueris, qui montes ponderas terramque magnam concludis a palmo, qui fecisti spiritus angelicos flammam ignis",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "qui producis uentos de thesauris suis, qui ambulas super penas uentorum, qui percusisti primo genita Aegipti ab homine usque ad pecus,",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-31|31",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "qui diuisisti lumen a tenebris, qui fecisti luminam magna, solem et lunam,",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-32|32",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Deus totus misericordis, ego famulus tuus N., rogo tuam pitiosissimam maiestat ut petitionem cordis mei concedas mihi per tuam maximam potentiam. Amen. Fiat, fiat, fiat.",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-32|32",
-										"inFront": "false"
-									},
-								
-									{
-										"line" : "no line info|no line info", 
-										"text" : "Figura Septima. Hoc est sigillum magnum Dei HELOEN ADONAY PIUS ANABONA ARANITAN Hæc est segunda partis sigilli TETHAGRAMMATON ANABONA IHEHOVA HELOEN A ω ADONA",
-										"tags" : "liberhynotheon|Liber Hynotheon",
-										"loc" : "liber_hynotheon_ms_adiv_5fb1_page-33|33",
+										"text" : "Fragment 62 (Ath. 9. 399d-e) τοῦ δὲ λαγὼ πολλοί τε τρόποι πολλαί τε θέσεις // σκευασίας εἰσί. κεῖνος δʹ οὖν ἐστιν ἄριστος, // ἂν πεινῶσι μεταξὺ φέρῃς κρέας ὀπτὸν ἑκάστῳ, // θερμόν, ἁπλῶς ἁλίπαστον, ἀφαρπάζων ὀβελίσκου // μικρὸν ἐνωμότερον. μὴ λυπείτω δέ σʹ ὁρῶντα // ἰχῶρα στάζοντα κρεῶν, ἀλλʹ ἔσθε λάβρως. // αἱ δʹ ἄλλαι περίεργοι ἔμοιγʹ εἰσὶν διὰ παντὸς // σκευασίαι, γλυῶν καταχύσματα καὶ κατὰτυρα // καὶ κατέλαια λίαν, ὥσπερ γαλῆ ὀψοποιούντες.",
+										"tags" : "archestratus|Archestrate de Géla",
+										"loc" : "archestratus_ms_a_fr_62|62",
 										"inFront": "false"
 									},
 								 
