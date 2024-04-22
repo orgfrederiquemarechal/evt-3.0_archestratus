@@ -11,7 +11,7 @@
                 <title type="medium">transcription électronique</title>
                 <author>inconnu</author>
                 <respStmt>
-                    <resp>Transcription du manuscrit, encodage XML</resp>
+                    <resp>Transcription du manuscrit et encodage XML</resp>
                     <name type="person" xml:id="NC">Nicolas Corre</name>
                 </respStmt>
             </titleStmt>
@@ -94,8 +94,6 @@
 
                 <pb n="Titre" xml:id="liber_hynotheon_front"/>
 
-
-
                 <lb/>
                 <lb/>
 
@@ -105,11 +103,6 @@
                 </docTitle>
 
                 <lb/>
-
-                <!--<docAuthor>Nicolas Corre</docAuthor>-->
-
-                <!--<docEdition>Première édition (2024)</docEdition>-->
-
                 <lb/>
                 <lb/>
                 <lb/>
