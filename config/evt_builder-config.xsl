@@ -31,7 +31,7 @@
 	<xsl:param name="dataPrefix" select="'../..'"/>
 	<!-- page -->
 
-	<xsl:param name="imageExt">jpg</xsl:param>
+	<xsl:param name="imageExt">png</xsl:param>
 	<!-- images extension -->
 
 	<!-- EN: Main web site for digital edition -->
@@ -42,14 +42,14 @@
 	<!-- EN: Index title -->
 	<!-- IT: Titolo edizione -->
 	<!-- default: 'Codex Viewer' -->
-	<xsl:param name="index_title" select="'Liber Hynotheon'"/>
+	<xsl:param name="index_title" select="'Archestratus'"/>
 
 	<!-- EN: Welcome Message -->
 	<!-- IT: Messaggio di benvenuto -->
 	<!-- default: 'Welcome to an edition created with EVT' -->
 	<xsl:param name="welcomeMsg">
 		<div>
-			<p class="title main">Welcome to an edition of the Liber Hynotheon created with EVT</p>
+			<p class="title main">Welcome to an edition created with EVT</p>
 		</div>
 		<!--<div>This archive includes a few examples of editions created using EVT,
 			by default you are shown a small excerpt of the
@@ -129,6 +129,7 @@
 		<!-- EN: For processing in the modules: $edition_array[1] -->
 		<!-- IT: Per l'elaborazione nei moduli: $edition_array[1] -->
 
+<!--		<edition></edition>-->
 		<edition>Interpretative</edition>
 		<!-- EN: If you have an interpretative edition put <edition>Interpretative</edition>.
 			 	 If you don't have an interpretative edition put <edition></edition> -->
@@ -341,7 +342,7 @@
 	<!-- EN: On/Off Lines/Prose visualization Button -->
 	<!-- IT: Attiva/Disattiva Bottone di visualizzazione Versi/Prosa  -->
 	<!-- default: true() -->
-	<xsl:param name="prose_verses_toggler" select="false()"/>
+	<xsl:param name="prose_verses_toggler" select="true()"/>
 
 	<!-- EN: On/Off Tooltip indicating language encoded in @xml:lang -->
 	<!-- IT: Attiva/Disattiva Tooltip per la visualizzazione della lingua degli elementi che presentano @xml:lang  -->
@@ -389,9 +390,9 @@
 	<xsl:variable name="lists" as="element()*">
 		<group label="NAMED_ENTITIES" active="true">
 			<persName active="true"/>
-			<placeName active="false"/>
+			<placeName active="true"/>
 			<orgName active="false"/>
-			<name type="divin" active="true" label="Noms divins"/>
+			<name type="divin" active="false" label="Noms divins"/>
 		</group>
 		<group label="INTERESTING_ELEMENTS" active="false">
 			<roleName active="true"/>
