@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Édition des fragments d'Archestrate de Géla : transcription, traduction et
+               commentaire</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Frédérique Maréchal</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Les Deipnosophistes</title><author>Athénée de Naucratis</author></bibl>
+            <listWit>
+               <witness xml:id="A">Manuscrit A, Venise, Bibliothèque Marciana, gr. Z. 447 (coll.
+                  0820)</witness>
+               <witness xml:id="Aac">Manuscrit A avant correction</witness>
+               <witness xml:id="Apc">Manuscrit A après correction</witness>
+               <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288</witness>
+               <witness xml:id="A7.288">Manuscrit A livre 7.288</witness>
+               <witness xml:id="CE7.288">Manuscrits C E livre 7.288</witness>
+               <witness xml:id="CE7.330">Manuscrits C E livre 7.330</witness>
+               <witness xml:id="ACE7.330">Manuscrits A C E livre 7.330</witness>
+               <witness xml:id="A7.330">Manuscrit A livre 7.330</witness>
+               <witness xml:id="C">Manuscrit C, Paris, Bibliothèque Nationale de France, supplément
+                  grec 841</witness>
+               <witness xml:id="E">Manuscrit E, Florence, Bibliothèque Laurentienne, Plutei LX.
+                  2</witness>
+               <witness xml:id="Valckenaer">Correction de Valckenaer</witness>
+               <witness xml:id="Canter">Correction de Canter</witness>
+               <witness xml:id="Schneider">Correction de Schneider</witness>
+               <witness xml:id="ACE7.278">Manuscrits A C E livre 7.278</witness>
+               <witness xml:id="CE7.278">Manuscrits C E livre 7.278</witness>
+               <witness xml:id="A7.278">Manuscrit A livre 7.278</witness>
+               <witness xml:id="ACE7.313-314">Manuscrits A C E livre 7.313 et 7.314</witness>
+            </listWit>
+
+            <listPerson>
+               <person xml:id="Arc">
+                  <persName>Archestrate"</persName>
+                  <birth><placeName><settlement type="ville">Géla</settlement><region key="Si"
+                           >Sicile</region></placeName></birth>
+                  <note>Archestrate est un poète du IVème siècle avant notre ère. Nous disposons de
+                     très peu d'informations biographiques à son sujet</note>
+               </person>
+               <person xml:id="Ath">
+                  <persName>Athénée"</persName>
+                  <birth><placeName><settlement type="ville"
+                           >Nauctatis</settlement><country>Egypte</country></placeName></birth>
+                  <note>Athénée vécut au IIème siècle de notre ère à Naucratis, cité grecque
+                     égyptienne. Venu à Rome, il rencontra un riche Romain, P. Livius Larensis, qui
+                     lui demanda d'enrichir sa bibliothèque personnelle</note>
+               </person>
+               <person xml:id="P.Liv">
+                  <persName>P. Livius Larensis</persName>
+                  <note>Haut fonctionnaire romain bibliophile et philhellène</note>
+               </person>
+               <person xml:id="Tim">
+                  <persName>Timocrate</persName>
+               </person>
+               <person xml:id="Jea">
+                  <persName>Jean le Calligraphe</persName>
+               </person>
+               <person xml:id="Gio">
+                  <persName>Giovanni Aurispa</persName>
+               </person>
+               <person xml:id="Bess">
+                  <persName>Cardinal Bessarion</persName>
+               </person>
+               <person xml:id="Dem">
+                  <persName>Démétrios Damilas</persName>
+               </person>
+               <person xml:id="Jac">
+                  <persName>Jacob Questenberg</persName>
+               </person>
+               <person xml:id="Cob">
+                  <persName>Carel Gabriel Cobet</persName>
+               </person>
+               <person xml:id="Din">
+                  <persName>Karl Wilhelm Dindorf</persName>
+               </person>
+               <person xml:id="Maa">
+                  <persName>Paul Maas</persName>
+               </person>
+               <person xml:id="Erb">
+                  <persName>H. Erbse</persName>
+               </person>
+               <person xml:id="Hem">
+                  <persName>Bertrand Hemmerdinger</persName>
+               </person>
+               <person xml:id="Eus">
+                  <persName>Eustathe de Thessalonique</persName>
+               </person>
+               <person xml:id="Kai">
+                  <persName>Georg Kaibel</persName>
+               </person>
+               <person xml:id="Pep">
+                  <persName>Simon Peppink</persName>
+               </person>
+               <person xml:id="Des">
+                  <persName>Alexandre-Marie Desrousseaux</persName>
+               </person>
+               <person xml:id="Mus">
+                  <persName>Marcus Musurus</persName>
+               </person>
+               <person xml:id="Muc">
+                  <persName>Alde Muce</persName>
+               </person>
+               <person xml:id="Dal">
+                  <persName>Jacques Daléchamp</persName>
+               </person>
+               <person xml:id="Cas">
+                  <persName>Isaac Casaubon</persName>
+               </person>
+               <person xml:id="Lef">
+                  <persName>Lefebvre de Villebrune</persName>
+               </person>
+               <person xml:id="Sch">
+                  <persName>Jean Schweighäuser</persName>
+               </person>
+               <person xml:id="Mei">
+                  <persName>August Meineke</persName>
+               </person>
+               <person xml:id="Gul">
+                  <persName>Charles Gulick</persName>
+               </person>
+               <person xml:id="Ast">
+                  <persName>Charles Astruc</persName>
+               </person>
+               <person xml:id="Loe">
+                  <persName>James Loeb</persName>
+               </person>
+               <person xml:id="Ber">
+                  <persName>Monica Berti</persName>
+               </person>
+               <person xml:id="Hom">
+                  <persName>Homère</persName>
+               </person>
+               <person xml:id="Hés">
+                  <persName>Hésiode</persName>
+               </person>
+               <person xml:id="Rib">
+                  <persName>Wilhelm Ribbeck</persName>
+               </person>
+               <person xml:id="Bra">
+                  <persName>Paul Brandt</persName>
+               </person>
+               <person xml:id="Llo">
+                  <persName>Hugh Lloyd Jones</persName>
+               </person>
+               <person xml:id="Par">
+                  <persName>Peter Parsons</persName>
+               </person>
+               <person xml:id="Mon">
+                  <persName>O. Montanari</persName>
+               </person>
+               <person xml:id="Wil">
+                  <persName>John Wilkins</persName>
+               </person>
+               <person xml:id="Hil">
+                  <persName>Shaun Hill</persName>
+               </person>
+               <person xml:id="Ols">
+                  <persName>S. Douglas Olson</persName>
+               </person>
+               <person xml:id="Sen">
+                  <persName>Alexander Sens</persName>
+               </person>
+               <person xml:id="Dio">
+                  <persName>Diodore</persName>
+               </person>
+               <person xml:id="Pyt">
+                  <persName>Pythagore</persName>
+               </person>
+               <person xml:id="Diod">
+                  <persName>Diodore d'Aspendos</persName>
+               </person>
+               <person xml:id="Atl">
+                  <persName>Atlas</persName>
+               </person>
+               <person xml:id="Plé">
+                  <persName>Pléioné</persName>
+               </person>
+               <person xml:id="Pléi">
+                  <persName>Pléiades</persName>
+               </person>
+               <person xml:id="Mith">
+                  <persName>Mithécos de Syracuse</persName>
+               </person>
+               <person xml:id="Héra">
+                  <persName>Héra de Syracuse</persName>
+               </person>
+               <person xml:id="Chrys">
+                  <persName>Chrysippe de Soles</persName>
+               </person>
+               <person xml:id="Lyn">
+                  <persName>Lyncée de Samos</persName>
+               </person>
+               <person xml:id="Call">
+                  <persName>Callimaque de Cyrène</persName>
+               </person>
+               <person xml:id="Clé">
+                  <persName>Cléarque de Soles</persName>
+               </person>
+               <person xml:id="Lyc">
+                  <persName>Lycophron de Chalcis</persName>
+               </person>
+               <person xml:id="Déd">
+                  <persName>Dédale</persName>
+               </person>
+               <person xml:id="Ica">
+                  <persName>Icare</persName>
+               </person>
+               <person xml:id="Pla">
+                  <persName>Platon</persName>
+               </person>
+               <person xml:id="Epi">
+                  <persName>Épicure</persName>
+               </person>
+               <person xml:id="Mat">
+                  <persName>Matron de Pitane</persName>
+               </person>
+               <person xml:id="Thé">
+                  <persName>Théognis</persName>
+               </person>
+               <person xml:id="Sar">
+                  <persName>Sardanapale</persName>
+               </person>
+               <person xml:id="Daph">
+                  <persName>Daphnis l'Éphésien</persName>
+               </person>
+               <person xml:id="Ulp">
+                  <persName>Ulpien</persName>
+               </person>
+
+
+            </listPerson>
+            <listPlace>
+               <place xml:id="Gé">
+                  <placeName>Géla</placeName>
+                  <location>
+                     <note>Ville se trouve au Sud de la Sicile</note>
+                  </location>
+               </place>
+               <place xml:id="Nau">
+                  <placeName>Naucratis</placeName>
+                  <location>
+                     <note>Cité grecque égyptienne</note>
+                  </location>
+               </place>
+               <place xml:id="Gr">
+                  <placeName>Grèce</placeName>
+               </place>
+               <place xml:id="Ro">
+                  <placeName>Rome</placeName>
+               </place>
+               <place xml:id="Co">
+                  <placeName>Constantinople</placeName>
+               </place>
+               <place xml:id="It">
+                  <placeName>Italie</placeName>
+               </place>
+               <place xml:id="Ven">
+                  <placeName>Venise</placeName>
+               </place>
+               <place xml:id="Lei">
+                  <placeName>Leipzig</placeName>
+               </place>
+               <place xml:id="Syr">
+                  <placeName>Syrie</placeName>
+               </place>
+               <place xml:id="Athè">
+                  <placeName>Athènes</placeName>
+               </place>
+               <place xml:id="Att">
+                  <placeName>Attique</placeName>
+               </place>
+               <place xml:id="Aby">
+                  <placeName>Abydos</placeName>
+               </place>
+               <place xml:id="Myt">
+                  <placeName>Mytilène</placeName>
+                  <place xml:id="Amb">
+                     <placeName>Ambracie</placeName>
+                  </place>
+                  <place xml:id="Mes">
+                     <placeName>Messine</placeName>
+                  </place>
+                  <place xml:id="Eph">
+                     <placeName>Éphèse</placeName>
+                  </place>
+                  <place xml:id="Cha">
+                     <placeName>Chalcédoine</placeName>
+                  </place>
+                  <place xml:id="Les">
+                     <placeName>Lesbos</placeName>
+                  </place>
+                  <place xml:id="Ias">
+                     <placeName>Iasos</placeName>
+                  </place>
+                  <place xml:id="Mac">
+                     <placeName>Macédoine</placeName>
+                  </place>
+                  <place xml:id="Hel">
+                     <placeName>Hellespont</placeName>
+                  </place>
+                  <place xml:id="Lip">
+                     <placeName>Lipari</placeName>
+                  </place>
+                  <place xml:id="Ere">
+                     <placeName>Eresos</placeName>
+                  </place>
+                  <place xml:id="The">
+                     <placeName>Thèbes</placeName>
+                  </place>
+                  <place xml:id="Tha">
+                     <placeName>Thasos</placeName>
+                  </place>
+                  <place xml:id="Thes">
+                     <placeName>Thessalie</placeName>
+                  </place>
+                  <place xml:id="Ery">
+                     <placeName>Erythres</placeName>
+                  </place>
+                  <place xml:id="Sic">
+                     <placeName>Sicile</placeName>
+                  </place>
+                  <place xml:id="Mer">
+                     <placeName>Mer Noire</placeName>
+                  </place>
+                  <place xml:id="Byz">
+                     <placeName>Byzance</placeName>
+                  </place>
+                  <place xml:id="Bos">
+                     <placeName>Bosphore</placeName>
+                  </place>
+                  <place xml:id="Lac">
+                     <placeName>Lac Méotide</placeName>
+                  </place>
+                  <place xml:id="Pha">
+                     <placeName>Phalère</placeName>
+                  </place>
+                  <place xml:id="Rho">
+                     <placeName>Rhodes</placeName>
+                  </place>
+                  <place xml:id="Chal">
+                     <placeName>Chalcis</placeName>
+                  </place>
+                  <place xml:id="Sicy">
+                     <placeName>Sicyone</placeName>
+                  </place>
+                  <place xml:id="Oly">
+                     <placeName>Olynthe</placeName>
+                  </place>
+                  <place xml:id="Még">
+                     <placeName>Mégare</placeName>
+                  </place>
+                  <place xml:id="Dét">
+                     <placeName>Détroit de Rhegium</placeName>
+                  </place>
+                  <place xml:id="Cop">
+                     <placeName>Copaïs</placeName>
+                  </place>
+                  <place xml:id="Str">
+                     <placeName>Strymon</placeName>
+                  </place>
+                  <place xml:id="Crè">
+                     <placeName>Crète</placeName>
+                  </place>
+                  <place xml:id="Dél">
+                     <placeName>Délos</placeName>
+                  </place>
+                  <place xml:id="Tén">
+                     <placeName>Ténos</placeName>
+                  </place>
+                  <place xml:id="Car">
+                     <placeName>Caryste</placeName>
+                  </place>
+                  <place xml:id="Sin">
+                     <placeName>Sinope</placeName>
+                  </place>
+                  <place xml:id="Abd">
+                     <placeName>Abdère</placeName>
+                  </place>
+                  <place xml:id="Scy">
+                     <placeName>Détroit de Scylla</placeName>
+                  </place>
+                  <place xml:id="Pél">
+                     <placeName>Pélore</placeName>
+                  </place>
+                  <place xml:id="Ant">
+                     <placeName>Anthédon</placeName>
+                  </place>
+                  <place xml:id="Cari">
+                     <placeName>Carie</placeName>
+                  </place>
+                  <place xml:id="Cor">
+                     <placeName>Corfou</placeName>
+                  </place>
+                  <place xml:id="Mil">
+                     <placeName>Milet</placeName>
+                  </place>
+                  <place xml:id="Tic">
+                     <placeName>Tichiousse</placeName>
+                  </place>
+                  <place xml:id="Mar">
+                     <placeName>Maronie</placeName>
+                  </place>
+                  <place xml:id="Téo">
+                     <placeName>Téos</placeName>
+                  </place>
+                  <place xml:id="Dion">
+                     <placeName>Dion</placeName>
+                  </place>
+                  <place xml:id="Pié">
+                     <placeName>Piérie</placeName>
+                  </place>
+                  <place xml:id="Bap">
+                     <placeName>Baphyre</placeName>
+                  </place>
+                  <place xml:id="Ain">
+                     <placeName>Ainos</placeName>
+                  </place>
+                  <place xml:id="Noi">
+                     <placeName>Mer Noire</placeName>
+                  </place>
+                  <place xml:id="Eré">
+                     <placeName>Erétrie</placeName>
+                  </place>
+                  <place xml:id="Pel">
+                     <placeName>Pella</placeName>
+                  </place>
+                  <place xml:id="Sél">
+                     <placeName>Sélinonte</placeName>
+                  </place>
+                  <place xml:id="Sam">
+                     <placeName>Samos</placeName>
+                  </place>
+                  <place xml:id="Cef">
+                     <placeName>Cefalu</placeName>
+                  </place>
+                  <place xml:id="Gés">
+                     <placeName>Géson</placeName>
+                  </place>
+                  <place xml:id="Cal">
+                     <placeName>Calydon</placeName>
+                  </place>
+                  <place xml:id="Bol">
+                     <placeName>Bolbé (lac)</placeName>
+                  </place>
+                  <place xml:id="Phé">
+                     <placeName>Phénicie</placeName>
+                  </place>
+                  <place xml:id="Bib">
+                     <placeName>Bibline</placeName>
+                  </place>
+                  <place xml:id="Syra">
+                     <placeName>Syracuse</placeName>
+                  </place>
+                  <place xml:id="Gra">
+                     <placeName>Grande Grèce</placeName>
+                  </place>
+                  <place xml:id="Lyd">
+                     <placeName>Lydie</placeName>
+                  </place>
+                  <place xml:id="Béo">
+                     <placeName>Béotie</placeName>
+                  </place>
+                  <place xml:id="Ass">
+                     <placeName>Assyrie</placeName>
+                  </place>
+               </place>
+            </listPlace>
+         </sourceDesc>
+
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <ab/>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <head><hi rend="italic">Introduction</hi><note>Je remercie vivement Aurélien Berra pour les
+               pages de sa thèse qui m’ont aidée à enrichir mon introduction. </note></head>
+         <p>Seuls subsistent aujourd’hui soixante-deux fragments, soit environ 334 vers<note>Soit
+               environ 28% du poème si l’on considère qu’un poème écrit sur un papyrus pouvait
+               contenir 1200 vers (OLSON et SENS 2000).</note>, du poète <persName ref="#Arc"
+               >Archestrate</persName> de <placeName ref="#Gé">Géla</placeName> qui vécut au IVème
+            siècle de notre ère. Le poème porte principalement sur l’art de trouver le bon poisson
+            au bon endroit et à la bonne saison ainsi que sur la meilleure façon de l'accommoder.
+            Aucun papyrus, ni même la <hi rend="italic">Souda</hi> ne font mention d’ <persName
+               ref="#Arc">Archestrate</persName> de <placeName ref="#Gé">Géla</placeName>. C’est
+            grâce à <persName ref="#Ath">Athénée</persName>, né en l’an 170 de notre ère à
+               <placeName ref="#Nau">Naucratis</placeName>, cité grecque égyptienne, que nous devons
+            la survivance du poème d’<persName ref="#Arc">Archestrate</persName> qui nous a été
+            transmis par <hi rend="italic">Les Deipnosophistes</hi> ou <hi rend="italic">Le Banquet
+               des savants</hi><note>On attribue aussi à Athénée un traité historique Sur les rois
+               de Syrie et une monographie sur Les Poissons d’Archippe - deux ouvrages disparus.
+            </note>. Venu à <placeName ref="#Ro">Rome</placeName>, <persName ref="#Ath"
+               >Athénée</persName> rencontra vers 180-195 le <rs ref="#P. Liv">riche </rs><persName
+               ref="#P. Liv">P. Livius Larensis</persName>, <rs ref="#P. Liv">haut
+               fonctionnaire</rs>,<rs ref="#P. Liv">bibliophile</rs> et <rs ref="#P. Liv"
+               >philhellène</rs>. Nous ne savons pas vraiment quels liens unirent <persName
+               ref="#Ath">Athénée</persName> et <persName ref="#P. Liv">P. Livius
+               Larensis</persName> mais il semblerait qu’<persName ref="#Ath">Athénée</persName> ait
+            été <rs ref="#Ath">chargé d’enrichir de pièces rares la bibliothèque personnelle</rs> de
+               <rs ref="#P. Liv">ce dernier</rs>.</p>
+         <p>Dans <hi rend="italic">Les Deipnosophistes</hi>, <persName ref="#Ath">Athénée</persName>
+            rapporte à son ami <persName ref="#Tim">Timocrate</persName> les propos de table tenus
+            par une vingtaine d’érudits lors d’un banquet donné par <persName ref="#P.Liv">P. Livius
+               Larensis</persName> à <placeName ref="#Ro">Rome</placeName> au début du IIIème
+            siècle. Les convives se livrent à des conversations sur toutes sortes de sujets : les
+            différentes façons de banqueter, les banquets célèbres, les aliments, les poissons, les
+            boissons, la gastronomie et ses grands hommes mais aussi sur la politique, la
+            philosophie, la médecine, l’amour, la musique… Les invités appuient leurs propos sur des
+            extraits d’ouvrages de toutes sortes cités de mémoire : environ mille extraits d’oeuvres
+            citées d’environ sept cents auteurs. Sans <hi rend="italic">Les Deipnosophistes</hi>,
+               <persName ref="#Arc">Archestrate</persName> nous serait resté inconnu.</p>
+
+         <p><hi rend="italic">Les Deipnosophistes</hi> ont été composés vers l’an 200 de notre ère
+            et nous ont été transmis par trois manuscrits :</p>
+
+         <p>Le manuscrit A, gr. Z. 447 (coll. 0820), se trouve à la Bibliothèque Nationale Marciana
+            de <placeName ref="#Ven">Venise</placeName>. Il nous est parvenu par l’intermédiaire
+            d’un manuscrit byzantin copié par <persName ref="#Jea">Jean Le Calligraphe</persName> à
+               <placeName ref="#Co">Constantinople</placeName> au Xème siècle. Il a été apporté en
+               <placeName ref="#It">Italie</placeName> en 1423 par l’<rs ref="#Gio">humaniste
+               sicilien</rs><persName ref="#Gio">Giovanni Aurispa</persName>, qui eut une influence
+            considérable dans la redécouverte des Anciens. Puis, il a été acheté par le <persName
+               ref="#Bess">Cardinal Bessarion</persName> vers le milieu du XVème siècle qui le légua
+            avec le reste de sa bibliothèque à la République de <placeName ref="#Ven"
+               >Venise</placeName>. Il s’agit d’un <hi rend="italic">codex vetustissimus</hi> rédigé
+            en minuscule. Il comporte 372 folios de parchemin mesurant 395*261 mm. Le texte est
+            réparti sur deux colonnes, chaque colonne comprenant un nombre moyen de 43 lignes. Les
+            lettres sont formées lisiblement et sans abréviations. Toutes les citations sont
+            précédées d’une diplé (&gt;) dans la marge gauche et elles sont écrites comme si elles
+            relevaient de la prose. Mais ce manuscrit – qui est la seule version non abrégée des <hi
+               rend="italic">Deipnosophistes</hi> – n’est pas complet : il manque en effet les 50
+            premiers folios de I à III 73 f correspondant aux livres I, II et au début du livre III.
+            Il manque aussi quelques folios après les folios 214 et 239. Enfin, les folios 370 à 372
+            ont été détériorés en raison de mauvaises conditions de conservation, ce qui les rend
+            difficiles à lire. On se sert des manuscrits C et E pour combler ces lacunes.</p>
+
+
+         <p>Les manuscrits C et E – version abrégée des <hi rend="italic">Deipnosophistes</hi> –
+            s’inscrivent dans la tradition de l’Épitomé, travail d’un érudit du XIIème siècle qui
+            entreprit de résumer l’ouvrage d’<persName ref="#Ath">Athénée</persName> en s’appuyant
+            sur un manuscrit non mutilé. Ils sont les seuls témoins de I a à 73 f. Leur grande
+            proximité s’explique par un modèle commun antérieur, un manuscrit perdu du Vatican. </p>
+
+         <p>Le manuscrit C, supplément grec 841, se trouve à la Bibliothèque Nationale de France. Il
+            a été copié par <persName ref="#Dem">Démétrios Damilas</persName> entre 1476 et 1506. Il
+            est d’un format moyen et comporte 203 folios. Il est rédigé en écriture humaniste. C’est
+            un manuscrit très lisible qui contient quelques abréviations non usuelles. </p>
+
+         <p> Le manuscrit E, Plutei LX. 2, se trouve quant à lui à la Bibliothèque Laurentienne de
+            Florence. Il a été copié par <persName ref="#Jac">Jacob Questenberg</persName> vers 1490
+            à Rome et mesure 190*280 mm. Il est lui aussi rédigé en écriture humaniste. Le manuscrit
+            E comporte plus de fautes que le manuscrit C et les mots sont souvent abrégés. Ces deux
+            manuscrits sont très fidèles au <hi rend="italic">Marcianus</hi> et leur intérêt majeur
+            est de pouvoir suppléer aux folios manquants de ce dernier.</p>
+         <p> Par ailleurs, les philologues ne sont pas d’accord entre eux sur les relations qui
+            lient ces trois manuscrits. </p>
+         <p>1. Un groupe de spécialistes (<persName ref="#Cob">C. G. Cobet</persName>, <persName
+               ref="#Din">K. W. Dindorf</persName>, <persName ref="#Maa">P. Maas</persName>,
+               <persName ref="#Erb">H. Erbse</persName> et <persName ref="#Hem">B.
+               Hemmerdinger</persName>) affirme que l’Épitomé – par ailleurs, difficile à dater –
+            dérive du <hi rend="italic">Marcianus</hi> lorsqu’il était entier. Nous savons
+               qu’<persName ref="#Eus">Eustathe de Thessalonique</persName> utilisait l’Épitomé
+            lorsqu’il enseignait à l’École patriarcale <placeName ref="#Co"
+               >Constantinople</placeName> soit avant 1175 et l’utilise pour la rédaction de ses
+            commentaires sur L’<hi rend="italic">Iliade</hi> et L’<hi rend="italic">Odyssée</hi>
+            .</p>
+
+         <figure>
+            <graphic url="../images_tei/stemma.png"/>
+         </figure>
+
+
+         <p>2. Un deuxième groupe est convaincu de l’indépendance de l’Épitomé par rapport au
+            Manuscrit A dont <persName ref="#Kai">G. Kaibel</persName>, <persName ref="#Pep">S.
+               Peppink</persName>et <persName ref="#Des">A.-M. Desrousseaux</persName> : </p>
+         <figure>
+            <graphic url="../images_tei/stemmab.png"/>
+         </figure>
+         <p> Dès la Renaissance, plusieurs éditions et traductions des <hi rend="italic"
+               >Deipnosophistes</hi> ont vu le jour : </p>
+         <p> 1. L’édition <hi rend="italic">princeps</hi> date de 1514. Elle est établie à
+               <placeName ref="#Ven">Venise</placeName> par le crétois <persName ref="#Mus">Marcus
+               Musurus</persName> qui travaillait pour l’imprimeur <persName ref="#Muc">Alde
+               Muce</persName>. Ce manuscrit qui se fondait sur le <hi rend="italic">Marcianus</hi>
+            disparaît dans les ateliers à la fin de l’impression, ce qui était chose courante à
+            cette époque. </p>
+         <p> 2. A Lyon, <persName ref="#Dal">Jacques Daléchamp</persName> fournit une traduction en
+            latin des<hi rend="italic">Deipnosophistes</hi> en 1583 sans accompagnement du texte. </p>
+         <p> 3. <persName ref="#Cas">Isaac Casaubon</persName> choisit la traduction de <persName
+               ref="#Dal">Daléchamp</persName> pour l’intégrer à son édition de 1598. A noter que la
+            pagination de <persName ref="#Cas">Casaubon</persName> avec ses divisions de dix lignes
+            en dix lignes est fréquemment utilisée depuis le XIXème siècle. </p>
+         <p> 4. Entre 1789 et 1791, l’œuvre est pour la première fois traduite en français par
+               <persName ref="#Lef">Lefebvre de Villebrune</persName>. </p>
+
+         <p> 5. Au XIXème siècle, paraissent successivement trois nouvelles éditions du texte, celle
+            du strasbourgeois <persName ref="#Sch">Jean Schweighäuser</persName> (1801-1807), de
+               <persName ref="#Din">Wilhelm Dindorf</persName> (1827) et d’<persName ref="#Mei"
+               >August Meineke</persName> (1858-1859).</p>
+         <p> 6. Puis l’édition de <persName ref="#Kai">Georg Kaibel</persName> (1887-1890) devient
+            l’édition de référence. </p>
+         <p> 7. L’édition <persName ref="#Gul">Gulick</persName> (1927-1941) propose une nouvelle
+            traduction en anglais. </p>
+         <p> 8. <persName ref="#Des">Alexandre-Marie Desrousseaux</persName> avec la collaboration
+            de <persName ref="#Ast">Charles Astruc</persName> propose aux éditions de la CUF (1956)
+            une traduction en français des deux premiers livres des <hi rend="italic"
+               >Deipnosophistes</hi>. Cette édition restera inachevée en raison de la mort de son
+            auteur en 1956. Il n’existe à ce jour aucune traduction française complète des <hi
+               rend="italic">Deipnosophistes</hi>.</p>
+         <p> 9. L’édition <persName ref="#Loe">Loeb</persName> (2006-2012) propose une nouvelle
+            traduction en langue anglaise avec le texte grec en vis-à-vis. </p>
+         <p> 10. Il existe enfin une édition numérique des Deipnosophistes dirigée par <persName
+               ref="#Ber">Monica Berti</persName> de l’Université de <placeName ref="#Lei"
+               >Leipzig</placeName> et hébergée par Github : https://www.digitalathenaeus.org/ Cette
+            édition a deux objectifs : faire l’inventaire des auteurs et des œuvres cités par
+               <persName ref="#Ath">Athénée</persName> et mettre en œuvre des métadonnées pour
+            analyser et citer les réutilisations de textes dans les <hi rend="italic"
+               >Deipnosophistes</hi>. Cette édition numérique présente l’édition de <persName
+               ref="#Kai">Georg Kaibel</persName> sous format numérique. Nous avons aussi accès à
+            celle d’<persName ref="#Cas">Isaac Casaubon</persName>. Plusieurs outils sont mis à
+            notre disposition, notamment : </p>
+         <p> - Un récupérateur d’URN CTS qui permet de récupérer et de citer des paragraphes, des
+            phrases et des mots dans les <hi rend="italic">Deipnosophistes</hi> ; </p>
+         <p> - Un convertisseur de références Casaubon – Kaibel ; </p>
+         <p> - Un alignement automatique des index d’Olson, Meineke et Kaibel. </p>
+         <p> - Un index d’auteurs, de personnes et de textes à partir du travail d’Olson qui permet
+            d’obtenir des graphiques comme celui ci-dessous. On peut par exemple voir à quels
+            moments du texte <persName ref="#Arc">Archestrate de Géla</persName> est cité.</p>
+
+         <figure>
+            <graphic url="../images_tei/monicaberti.png"/>
+         </figure>
+         <p><hi rend="italic"> Langue d’<persName ref="#Arc">Archestrate</persName><note>Les
+                  informations de cette partie sont issues d'Olson et Sens (2000)</note>
+            </hi>
+         </p>
+         <p>
+            <persName ref="#Arc">Archestrate</persName> écrit dans une langue artificielle qui
+            emprunte ses formes à trois dialectes grecs : </p>
+         <p>À l’épique (dialecte traditionnel d’<persName ref="#Hom">Homère</persName> et
+               d’<persName ref="#Hés">Hésiode</persName>). Les principales caractéristiques sont les
+            suivantes : η à la place de α après ι, ε, ρ pour les noms de la première déclinaison,
+            datif pluriel en -ῃσι(ν), ξυν- à la place de συν-, ἤν à la place de ἐάν. </p>
+         <p>À l’attique (premier dialecte utilisé dans le théâtre athénien). Nous trouvons ainsi α
+            long à la place de η après ι, ε, ρ, la conjonction εἶτα, et ου comme le produit de la
+            contraction ε + ο. </p>
+
+         <p>Au dorique (dialecte parlé au temps d’<persName ref="#Arc">Archestrate</persName> en
+            Sicile). Nous avons trois exemples de génitifs en -α dans les fragments 34, 54 et 55,
+            deux dans des noms de poissons et le dernier dans un nom propre : καρχαρία, αὐλωπία,
+            Βαφύρα. </p>
+
+         <p><hi rend="italic"> Édition des fragments</hi></p>
+         <p>Pour la présente édition, nous avons choisi de présenter le poème d’<persName ref="#Arc"
+               >Archestrate de Géla</persName> suivant l'ordre dans lequel il apparaît dans le texte
+               d’<persName ref="#Ath">Athénée de Naucratis</persName> afin de garantir une approche
+            authentique du poème. En cela, nous nous plaçons dans la continuité du travail
+            qu’effectua <persName ref="#Rib">W. Ribbeck</persName> en 1877 lors de son édition des
+            fragments d’<persName ref="#Arc">Archestrate de Géla</persName>. De fait, nous nous
+            démarquons de l’ordre de l’édition de <persName ref="#Bra">P. Brandt</persName> qui
+            choisit en 1888 d’éditer les fragments d’<persName ref="#Arc">Archestrate</persName> en
+            essayant de restaurer l’ordre originel du poème en suivant l’ordre d’un repas, depuis
+            l’apéritif jusqu'à la fin du σύμποσιον. Cet ordre fut repris par <persName ref="#Llo">H.
+               Lloyd-Jones</persName> et <persName ref="#Par">P. Parsons</persName> en 1983, par
+               <persName ref="#Mon">O. Montanari</persName> en 1983, par <persName ref="#Wil">J.
+               Wilkins</persName> et <persName ref="#Hil">S. Hill</persName> en 1994, et, enfin, par
+               <persName ref="#Ols">S. D. Olson</persName> et <persName ref="#Sen">A.
+               Sens</persName> en 2000. </p>
+         <p> Par ailleurs, nous avons utilisé la numérotation d’<persName ref="#Cas">I.
+               Casaubon</persName> qui permet de se repérer dans le texte d’<persName ref="#Ath"
+               >Athénée</persName>. Elle apparaît entre parenthèses à côté du numéro de chaque
+            fragment. </p>
+         <p>Enfin, le texte grec et sa traduction française sont suivis d’un commentaire des
+            passages introduisant les fragments afin de montrer le regard que porte <persName
+               ref="#Ath">Athénée de Naucratis</persName> sur <persName ref="#Arc">Archestrate de
+               Géla</persName>.</p>
+
+         <p><hi rend="italic">SIGLA</hi></p>
+
+         <p>A Venetus Marcianus 447 </p>
+         <p>C Parisinus suppl. gr. 841 </p>
+         <p>E Laurentianus Plutei LX. 2 </p>
+
+         <div type="chapitre" n="1">
+            <head>Transcription et traduction</head>
+
+            <p>Fragment 1 (Ath. 1. 4d-e) <lb/>ἱστορίης ἐπίδειγμα ποιούμενος Ἑλλάδι πάσηι /
+                  <lb/>φησί.<note>habent CE</note></p>
+
+            <p><lb/>Faisant montre de mes recherches à la <placeName ref="#Gr">Grèce</placeName>
+               entière, /<note>En principe, un poème épique commence par une invocation des Muses.
+                  Archestrate ne procède pas ainsi. On peut y voir ici une référence aux premiers
+                  mots d’Hérodote dans Histoires mais ce dernier publie ses recherches afin de les
+                  préserver de l’oubli alors qu’Archestrate les exhibe (WILKINS et HILL 2017).
+               </note><lb/>dit [Archestrate].<note>Le passage ne nous est connu que par la version
+                  abrégée, d'où l’incise φησί, &quot;dit-il&quot;. </note></p>
+
+            <p>Fragment 2 (Ath. 1. 4d-e) <lb/>πρὸς δὲ μιᾶι πάντας δειπνεῖν ἁβρόδαιτι τραπέζηι. /
+               <lb/>έ̓στωσαν δʹ ἢ τρεῖς ἢ <app>
+                  <lem wit="#E">τέσσαρες</lem>
+                  <rdg wit="#C">ἕξ</rdg>
+               </app> οἱ ξυνάπαντες / <lb/>ἢ τῶν πέντε γε μὴ πλείους· ἤδη γὰρ ἂν εἴη /
+               <lb/>μισθοφόρων ἁρπαξιβίων σκηνὴ στρατιωτῶν. /<note>habent CE</note></p>
+
+            <p><lb/>Que tous dînent à une seule table<note>Une seule table pour plusieurs semble
+                  très rare au IVème siècle avant notre ère, tout comme l’emploi du vocabulaire
+                  militaire qui contraste avec les plaisirs de la fête (WILKINS et HILL 2017).
+               </note>pour un repas raffiné. / <lb/>Que les convives soient trois au quatre, /
+               <lb/>en tout cas pas plus de cinq ; car sinon ce serait / <lb/>une tente de soldats
+               mercenaires vivant de rapines. /</p>
+
+            <figure>
+               <graphic url="../images_tei/paestum.png"/>
+            </figure>
+
+
+            <p>Fragment 3 (Ath. 1. 29a-d) <lb/>εἶθʹ ὁπόταν πλήρωμαι Διὸς Σωτῆρος ἕλησθε, / <lb/>ἤδη
+               χρὴ γεραόν, πολιὸν σφόδρα κρατοφοροῦτα / <lb/><app>
+                  <lem wit="#C">οἶνον, ὑγρὴν χαίτην λευκῷ πεπυκασμένον ἄνθει / <lb/>πίνειν, ἐκ
+                     Λέσβου περικύμονος ἐκγεγαῶτα. /</lem>
+                  <rdg wit="#E"><lacunaStart/></rdg>
+               </app>
+               <lb n="5"/>τὸν <app>
+                  <lem wit="#C">τʹ</lem>
+                  <rdg wit="#E">δ᾽</rdg>
+               </app> ἀπὸ Φοινίκης ἱερᾶς τὸν Βύβλιον αἰνῶ, / <lb/>οὐ μέντοι κείνωι γε παρεξισῶ
+               αὐτον. ἂν γὰρ / <lb/>ἐξαίφνας αὐτοῦ γεύσηι μὴ πρόσθεν ἐθισθείς, / <lb/>εὐώδης μέν σοι
+               δόξει τοῦ Λεσβίου εἶναι / <lb/>μᾶλλον, ἔχει γὰρ τοῦτο χρόνου διὰ μῆκος ἄπλατον·/ <lb
+                  n="10"/>πινόμενος δʹ ἥσσων πολλῶι. κεῖνος δὲ δοκήσει / <lb/>οὐκ οἴνωι σοι ἔχειν
+               ὅμοιον γέρας, ἀμβροσίαι δέ. / <lb/>εἰ δέ <app>
+                  <lem wit="#C">τινες</lem>
+                  <rdg wit="#E">τι</rdg>
+               </app> σκώπτουσιν ἀλαζονοχαυνοφλύαροι / <lb/>ὡς ἅδιστος ἔφυ πάντων Φοινίκιος οἶνος, /
+               <lb/>οὐ προσέχω τὸν νοῦν αὐτοῖς. / <lb n="15"/>ἔστι δὲ καὶ Θάσιος πίνειν γενναῖος,
+               ἐὰν ἦι / <lb/>πολλαῖς πρεσβεύων ἑτέρου οἴνου <app>
+                  <lem wit="#E">περικαλλέσιν</lem>
+                  <rdg wit="#C">περικαλέσιν</rdg>
+               </app> ὥραις. / <lb/>οἶδα δὲ κἀξ ἄλλων <app>
+                  <lem wit="#E">πόλεων</lem>
+                  <rdg wit="#C">πολλὴν</rdg>
+               </app> βοτρυοσταγῆ ἔρνη / <lb/>εἰπεῖν αἰνῆσαί τε καὶ οὔ με λέληθʹ ὀνομῆναι. / ἀλλ’
+               οὐθὲν <app>
+                  <lem wit="#E">τἆλλ'</lem>
+                  <rdg wit="#C">τἆλλος</rdg>
+               </app> ἐστὶν ἁπλῶς πρὸς Λέσβιον οἶνον. / <lb n="20"/>ἀλλά τινες χαίρουσιν ἐπαινοῦντες
+               τὰ παρ' αὑτοῖς. /<note>habent CE</note></p>
+
+            <p><lb/>Puis, quand tu auras pris une pleine ration de Zeus le Sauveur, / <lb/>ce
+               devrait être un vieux vin à la tête bien grise, / <lb/>dont les cheveux humides sont
+               recouverts d’une fleur blanche, / <lb/>que tu boiras, un vin cultivé à <placeName
+                  ref="#Les">Lesbos</placeName> entouré de vagues. <lb n="5"/>Je loue aussi le vin
+               de <placeName ref="#Bib">Bibline</placeName> de la divine <placeName ref="#Phé"
+                  >Phénicie</placeName>, / <lb/>bien que je ne le mette pas à égalité avec le
+               précédent. En effet, / <lb/>si, tout à coup, tu n’es pas habitué à son goût la
+               première fois, / il te semblera être plus parfumé que celui de <placeName ref="#Les"
+                  >Lesbos</placeName>. / Cela est dû à son âge avancé. / <lb n="10"/>Mais lorsqu’il
+               est bu, il lui est bien inférieur. Le vin de <placeName ref="#Les"
+               >Lesbos</placeName>, au contraire, / <lb/>ne te semblera pas digne d’être élevé au
+               rang de vin mais à celui de l’ambroisie. / <lb/>Et si
+                  certains-fanfarons-bien-bavards-à-la-tête-vide<note>Mot composé typiquement
+                  comique : ἀλαζών (fanfaron), χαῦνος (vide, vain, frivole d’où tête vide) et
+                  φλύαρος (bavard, qui parle à tort et à travers). </note>disent en se moquant / que
+               le vin de <placeName ref="#Phé">Phénicie</placeName> est le meilleur de tous, /
+               <lb/>je ne leur prête aucune attention. / <lb n="15"/>Le vin de <placeName ref="#Tha"
+                  >Thasos</placeName> est bon à boire s’il est / <lb/>le plus vieux parmi des vins
+               de très bonnes années. / <lb/>Je suis tout à fait capable de reconnaître les cépages
+               et les grappes de raisin d’autres cités / <lb/>et je ne suis pas incapable d’en
+               parler, de les louer et de les nommer. / <lb/>Mais les autres vins ne sont rien en
+               comparaison des vins de <placeName ref="#Les">Lesbos</placeName>, / <lb n="20"/>bien
+               que certains aiment louer ce qu’ils ont chez eux. /</p>
+
+            <p>Fragment 4 (Ath. 2. 56c) <lb/>ῥυσαὶ δρυπεπεῖς παρακείσθωσάν σοι ἐλαῖαι <note>habent
+                  CE</note></p>
+
+            <p><lb/>Que l’on te serve des olives ridées et mûres sur pied. /</p>
+
+            <p>Fragment 5 (Ath. 2. 64a) <lb/>βολβῶν καὶ καυλῶν χαίρειν λέγω ὀξυβάφοισι / <lb/>τ’
+               ταῖς <app>
+                  <lem wit="#C">ἄλλαις παροψίσι πάσηισι</lem>
+                  <rdg wit="#E">ἄλλαισι παροψίσι πάσαις</rdg>
+               </app>. /<note>habent CE</note></p>
+
+            <p><lb/>J’envoie au diable les saucières remplies d’oignons et de tiges de
+                  silphium<note>Plante condimentaire et médicinale disparue, très utilisée dans
+                  l’Antiquité grecque et romaine. Pline la décrit comme “un don précieux de la
+                  nature” (<hi rend="italic">Histoire naturelle</hi>, XXII, 49). </note><lb/>et tous
+               les autres plats d'accompagnement. /</p>
+
+
+            <p>Fragment 6 (Ath. 3. 92d-e) <lb/>τοὺς <app>
+                  <lem wit="#A">μῦς θʹ ἡ Αἶνος</lem>
+                  <rdg wit="#C #E">μῦς ἡ Αἶνος</rdg>
+               </app> ἔχει μεγάλους, ὄστρεια δʹ Ἄβυδος, / <lb/><app>
+                  <lem wit="#A">τὰς ἄρκτους</lem>
+                  <rdg wit="#C #E">τοὺς ἄρκτους</rdg>
+               </app> Πάριον, τοὺς δὲ κτένας ἡ <app>
+                  <lem wit="#A">Μιτυλίνη</lem>
+                  <rdg wit="#C #E">Μιτυλήνη</rdg>
+               </app>, / <lb/><app>
+                  <lem wit="#A">πλείστους</lem>
+                  <rdg wit="#C">πλεῖστα</rdg>
+               </app> δʹ Ἀμβρακία παρέχει <app>
+                  <lem wit="#A">καὶ ἄπλατα μετʹ αὐτῶν. / <lb/>Μεσσήνηι δὲ <app>
+                        <lem wit="#Aac">πελωριαδαῖς</lem>
+                        <rdg wit="#Apc">πελωριάδες</rdg>
+                     </app> στενοπορθμίδαι κόγχας</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><lb n="5"/><app>
+                  <lem wit="#A">κὰν</lem>
+                  <rdg wit="#C #E">ἐν</rdg>
+               </app> Ἐφέσωι <app>
+                  <lem wit="#A">λήψει</lem>
+                  <rdg wit="#C #E">λήψη</rdg>
+               </app> τὰς λείας οὔτι πονηράς. / <lb/><app>
+                  <lem wit="#A">τήθεα Καλχηδών</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>, τοὺς κήρυκας δʹ ἐπιτρίψαι / <lb/>ὁ Ζεὺς τούς τε θαλασσογενεῖς καὶ τοὺς
+               ἀγοραίους, / <lb/>πλὴν ἑνὸς ἀνθρώπου, κεῖνος δέ μοί <app>
+                  <lem wit="#A #C">ἐστιν</lem>
+                  <rdg wit="#E">ἐστι</rdg>
+               </app>ἑταῖρος / <lb/>Λέσβον ἐπιστάφυλον ναίων, Ἀγάθων δὲ καλεῖται. /<note>habent
+                  ACE</note></p>
+
+            <p><lb/>Ainos a des moules de grande taille, <placeName ref="#Aby">Abydos</placeName>
+               des huîtres, / <lb/>Parion des oursins, <placeName ref="#Mit">Mitylène</placeName>
+               des pétoncles. / <lb/>Mais <placeName ref="#Amb">Ambracie</placeName> fournit la
+               plupart de tout cela et en nombre illimité. / <lb/>À <placeName ref="#Mes"
+                  >Messine</placeName>, dans le détroit, tu achèteras des palourdes du Cap Peloro /
+                  <lb n="5"/>et, à <placeName ref="#Eph">Éphèse</placeName>, d’excellentes à
+               coquille lisse. / <lb/><placeName ref="#Cha">Chalcédoine</placeName> a des ascidies.
+               Quant aux ‘hérauts’, Zeus / <lb/>les anéantira qu’ils soient nés en mer ou qu’ils
+               fréquentent les marchés, / <lb/>à l’exception d’un seul homme, et celui-là est mon
+               ami, / <lb/>il habite <placeName ref="#Les">Lesbos</placeName>, fertile en vins, et
+               il se nomme Agathon. /</p>
+
+            <figure>
+               <graphic url="../images_tei/monnaie_siphium.png"/>
+            </figure>
+
+
+            <p>Fragment 7 (Ath. 3. 101b-e) <lb/>ἀεὶ δὲ στεφάνοισι κάρα παρὰ δαῖτα πυκάζου /
+               <lb/>παντοδαποῖς, οἷς ἄν γαίας πέδον ὄλβιον <app>
+                  <lem wit="#A #C">ἀνθῆι,</lem>
+                  <rdg wit="E">ἀνθᾶ</rdg>
+               </app> / <lb/>καὶ στακτοῖσι μύροις ἀγαθοῖς <app>
+                  <lem wit="#A">χαίτην</lem>
+                  <rdg wit="#C #E">χαίταν</rdg>
+               </app> θεράπευε, / <lb/>καὶ σμύρναν λίβανόν τε πυρὸς μαλακὴν ἐπὶ τέφραν / <lb n="5"
+               />βάλλε πανημέριος, <app>
+                  <lem wit="#A #Ε">Συρίης</lem>
+                  <rdg wit="#C">Συρίοις</rdg>
+               </app> εὐώδεα κάρπον,/ <lb/><app>
+                  <lem wit="#A #E">ἐμπίνοντι</lem>
+                  <rdg wit="#C">ἐμπίπτοντα</rdg>
+               </app> δὲ σοι φερέτω τοιόνδε τράγημα, / <lb/>γαστέρα καὶ μήτραν ἑφθὴν ὑὸς ἔν τε <app>
+                  <lem wit="#C #E">κυμίνῳ</lem>
+                  <rdg wit="#A">μίνωι</rdg>
+               </app> / <lb/>ἔν τʹ ὄξει δριμεῖ καὶ σιλφίωι ἐμβεβαῶσαν / <lb/>ὀρνίθων τε ὀπτῶν <app>
+                  <lem wit="#A">ἁπαλὸν</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> γένος, <app>
+                  <lem wit="#A">ὡς ἂν ὑπάρχηι / <lb n="10"/>ὥρη.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> τῶν δὲ Συρακοσίων τούτων ἀμέλησον, / <lb/>οἳ πίνουσι μόνον βατράχων
+               τρόπον,οὐδὲν <app>
+                  <lem wit="#A">ἔδοντες</lem>
+                  <rdg wit="#C #E">ἔθοντες</rdg>
+               </app>. / <lb/>ἀλλὰ <app>
+                  <lem wit="#A">συμπείθου</lem>
+                  <rdg wit="#C #E">σὺ μὴ πείθου</rdg>
+               </app> κείνοις, ἃ δʹ ἐγὼ λέγω ἔσθε / <lb/>βρωτά. τὰ δʹ ἄλλα <app>
+                  <lem wit="#A">γʹἐκεῖνα</lem>
+                  <rdg wit="#C #E">γε κεῖνα</rdg>
+               </app> τραγήματα πάντα πέφυκε / <lb/>πτωχείας<app>
+                  <lem wit="#A">παράδειγμα καλῆς, ἑφθῆς τʹ ἐρέβινθοι / <lb n="15"/>καὶ κύαμοι καὶ
+                     μῆλα καὶ ἰσχάδες.</lem>
+                  <rdg wit="#C #E">παραδείγματα.ἐρέβινθοι,κύαμοι, μῆλα, ἰσχάδες</rdg>
+               </app> ἀλλὰ πλακοῦντα / <lb/>αἴνει Ἀθήνηισι γεγενημένον· εἰ δὲ ἄν που / <lb/>αὐτον
+               ἔχηις, <app>
+                  <lem wit="#A">ἑτέρωθι</lem>
+                  <rdg wit="#C #E">ἑτέρωθε</rdg>
+               </app> μέλι ζήτησον <app>
+                  <lem wit="#A">ἀπελθὼν / <lb/>Ἀττικόν,</lem>
+                  <rdg wit="#C #E">Ἀττικόν ἀπελθὼν</rdg>
+               </app><app>
+                  <lem wit="#A">ὡς τοῦτʹ ἔστιν ὃ ποιεῖ κεῖνον ὑβριστήν. /</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>
+               <lb/>οὕτω τοι δεῖ ζῆν τὸν ἐλεύθερον ἢ κατὰ τῆς γῆς / <lb n="20"/>καὶ <app>
+                  <lem wit="#A">κατὰ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> τοῦ βαράθρου καὶ Ταρτάρου <app>
+                  <lem wit="#A">ἐς</lem>
+                  <rdg wit="#C #E">εἰς</rdg>
+               </app> τὸν ὄλεθρον / <lb/>ἥκειν καὶ κατορωρύχθαι σταδίους ἀναρίθμήτους./ <note>habent
+                  ACE</note></p>
+
+            <p><lb/>Mets toujours sur la tête, lors des festins, des couronnes / <lb/>aux nombreuses
+               variétés de fleurs dont la terre est riche au moment de l’éclosion, / <lb/>et répands
+               sur tes cheveux des gouttes d’excellents parfums / <lb/>et jette tout au long de la
+               journée, sur les cendres douces du feu, de la myrrhe / <lb n="5"/>et de l’encens, le
+               fruit parfumé de <placeName ref="#Syr">Syrie</placeName>. / <lb/>Et pendant que tu
+               bois, que quelqu’un t’apporte une friandise comme / <lb/>une saucisse et une panse de
+               truie cuite ayant mijoté / <lb/>dans du cumin, du vinaigre piquant et du silphium, /
+               <lb/>ainsi qu’une espèce tendre d’oiseaux rôtis, choisie selon / <lb n="10"/>la
+               saison. Ne fais pas attention à ces Syracusains / <lb/>qui boivent à la manière des
+               grenouilles, sans manger. / <lb/>Ne fais pas attention à eux mais mange les plats /
+               <lb/>que je mentionne. Considère tous les autres plats / <lb/>comme le modèle d’une
+               belle pauvreté : pois-chiches bouillis, / <lb n="15"/>fèves, pommes et figues
+               séchées. Mais loue / <lb/>les galettes venant d’<placeName ref="#Athè"
+                  >Athènes</placeName>. Et si parfois tu n’as pas cela là où tu es, / <lb/>va
+               ailleurs et cherche du miel d’<placeName ref="#Att">Attique</placeName>, /
+               <lb/>puisque c’est cela qui permet à la panse de truie de manifester sa suprématie. /
+               <lb/>C’est ainsi qu’un homme libre doit vivre ou qu’il descende / <lb n="20"/>à sa
+               perte sous la Τerre, sous le Gouffre et le Tartare / <lb/>et qu’il soit enterré à
+               mille lieues de profondeur./</p>
+
+            <p>Fragment 8 (Ath. 3. 104f-5a) <lb/>ἀλλὰ παρεὶς λῆρον πολὺν άστακὸν ὠνοῦ / <lb/>τὸν τὰς
+               χεῖρας ἔχοντα μακρὰς ἄλλως τε βαρείας, / <lb/>τοὺς <app>
+                  <lem wit="#A">δὲ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> πόδας μικρούς, βραδέως δʹἐπὶ γαῖαν ὀρούει./ <lb/>εἰσὶ δὲ πλεῖστοι <app>
+                  <lem wit="#A">μὲν πάντων ἀρετῆι τε</lem>
+                  <rdg wit="#C #E">καὶ ἀρετῆ</rdg>
+               </app> κράτιστοι / <lb n="5"/>ἐν Λιπάραις. πολλοὺς δὲ καὶ Ἑλλήσποντος
+                  ἀθροίζει.<note>habent ACE</note></p>
+
+            <p><lb/>Mais laisse tomber les bêtises et achète un homard / <lb/>qui a des pinces à la
+               fois grandes et lourdes, / <lb/>et de petites pattes et qui se déplace lentement sur
+               terre. / <lb/>Ils sont très nombreux et excellents par leur qualité / <lb n="5"/>aux
+               îles <placeName ref="#Lip">Lipari</placeName>. L’<placeName ref="#Hel"
+                  >Hellespont</placeName> en compte aussi un très grand nombre. /</p>
+
+            <p>Fragment 9 (Ath. 3. 105e) <lb/>ἤν δέ ποτʹ εἰς Ἴασον Καρῶν πόλιν εἰσαφίκηαι, /
+               <lb/>καρῖδʹ εὐμεγέθη <app>
+                  <lem wit="#A">λήψεις</lem>
+                  <rdg wit="#C #E">λήψη</rdg>
+               </app>, <app>
+                  <lem wit="#A">σπανία</lem>
+                  <rdg wit="#C #E">σπανίαν</rdg>
+               </app> δὲ πρίασθαι. / <lb/>ἐν δὲ <app>
+                  <lem wit="#A">Μακηδονίαι</lem>
+                  <rdg wit="#C #E">Μακεδονίᾳ</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">τε</lem>
+                  <rdg wit="#C #E">δὲ</rdg>
+               </app> καὶ Ἀμβρακίαι μάλα πολλαί./<note>habent ACE</note></p>
+
+            <p><lb/>Mais si jamais tu vas à <placeName ref="#Ias">Iasos</placeName>, ville des
+               Cariens, / <lb/>tu achèteras une crevette de bonne taille, bien que rare à acquérir,
+               / <lb/>alors qu’en <placeName ref="#Mac">Macédoine</placeName> et à <placeName
+                  ref="#Amb">Ambracie</placeName>, elles sont très nombreuses. /</p>
+
+            <p>Fragment 10 (Ath. 3. 111e-12b) <lb/><app>
+                  <lem wit="#A">πρῶτα μὲν οὖν δώρων μεμνήσομαι ἠυκόμοιο / <lb/>Δήμητρος, φίλε Μόσχε·
+                     σὺ δʹ ἐν φρεσὶ βάλλεο σηισιν. / <lb/>ἔστι γὰρ οὖν τὰ κράτιστα λαβεῖν βέλτιστά
+                     τε πάντων, / <lb/>εὐκάρπου κριθῆς καθαρῶς ἠσκημένα πάντα, /</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><lb n="5"/>ἐν Λέσβωι, κλεινῆς Ἐρέσου περικύμονι μαστῶι, / <lb/>λευκότερʹ
+               αἰθερίας χιόνος. θεοὶ εἴπερ ἔδουσιν / <lb/>ἄλφιτα, ἐκεῖθεν ἰὼν Ἑρμῆς αὐτοῖς ἀγοράζει.
+               / <lb/>ἐστὶ δὲ κἀν Θήβαις ταῖς ἑπταπύλοις ἐπιεικῆ / <lb/>κἀν Θάσωι ἐν τʹ ἄλλαις <app>
+                  <lem wit="#A">πόλεσίν</lem>
+                  <rdg wit="#C #E">πόλεσι</rdg>
+               </app> τισιν, ἀλλὰ γίγαρτα / <lb n="10"/>φαίνοντα πρὸς ἐκεῖνας· <app>
+                  <lem wit="#A">ἀφεὶς τὰ δʹ ἐπιστασο δόξης</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>· / <lb/>στρογγυλοδίντος δὲ τετριμμένος εὖ κατὰ χεῖρα / <lb/>κόλλιξ Θεσσαλικός
+               σοι ὑπαρχέτω, ὃν καλέουσι / <lb/>κεῖνοι κριμματίαν, οἱ δʹ ἄλλοι χόνδρινον ἄρτον. /
+               <lb/>εἶτα τὸν ἐν Τεγέαις <app>
+                  <lem wit="#A">σεμιδάλεος</lem>
+                  <rdg wit="#C #E">σεμιδάλεως</rdg>
+               </app> υἱὸν ἐπαινῶ / <lb n="15"/>ἐγκρυφίαν. τὸν δʹ εἰς ἀγορὰν ποιεύμενον ἄρτον /
+               <lb/>αἱ κλειναὶ παρέχουσι βροτοῖς κάλλιστον Ἀθῆναι. / <lb/><app>
+                  <lem wit="#A">ἐν δὲ φέρει σταφύλοις Ἐρυθροῖς ἐκλιβάνου ἐλθὼν / <lb/>λευκὸς αβραι
+                     θάλλων ὥραις τέρψει παρὰ δεῖπνον.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><note>habent ACE></note></p>
+
+            <p><lb/>Avant tout, je rappellerai les dons de Déméter / <lb/>à la belle chevelure, mon
+               cher Moschos ;<note>Un des deux destinataires du poème d’Archestrate, le second étant
+                  Cléaïnos.</note>retiens-les dans ta chair. / <lb/>En effet, tout ce qu’il y a de
+               mieux et de meilleur à prendre, / <lb/>d’un orge<note>Cultivé en Grèce depuis le
+                  Néolithique, l’orge constitue la base de la culture céréalière dans la période
+                  classique (OLSON et SENS 2000). </note>abondant passé intégralement et proprement
+               au tamis,/ <lb n="5"/>est à <placeName ref="#Les">Lesbos</placeName>, sur le flanc
+               battu par les vagues de la célèbre <placeName ref="#Ere">Eresos</placeName>, /
+               <lb/>plus blanches que la neige éthérée. Si les dieux mangent / <lb/>du gruau d’orge,
+               c’est là qu’Hermès va l’acheter pour eux. / <lb/>Il est aussi convenable à <placeName
+                  ref="#The">Thèbes</placeName> aux Sept-Portes,/ <lb/>à Thasos et dans quelques
+               autres cités, bien qu’il ressemble / <lb/>à des pépins de raisin en comparaison de
+               celui de <placeName ref="#Les">Lesbos</placeName>. Tu dois considérer cela comme
+               certain. / <lb n="10"/>Commence par t’acheter un pain de <placeName ref="#Thes"
+                  >Thessalie</placeName> rond / <lb/>et bien pétri à la main, que les uns /
+               <lb/>appellent &quot;pain de farine complète&quot;, mais que d’autres appellent
+               &quot;pain&quot; de céréales”. / <lb/>Je fais ensuite l’éloge du fils tégéen de la
+               farine de blé, / <lb/>cuit dans les cendres. Quant au pain fait pour être acheté au
+               marché, / <lb n="15"/>la célèbre <placeName ref="#Ath">Athènes</placeName> fournit
+               aux mortels les meilleurs. / <lb/>Et en <placeName ref="#Ery">Érythres</placeName>
+               avec ses grappes de raisin, un pain blanc qui sort du four / <lb/>complètement levé,
+               juste au moment où il est prêt à <lb/>être mangé, donnera du plaisir au moment du
+               repas. /</p>
+
+            <figure>
+               <graphic url="../images_tei/monnaie_hermes.png"/>
+            </figure>
+
+            <p>Fragment 11 (Ath. 3. 112b-c) <lb/>ἔστω δʹἤ σοι ἀνὲρ Φοῖνιξ ἣ Λυδὸς ἐν οἴκῳ, /
+               <lb/>ὄστις ἐπιστήμων ἔσται σοι ὁ κατʹἦμαρ / <lb/>παντοίας ἰδέας τεύκων ὡς ἂν σὺ
+               κελεύης. /<note>habet A</note></p>
+
+            <p><lb/>Qu’il y ait un Phénicien ou un Lydien dans ta maison / <lb/>qui connaîtra les
+               céréales et pourra en produire toutes sortes / <lb/>chaque jour selon tes ordres.</p>
+
+            <p>Fragment 12 (Ath. 3. 116f-17b) <lb/>καὶ Σικελοῦ <app>
+                  <lem wit="#A #C">θύννου</lem>
+                  <rdg wit="#E">θύνου</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">τέμαχος</lem>
+                  <rdg wit="#C #E">τέμμαχος</rdg>
+               </app> / <lb/>τμηθὲν ὅτʹ ἐν <app>
+                  <lem wit="#A #C">βίκοισι</lem>
+                  <rdg wit="#E">κύβοισι</rdg>
+               </app> ταριχεύσθαι ἔμελλεν. / <lb/>σαπέρδηι δʹ ἐνέπω κλαίειν μακρά, Μοντικῶι ὄψῳ, /
+               <lb/>καὶ τοῖς κεῖνον <app>
+                  <lem wit="#A #Ε">ἐπαινοῦσιν.</lem>
+                  <rdg wit="#C">παινοῦσι</rdg>
+               </app> παῦροι <app>
+                  <lem wit="#A">γὰρ</lem>
+                  <rdg wit="#C #E">γὰρ τ'</rdg>
+               </app> ἴσασιν / <lb n="5"/>ἀνθρώπων, ὅ τι φαῦλον ἔφυ καὶ ἀκιδνὸν κενεόν τε ἔδεσμα . /
+               <lb/>ἀλλὰ τριταῖον ἔχειν σκόμβρον πρὶν ἐς ἁλμυρὸν ὕδωρ / <lb/>ἐλθεῖν ἀμφορέως <app>
+                  <lem wit="#A">εντονεον</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> ἡμιτάριχον. / <lb/>ἂν δʹ ἀφίκηι κλεινοῦ Βυζαντίου εἰς πόλιν ἁγνήν, /
+               <lb/>ὡραίου φάγε μοι τέμαχος πάλιν· ἔστι γὰρ ἐσθλὸν / <lb n="10"/>καὶ μαλακόν.<app>
+                  <rdg wit="#C #E">τέμαχος. πάνυ γὰρ ἔστιν ἐσθλόν καὶ μαλακὸν.</rdg>
+               </app><note>habent ACE</note></p>
+
+            <p><lb/>Et une tranche de thon de <placeName ref="#Sic">Sicile</placeName> est /
+               <lb/>coupée quand elle est sur le point de mariner<note>On connaît peu les techniques
+                  de préservation des aliments. Les deux techniques seraient le fumage et la
+                  salaison. Ici, il s’agit probablement de la salaison (OLSON et SENS 2000).
+               </note>dans les amphores. / <lb/>Mais j’envoie au diable le saperde, un plat de la
+                  <placeName ref="#Mer">Mer Noire</placeName>, / <lb/>et tous ceux qui en font
+               l’éloge. Car peu de gens savent / <lb n="5"/>si c’est par nature une nourriture de
+               mauvaise qualité ou s’il est exquis. / <lb/>Mais achète un maquereau le troisième
+               jour avant qu’il ne soit placé dans l’eau salée / <lb/>à l’intérieur d’une amphore en
+               tant que morceau de poisson récemment mariné et demi-salé. / <lb/>Si tu viens dans
+               l’illustre ville sainte de <placeName ref="#Byz">Byzance</placeName>, / <lb/>mange
+               pour moi une tranche de poisson salé de la haute saison car il est bon / <lb n="10"
+               />et fondant. /</p>
+
+            <p>Fragment 13 (Ath. 4. 162b, 163c-e) <lb/>ἀλλʹ οὐ πολλοὶ ἴσασιν βροτῶν τόδε θεῖον
+               ἔδεσμα, / <lb/>οὐδʹ ἔσθειν ἐθέλουσ' ὅσοι κόυφην τε λεβώδη / <lb/>ψυχὴν κέκτηνται
+               θνητῶν εἰσὶν δʹ ἀπόπληκτοι, / <lb/>ὡς ἀνθρωποφάγου τοῦ θηρίου ὄντος. ἅπας δὲ / <lb
+                  n="5"/>ἰχθὺς σάρκα φιλέεῖ βροτεάν, ἄν περ περικύρσηι. / <lb/>ὥστε πρέπει καθαρῶς
+               ὁπόσοι τάδε μωρολογοῦσι / <lb/>τοῖς λαχάνοις προσάγειν καὶ πρὸς Διόδωρον ἰόντας /
+               <lb/>τὸν σοφὸν ἐγκρατέως μετʹ ἐκείνου πυθαγορίζειν. /<note>habet A</note></p>
+
+            <figure>
+               <graphic url="../images_tei/crat%C3%A8re_ischia.png"/>
+            </figure>
+
+            <p><lb/>Mais peu de mortels connaissent ce plat divin / <lb/>et ces mortels qui ont une
+               cervelle de moineau <lb/>et qui sont stupides ne veulent pas en manger/ <lb/>sous
+               prétexte que cette bête sauvage mange des hommes. / <lb n="5"/>Mais tout poisson
+               mange de la chair humaine s’il en croise un quelque part. / <lb/>C’est pourquoi il
+               est très pertinent que ceux qui parlent de cette façon idiote / <lb/>tiennent
+               compagnie aux légumes, restent avec le sage. / <lb/><persName ref="#Dio"
+                  >Diodore</persName> et jouent au disciple de <persName ref="#Pyt"
+                  >Pythagore</persName> avec lui<note>&quot;L'un des nombreux arguments avancés pour
+                  justifier le rejet du poisson est son impureté car il est un mangeur
+                  d'hommes&quot;. On attribue, par ailleurs, à <persName ref="#Pyt"
+                     >Pythagore</persName> le fait que l’on ne doit pas nuire à un animal s’il ne
+                  cause pas de tort à l’homme (ICARD et SZABADOS 2014). <persName ref="#Arc"
+                     >Archestrate</persName> identifie probablement <persName ref="#Pyt"
+                     >Pythagore</persName> comme l’une des figures du végétarisme, tout comme
+                     <persName ref="#Dio">Diodore d'Aspendos</persName>, pour s’en moquer
+                  ouvertement (WILKINS et HILL 2017). </note></p>
+
+
+            <p>Fragment 14 (Ath. 7. 278a-d et 7. 313e-14a) <lb/>τὴν<app>
+                  <lem wit="#A7.278">δʹ</lem>
+                  <rdg wit="#CE7.278 #ACE7.313-14"><lacunaStart/></rdg>
+               </app> ἀμίαν <app>
+                  <lem wit="#ACE7.278">φθινοπώρου</lem>
+                  <rdg wit="#ACE7.313-14">ὠνου ante φθινοπώρου</rdg>
+               </app>, ὅταν Πλειὰς καταδύνηι, / <lb/>πάντα τρόπον σκεύαζε. τί σοι τάδε μυθολογεύω ;
+               / <lb/>οὐ γὰρ μὴ σε διαφθείρηι γʹ , οὐδʹ ἄν <app>
+                  <lem wit="#A #C">ἐπιθυμῆις</lem>
+                  <rdg wit="#E">ἐπιθυμεις</rdg>
+               </app>. / <lb/>εἰ <app>
+                  <lem wit="#A">δʹ ἐθέλεις</lem>
+                  <rdg wit="#C #E">δὲ θέλεις</rdg>
+               </app> καὶ τοῦτο δαήμεναι, ὦ φίλε Μόσχε, / <lb n="5"/>ὅντινα χρή σε τρόπον #κείνην
+               διαθεῖναι ἄριστα, / <lb/>ἐν συκῆς φύλλοις καὶ ὀριγάνωι οὐ μάλα πολλῆι. / <lb/>μὴ
+               τυρόν, μὴ λῆρον· ἁπλῶς δʹ οὕτως θεραπεύσας / <lb/>ἐν συκῆς φύλλοις σχοίνωι κατάδησον
+               ἄνωθεν, / <lb/>εἶθʹ ὑπὸ θερμὴν <app>
+                  <lem wit="#A #E">ὦσον</lem>
+                  <rdg wit="#C">ὦσων</rdg>
+               </app> ἔσω σποδόν, ἐν φρεσὶ καιρὸν / <lb n="10"/>γινώσκων ὁπότʹ ἐστʹὀπτή, καὶ μὴ
+               κατακαύσηις. / <lb/>ἔστω δʹ αὕτη σοι Βυζαντίου ἐξ <app>
+                  <lem wit="#A #E">ἐρατεινοῦ</lem>
+                  <rdg wit="#C">ἐρατίνου</rdg>
+               </app>, / <lb/><app>
+                  <lem wit="#A">εἴπερ ἔχειν ἀγαθὴν ἐθέλεις· κἂν ἐγγὺς ἁλωι που / <lb/>τοῦδε τόπου,
+                     κεδνὴν λήψει· τηλοῦ δὲ θαλάσσης / <lb/>Ἑλλησποντιάδος χείρων, κἂν κεινὸν
+                     ἀμείψηις / <lb n="15"/>Αἰγαίου πελάγους ἔναλον πόρον, οὐκέθʹ ὁμοία /
+                     <lb/>γίνεται, ἀλλὰ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>καταισχύνει τὸν πρόσθεν ἔπαινον. <note>habent ACE</note></p>
+
+            <p><lb/>Quant à la bonite, à l’automne, quand les <persName ref="#Pléi"
+                  >Pléiades</persName><note>Filles du Titan <persName ref="#Atl">Atlas</persName> et
+                  de l’Océanide <persName ref="#Plé">Pléioné,</persName> les <persName ref="#Pléi"
+                     >Pléiades</persName> sont sept sœurs. En astrologie, il s’agit d’un amas
+                  d’étoiles qui s’observe dans la constellation du Taureau. Peu mentionnées chez
+                  Homère, elles le sont davantage chez <persName ref="#Hés">Hésiode</persName> qui
+                  indique qu’elles rythment les travaux agricoles et la navigation (HÉSIODE, <hi
+                     rend="italic">Les Travaux et les jours</hi>). </note>se couchent, /
+               <lb/>prépare-la de n’importe quelle façon. / <lb/>Pourquoi t’en parler des heures ? /
+               <lb/>En effet, tu ne la gâcherais pas, quand bien même tu le souhaiterais. /
+               <lb/>Mais si tu veux néanmoins apprendre, mon cher Moschos, / <lb n="5"/>la meilleure
+               façon pour toi de la préparer, / <lb/>il faut que ce soit dans des feuilles de
+                  figuier<note>Les feuilles de figuier donnent par imprégnation un goût savoureux à
+                  la préparation du poisson, mais elles évitent surtout que sa chair soit brûlée
+                  pendant la cuisson (WILKINS et HILL 2017).</note>et un peu d’origan. / <lb/>Pas de
+               fromage, pas d’absurdité ! Prépare-la simplement / <lb/>dans des feuilles de figuiers
+               liées par le haut à un jonc / <lb/>et place-la dans la cendre chaude, en gardant à
+               l’esprit / <lb n="10"/>le moment où elle sera rôtie et non pas brûlée ! / <lb/>Sois
+               sûr qu’elle provienne de la charmante Byzance / <lb/>si tu veux qu’elle soit bonne.
+               Si elle est prise près de là, / <lb/>tu en auras une excellente. Mais elle est de
+               loin moins bonne / <lb/>venant de la mer de l’Hellespont, et si elle traverse / <lb
+                  n="15"/>le fameux détroit de la mer Egée, / <lb/>ce n’est plus la même chose, et
+               elle fait honte à l’éloge qui lui a été fait juste avant.</p>
+
+            <p>Fragment 15 (Ath. 7. 278d-e) <lb/>ὅπου ἐστὶν ἕκαστον / <lb/>κάλλιστον βρωτόν.<app>
+                  <lem wit="#A">τε</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> /<note>habent ACE</note></p>
+
+            <p><lb/>Là où chaque / <lb/>aliment est le meilleur.</p>
+
+            <p>Fragment 16 (Ath. 7. 284e) <lb/><app>
+                  <lem wit="#A">Βοσπόρου ἐκπλεύσαντα τὰ λευκότατʹ · ἀλλὰ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> προσέστω / <lb/>μηδὲν ἐκεῖ στερεᾶς σαρκὸς Μαιώτιδι λίμνηι / <lb/>ἰχθύος <app>
+                  <lem wit="#A">αὐξηθέντος</lem>
+                  <rdg wit="#C #E">ἐναυξηθέντος</rdg>
+               </app>, ὄν ἐν μέτρωι οὐ θέμις εἰπεῖν.<note>habent ACE</note></p>
+
+            <p><lb/>Les poissons les plus blancs ont migré hors du <placeName ref="#Bos"
+                  >Bosphore</placeName>. Mais / <lb/>que le poisson à chair ferme qui grandit dans
+               le <placeName ref="#Lac">Lac Méotide</placeName> / <lb/>ne soit pas mentionné, lui à
+               qui on ne permet pas de rentrer dans un vers. /<note>&quot;La solution de cette
+                  énigme est &quot;l’antacée&quot;, antakaîos, sorte d’esturgeon dont le nom grec ne
+                  peut métriquement s’insérer dans aucun hexamètre&quot; (LOUYEST 2009).</note></p>
+
+            <p>Fragment 17 (Ath. 7. 285b-c) <lb/>τὴν ἀφύην μίνθου πᾶσαν πλὴν τὴν ἐν Ἀθήναις· / <lb/><app>
+                  <lem wit="#A">τὸν γόνον ἐξαυδῶ, τὸν ἀφρὸν καλέουσιν Ἴωνες. / <lb/>καὶ λαβὲ
+                     πρόσφατον αὐτὸν</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>ἐν<app>
+                  <lem wit="#A">εὐκόλποισι</lem>
+                  <rdg wit="#C #E">εὐκόλποις</rdg>
+               </app>Φαλήρου / <lb/>ἀγκῶσι <app>
+                  <lem wit="#A">ληφθένθʹ ἱεροῖς</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>· κἀν τῆι περικλύστωι / <lb n="5"/>ἐστὶ Ῥόδωι γενναῖος, ἐὰν ἐπιχώριος ἔλθηι. <lb/><app>
+                  <lem wit="#A">ἂν δέ τις που ἱμείρης</lem>
+                  <rdg wit="#C #E">ἂν δέ τι που ἱμείρη</rdg>
+               </app> αὐτοῦ γεύσασθαι, ὁμοῦ χρὴ / <lb/>κνίδας ὀψωνεῖν, <app>
+                  <lem wit="#A">τὰς</lem>
+                  <rdg wit="#C #E">τάς τ'</rdg>
+               </app><app>
+                  <lem wit="#A #E">ἀμφικόμους</lem>
+                  <rdg wit="#C">ἀφικομένους</rdg>
+               </app> ἀκαλήφας. / <lb/>εἰς ταὐτὸν μίξας δʹ αὐτὰς ἐπὶ τηγάνου ὄπτα, / <lb/>εὐώδη
+               τρίψας ἄνθη λαχάνων ἐν ἐλαίωι.<note>habent ACE</note></p>
+
+            <p><lb/>Traite avec mépris tout le menu fretin sauf celui d’<placeName ref="#Athè"
+                  >Athènes</placeName> – / <lb/>je parle des alevins, que les Ioniens appellent
+               &quot;écumes de mer&quot;. / <lb/>Achète-les frais après avoir été pris dans le creux
+               / <lb/>du beau golfe sacré de <placeName ref="#Pha">Phalère</placeName>. Ils sont
+               aussi de bonne qualité / <lb n="5"/>à <placeName ref="#Rho">Rhodes</placeName> baigné
+               par la mer, à condition qu’ils proviennent de là-bas. / <lb/>Mais si d’une manière ou
+               d’une autre tu désires y goûter, il faut / <lb/>que tu achètes en même temps des
+               orties de mer – les acalèphes à tentacules. / <lb/>Mélange-les ensemble et fais-les
+               frire à la poêle, / <lb/>après avoir broyé des herbes aromatiques dans de l’huile
+               d’olive. </p>
+
+            <p>Fragment 18 (Ath. ACE 7. 285e-286a et A 7. 294f-5a) <lb/>ἐν <app>
+                  <lem wit="#A">δὲ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> Ῥόδωι γαλεὸν τὸν ἀλώπεκα, κἂν ἀποθνήισκειν / <lb/>μέλληις, ἂν μή σοι πωλεῖν
+               ἐθέληι, ἅρπασον αὐτόν, / <lb/>ὅν καλέουσι <app>
+                  <lem wit="#A">Συρακόσιοι</lem>
+                  <rdg wit="#C #E">Συρακούσιοι</rdg>
+               </app> κύνα πίονα, κἆθʹ / <lb/>ὕστερον <app>
+                  <lem wit="#A">ἤδη</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> πάσχʹ ὅ τί σοι πεπρωμένον ἐστίν.<note>habent ACE</note></p>
+
+            <p><lb/>À <placeName ref="#Rho">Rhodes</placeName>, même si tu dois en mourir, / <lb/>si
+               l’on ne veut pas te vendre le requin-renard, vole / <lb/>ce que les Syracusains
+               appellent &quot;chien-gras&quot; ! / <lb/>Après cela, endure ce que le destin te
+                  réserve.<note>habent ACE</note></p>
+
+
+            <p>Fragment 19 (Ath. 7. 286c) <lb/>Βάρταχον, δʹ ἔνθʹ ἄν <app>
+                  <lem wit="#A">ἴδηις</lem>
+                  <rdg wit="#C #E">ἴδοις</rdg>
+               </app>, ὀψώνει / <lb/>καὶ γαστρίον αὐτοῦ / <lb/>σκεύασον.<note>habent ACE</note></p>
+
+            <p><lb/>Si tu vois là un crapaud de mer, achète / <lb/>et prépare / <lb/>sa panse. /</p>
+
+            <p>Fragment 20 (Ath. 7. 286d-e) <lb/>καὶ βατίδʹ ἑφθὴν ἔσθε μέσου χειμῶνος ἐν ὥρηι, / <lb/><app>
+                  <lem wit="#A">καῖ ταύτηι τυρὸν καῖ σίλφιον. ἅττα τε σάρκα / <lb/>μὴ πίειραν ἔχηι
+                     πόντου τέκνα, τῶιδε τρόπωι χρὴ / <lb/>σκευάζειν. ἤδὴ σοι ἐγὼ τὰδε δεύτερον
+                     αὐδῶ.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><note>habent ACE</note></p>
+
+            <p><lb/>Mange une raie bouillie au milieu de l’hiver / <lb/>avec du fromage et du
+               silphium. Il faut préparer / <lb/>de cette manière n’importe lequel des enfants de la
+               mer / <lb/>à chair dépourvue de graisse. Je te le dis pour la deuxième fois.</p>
+
+            <p>Fragment 21 (Ath. 7.288a-b et 7. 330a-b) <lb/>εἶτα λαβεῖν ψήτγαν μεγάλην <app>
+                  <lem wit="#ACE7.330">καὶ τὴν</lem>
+                  <rdg wit="#A7.288">τὴν</rdg>
+                  <rdg wit="#CE7.288">τὴν θ'</rdg>
+               </app> ὑπότρηχυν / <lb/><app>
+                  <lem wit="#ACE7.288 #CE7.330">βούγλωσσον</lem>
+                  <rdg wit="#A7.330">βούγλωσσα</rdg>
+               </app>, <app>
+                  <lem wit="#ACE7.330 #A7.288"><app>
+                        <lem wit="#CE7.288">ταύτην δὲ θέρευς</lem>
+                        <rdg wit="#A7.288">ταύτην δὲ θερεὺς</rdg>
+                        <rdg wit="#ACE7.330"><lacunaStart/></rdg>
+                     </app>
+                     <app>
+                        <lem wit="#ACE7.330">περὶ Χαλκίδρα κεδνήν</lem>
+                        <rdg wit="#A7.288">καὶ Χαλκίδρα κεδνήν</rdg>
+                     </app></lem>
+                  <rdg wit="#CE7.288"><lacunaStart/></rdg>
+               </app>. /<note>habent ACE</note></p>
+
+            <p><lb/>Puis, prends un grande turbot et la sole / <lb/>à la peau rugueuse ; pendant
+               l’été, cette dernière est excellente à <placeName ref="#Chal"
+               >Chalcis</placeName>.</p>
+
+            <p><lb/>Fragment 22 (Ath. 7. 293e-f) <lb/>γόγγρου μὲν <app>
+                  <lem wit="#A">γὰρ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> ἔχεις κεφαλήν, φίλος, ἐν Σικυῶνι / <lb/>πίονος ἰσχυροῦ μεγάλου καὶ πάντα τὰ
+               κοῖλα. / <lb/>εἶτα χρόνον πολὺν ἕψε χλόηι περίπαστον ἐν ἅλμηι.<note>habent
+               ACE</note></p>
+
+
+            <p><lb/>Ainsi, prends une tête de congre, l’ami, à <placeName ref="#Sicy"
+                  >Sicyone</placeName>, /<lb/>gras, fort, grand, et avec toutes ses entrailles. /
+               <lb/>Ensuite, fais-le bouillir longtemps en le saupoudrant d’herbes dans l’eau salée.
+               /</p>
+
+
+            <p><lb/>Fragment 23 (Ath. 7. 294a) <lb/>καὶ γόγγρος σπουδαῖος ἁλίσκεται, ὥστε τοσοῦτον /
+               <lb/>τῶν ἄλλων πάντων ὄψων κρατεῖ οὗτος, ὅσον περ / <lb/><app>
+                  <lem wit="#A">θύννος</lem>
+                  <rdg wit="#C #E">θύνος</rdg>
+               </app> ὁ πιότατος τῶν φαυλοτάτων κορακίνων.<note>habent ACE</note></p>
+
+            <p><lb/>Et un congre convenable est attrapé de sorte que celui-ci / <lb/>l’emporte
+               nettement sur tous les autres mets comme / <lb/>le thon le plus gras l'emporte sur
+               les plus mauvais coracins. /</p>
+
+            <p><lb/>Fragment 24 (Ath. 7. 295c) <lb/>ἀλλὰ μοι ὀψώνει γλαύκου κεφαλὴν ἐν Ὀλύνθωι /
+               <lb/>καὶ Μεγάροις· <app>
+                  <lem wit="#A">σεμνοῖς γὰρ ἁλίσκεται ἐκ τενάγιστῆς.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>
+               <note>habent ACE</note></p>
+
+            <p><lb/>Va, achète-moi une tête de glauque à <placeName ref="#Oly">Olynthe</placeName> /
+               <lb/>et à <placeName ref="#Még">Mégare</placeName> ; car, pour les hommes
+               <lb/>vénérables, il est pêché dans les bas-fonds.</p>
+
+            <p>Fragment 25 (Ath. 7. 298e-9a) <lb/>ἔγχελυν αἰνῶ μὲν πᾶσαν, πολὺ δέ ἐστὶ κρατίστη /
+               <lb/>Ῥηγίου <app>
+                  <lem wit="#A">ἀντιπέρας</lem>
+                  <rdg wit="#C #E">ἀντιπέραν</rdg>
+               </app> πορθμοῦ ληφθεῖσα θαλάσσης. / <lb/><app>
+                  <lem wit="#A">ἔνθα σὺ τῶν ἄλλων πάντων, Μεσσήνιε, θνητῶν / <lb/>βρῶμα τιθεὶς
+                     τοιόνδε διὰ στόματος πλεονεκτεῖς.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><lb n="5"/>οὐ μὴν ἀλλὰ κλέος <app>
+                  <lem wit="#A">γὰρ ετης</lem>
+                  <rdg wit="#C #E">γ' ἀρετῆς</rdg>
+               </app> μέγα κάρτα φέρουσι / <lb/><app>
+                  <lem wit="#A">κωπαῖ αἱ</lem>
+                  <rdg wit="#C #E">Κωπαῖαι καὶ</rdg>
+               </app> καὶ Στρυμόνιαι, μεγάλαι τε γάρ εῖσι / <lb/>καὶ τὸ πάχος θαυμασταί. ὅμως δʹ
+               οἶμαι βασιλεύει / <lb/>πάντων τῶν περὶ δαῖτα καὶ ἡδονῆι ἡγεμονεύει / <lb/>ἔγχελυς, ἣ
+               φύσει ἐστὶν ἀπύρηνος μόνος ἰχθύς. / <note>habent ACE</note></p>
+
+            <p><lb/>Je fais l'éloge de toute anguille, mais elle est de loin la meilleure /
+               <lb/>quand elle est prise en mer en face du <placeName ref="#Dét">détroit de
+                  Rhégium</placeName>. / <lb/>Là-bas, toi le Messinien,<note>Peut-être une adresse
+                  directe à Moschos ou à Cléaïnos. </note>tu l’emportes sur tous les autres mortels
+               / <lb/>en mettant une telle nourriture dans ta bouche. / <lb n="5"/>Et pourtant,
+               celles de <placeName ref="#Cop">Copaïs</placeName> et de <placeName ref="#Str"
+                  >Strymon</placeName> sont réputées / <lb/>pour leur très grande qualité, elles
+               sont longues / <lb/>et étonnamment grosses. Mais quoiqu’il en soit, je pense /
+               <lb/>que la reine de tous les plats pour un festin ouvrant la voie du plaisir est
+               /<lb/>l’anguille, seul poisson qui a par nature peu d’arêtes.</p>
+
+
+            <p>Fragment 26 (Ath. 7. 300d-e) <lb/>τὸν δʹ <app>
+                  <lem wit="#A">ἔλοπα</lem>
+                  <rdg wit="#C">ἔλλοπ'</rdg>
+                  <rdg wit="#E">ἔλλοπα</rdg>
+               </app> ἔσθε μάλιστα <app>
+                  <lem wit="#A #E">Συρακούσαις</lem>
+                  <rdg wit="#C">Συρακούσεις</rdg>
+               </app> ἐνὶ <app>
+                  <lem wit="#A">κλίναις</lem>
+                  <rdg wit="#C #E">κλείναις</rdg>
+               </app>, / <lb/><app>
+                  <lem wit="#A">τόν γε κρατιστεύοντα</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. οὗτος γὰρ <app>
+                  <lem wit="#A">αὖ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> ἐστιν ἐκεῖθεν / <lb/>τὴν ἀρχὴν <app>
+                  <lem wit="#A">γεγονώσθʹ ην καν η</lem>
+                  <rdg wit="#C #E">γεγονώς. κἂν ἢ</rdg>
+               </app> περὶ νήσους / <lb/>ἢ περὶ τὴν ἄλλην που ἁλῶ γὴν ἢ περὶ Κρήτην, / <lb n="5"
+               />λεπτὸς καὶ στερεὸς καὶ κυματοπλὴξ ἀφικνεῖται. /<note>habent ACE</note></p>
+
+            <p><lb/>Quant à l’élops, mange-le surtout dans la célèbre <placeName ref="#Syr"
+                  >Syracuse</placeName>, / <lb/>il y est excellent car il est originellement de
+               là-bas  / <lb/>par sa naissance. S’il est capturé sur d’autres îles / <lb/>ou
+               d’autres côtes ou près de la <placeName ref="#Crè">Crète</placeName>, / <lb n="5"/>il
+               y arrive maigre, dur et battu par les flots. /</p>
+
+            <p>Fragment 27 (Ath. 7. 301c-d) <lb/>καὶ <app>
+                  <lem wit="#A">λεβίαν <app>
+                        <lem wit="#A">λαβεῖν</lem>
+                        <rdg wit="#C #E">λαβεῖν τὸν</rdg>
+                     </app>, οσχετον</lem>
+                  <rdg wit="#Val">λαβέ, Μόσχε, τὸν</rdg>
+               </app>, ἥπατον, ἐν περικλύστωι / <lb/>Δήλωι καὶ Τήνωι. / <note>habent ACE</note></p>
+
+            <p><lb/>Achète un lebias, Moschos, c’est-à-dire un poisson-foie, sur les côtes baignées
+               par la mer / <lb/>de <placeName ref="#Dél">Délos</placeName> et <placeName ref="#Tén"
+                  >Ténos</placeName>. /</p>
+
+            <p>Fragment 28 (Ath. 7. 301f-2b) <lb/>ἀμφὶ δὲ τὴν ἱεράν τε καὶ <app>
+                  <lem wit="#A #C">εὐρύχωρον</lem>
+                  <rdg wit="#E">εὐρύχορον</rdg>
+               </app> Σάμον <app>
+                  <lem wit="#A">ὄψνι</lem>
+                  <rdg wit="#C #E">ὄψει</rdg>
+               </app> / <lb/>θύννον ἁλισκόμενον σπουδῆι μέγαν, ὃν καλέουσιν / <lb/><app>
+                  <lem wit="#A">ὄρκυν</lem>
+                  <rdg wit="#C #E">ὄρκυνον</rdg>
+               </app>, ἄλλοι δʹ αὖ κῆτος. τούτου δὲ θεοῖς χρὴ / <lb/>ὀψωνεῖν <app>
+                  <lem wit="#A">ἃ πρέπει ταχέως καὶ μητέρι τιμῆς</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. / <lb n="5"/>ἔστι δὲ γενναῖος Βυζαντίωι ἔν τε Καρύστωι, / <lb/>ἐν Σικελῶν τε
+               κλυτῆι νήσωι <app>
+                  <lem wit="#A">κέφαλοι δʹ εἰ σʹ ἀμείνους / <lb/>πολλῶι τῶνδε τρέφει θύννους καὶ
+                     Τυνδαρὶς ἀκτή. / <lb/>ἂν δὲ ποτʹ Ἰταλίας ἱερᾶς Εἰπώνιον ἔλθηις, / <lb/>ἑρπετὸν
+                     εἰς ὕδατος στεφάνους· πολὺ δὴ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>πολὺ πάντων / <lb n="10"/><app>
+                  <lem wit="#A">ἐνταῦθʹ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> εἰσὶν ἄριστοι ἔχουσί <app>
+                  <lem wit="#A">δὲ</lem>
+                  <rdg wit="#C #E">τε</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">τέρματα</lem>
+                  <rdg wit="#C #E">τέρμα</rdg>
+               </app> νίκης. / <lb/>οἱ δʹ ἐπὶ τῶνδε τόπων πεπλανημένοι εἰσὶν ἐκεῖθεν / <lb/>πολλὰ
+               περάσαντες πελάγη βρυχίου διὰ πόντου· / <lb/><app>
+                  <lem wit="#A">ὧιτʹ αὐτοὺς ἡμεῖς θηρεύομεν ὄντας ὡρους</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. / <note>habent ACE</note></p>
+
+            <p><lb/>Vers la vaste île sacrée de <placeName ref="#Sam">Samos</placeName>, tu verras /
+               <lb/>un grand thon pêché avec effort, qu’ils appellent / <lb/>&quot;orkus&quot; et
+               d’autres &quot;kètos&quot;. Il faut acheter pour les dieux / <lb/>une part convenable
+               de ce poisson, rapidement, et ne discute nullement du prix. / <lb n="5"/>Il est bon à
+                  <placeName ref="#Byz">Byzance</placeName> et à <placeName ref="#Car"
+                  >Caryste</placeName>. / <lb/>Mais à <placeName ref="#Cef">Cefalu</placeName>, sur
+               l’île célèbre des Siciliens, croît / <lb/>un thon bien meilleur que ces derniers,
+               ainsi que sur les rivages de <placeName ref="#Tyn">Tyndare</placeName>. / <lb/>Et si
+               tu vas dans lʹItalie sacrée à <placeName ref="#Hip">Hipponium</placeName>, / <lb/>va
+               au bord de l’eau ; les thons sont là de loin / <lb n="10"/>les meilleurs de tous et
+               emportent le prix de la victoire. / <lb/>Or les thons d’ici ont fait leur chemin
+               depuis là-bas, / <lb/>après avoir traversé de nombreuses mers et voyagé dans les
+               profondeurs. / <lb/>Nous les pêchons quand ils ne sont plus de saison. /</p>
+
+
+            <p>Fragment 29 (Ath. 7. 303e-f) <lb/>καὶ θύννης οὐραῖον ἔχειν, ἣν <app>
+                  <lem wit="#A #E">θυννίδα</lem>
+                  <rdg wit="#C">θυνίδα</rdg>
+               </app> φωνῶ / <lb/>τὴν μεγάλην, ἧς μητρόπολις Βυζάντιόν ἐστιν. / <lb/>εἶτα τεμὼν
+               αὐτην ὀρθῶς ὄπτησον ἅπασαν / <lb/>ἀλσὶ μοῦνον λεπτοῖσι πάσας καὶ ἐλαίῳ ἀλείψας, / <lb
+                  n="5"/>θερμά τʹ ἔχειν τεμάχη βάπτων δριμεῖαν ἐς ἅλμην. / <lb/>κἃν ξηρὰν ἐθέληις
+               ἔσθίειν, γενναῖαι πέλονται, / <lb/>ἀθανάτοισι θεοῖσι φυὴν καὶ εἶδος <app>
+                  <lem wit="#A">ὅμοιαι</lem>
+                  <rdg wit="#C #E">ὁμοῖαι</rdg>
+               </app>· / <lb/>ἂν δʹ ὄξει ῥάνας <app>
+                  <lem wit="#A #C">παραθῆις</lem>
+                  <rdg wit="#E">περιθῆς</rdg>
+               </app>, ἀπόλωλεν ἐκείνη. /<note>habent ACE</note></p>
+
+            <p><lb/>Achète une queue de thon femelle, je veux parler de la grande / <lb/>thonne,
+               dont la ville-mère est <placeName ref="#Byz">Byzance</placeName>. / <lb/>Puis,
+               coupe-la correctement et rôtis-la entièrement, / <lb/>après l’avoir saupoudrée de sel
+               et arrosée dʹhuile d’olive, / <lb n="5"/>et plonge les morceaux chauds dans une
+               saumure. / <lb/>Et si tu veux les servir sans assaisonnement, ils sont bons, /
+               <lb/>comme les dieux immortels par nature et en apparence. / <lb/>Mais si tu les sers
+               arrosés de vinaigre, on les gâte. /</p>
+
+            <p>Fragment 30 (Ath. 7. 304d) <lb/>ἵππουρος <app>
+                  <lem wit="#A #C">δὲ</lem>
+                  <rdg wit="#E">καὶ</rdg>
+               </app> Καρύστιός ἐστιν ἄριστος · / <lb/>ἄλλως τʹ εὔοψον σφόδρα χωρίον ἐστὶ Κάρυστος.
+                  /<note>habent ACE</note></p>
+
+            <p><lb/>Le poisson-dauphin de <placeName ref="#Car">Caryste</placeName> est le meilleur.
+               / <lb/><placeName ref="#Car">Caryste</placeName> est en tout cas un lieu très riche
+               en poissons. /</p>
+
+            <p>Fragment 31 (Ath. 7. 305e-f) <lb/>αὐτὰρ ἐς Ἀμβρακίαν ἐλθὼν εὐδαίμονα χώραν / <lb/>τὸν <app>
+                  <lem wit="#A">καρπὸν</lem>
+                  <rdg wit="#C #E">καπρὸν</rdg>
+               </app>, ἂν ἐσίδηις, ὠνοῦ καὶ κατάλειπε, / <lb/>κἂν ἰσόχρυσος ἔηι, μή σοι νέμεσις
+               καταπνεύσηι / <lb/>δεινὴ ἀπʹ ἀθανάτων· τὸ γάρ <app>
+                  <lem wit="#A">ἐστιν</lem>
+                  <rdg wit="#C #E">ἐστι</rdg>
+               </app> νέκταρος ἄνθος. / <lb n="5"/><app>
+                  <lem wit="#A">τούτου δὲ θέμις</lem>
+                  <rdg wit="#C #E">τοῦτ' οὐδὲ θέμις</rdg>
+               </app> ἐστὶ φαγεῖν θνητοῖσιν ἅπασιν / <lb/>οὐδʹ ἐσιδεῖν ὄσσοισιν, <app>
+                  <lem wit="#A">ὅσοις</lem>
+                  <rdg wit="#C #E">ὅσοι</rdg>
+               </app> μὴ πλεκτὸν ὕφασμα / <lb/>σχοίνου ἑλιοτρόφου κοίλου <app>
+                  <lem wit="#A">χείρεσσιν</lem>
+                  <rdg wit="#C">χείρεσιν</rdg>
+                  <rdg wit="#E">χείρεσσι</rdg>
+               </app> ἔχοντες / <lb/>εἰώθασι δονεῖν ψήφους <app>
+                  <lem wit="#A  #C">ἄρθρων μηλείων</lem>
+                  <rdg wit="#E">ἄρθρον μηλείων</rdg>
+               </app> / <lb/>κἄρθρων μηλείων ἐπὶ γῆν δωρήματα <app>
+                  <lem wit="#A">βάλλων</lem>
+                  <rdg wit="#C #E">βάλλειν</rdg>
+               </app>.<note>habent ACE</note></p>
+
+            <p><lb/>Mais quand tu vas à <placeName ref="Amb">Ambracie</placeName>, terre opulente, /
+               <lb/>achète le poisson sanglier si tu en vois, et ne le laisse pas / <lb/>même à prix
+               d’or de peur qu’une vengeance terrible / <lb/>venant des immortels ne souffle sur
+               toi. C’est en effet la fleur du nectar. / <lb n="5"/>Il n’est pas permis à tous les
+               mortels d’en manger, / <lb/>ni de le voir de leurs propres yeux, à part pour ceux qui
+               ont dans les mains / <lb/>un panier profond tressé en joncs des marais / <lb/>et qui
+               ont l’habitude de lancer des galets en un savant calcul / <lb/>en jetant à terre en
+               guise de présents des morceaux de moutons.<note>Ces deux derniers vers sont
+                  difficiles à interpréter. J. Wilkins et S. Hill expliquent que les pêcheurs, quand
+                  il n’arrivaient pas à voir le poisson sanglier, jetaient des pierres enduites
+                  d’huile dans l’eau, ce qui permettait de la rendre plus claire. Ils attiraient
+                  ensuite le poisson avec des os de mouton et l’attrapaient à l’aide de paniers
+                  (WILKINS et HILL 2017). </note></p>
+
+            <p>Fragment 32 (Ath. 7. 306b) <lb/>κίθαρον δὲ κελεύω, / <lb/><app>
+                  <lem wit="#A">ἐὰν</lem>
+                  <rdg wit="#C #E">ἂν</rdg>
+               </app> μὲν λευκὸς ἔηι στερεός τε πεφύκηι, / <lb/>ἕψειν εἰς ἅλμην καθαρὰν βαιὰ φύλλα
+               καθέντα · / <lb/>ἂν δʹ ἦι πυρρὸς ἰδεῖν καὶ μὴ λιάν μέγας, ὀπτᾶν / <lb n="5"/>ὀρθῆι
+               κεντήσαντα δέμας <app>
+                  <lem wit="#A">νεοθηγεῖ</lem>
+                  <rdg wit="#C #E">νεοθῆγι</rdg>
+               </app> μαχαίραι. / <lb/>καὶ πολλῶι τυρῶι καὶ ἐλαίωι τοῦτον ἄλειφε· / <lb/>χαίρει γὰρ
+               δαπανῶντας ὁρῶν, ἔστι δʹ ἀκόλαστος.<note>habent ACE</note></p>
+
+            <p><lb/>Quant à la cithare, j’exige, / <lb/>si elle est blanche, ferme et large, /
+               <lb/>de la faire bouillir dans une eau salée et pure en y ajoutant quelques feuilles.
+               / <lb/>Si elle est brunâtre, et pas trop grande, rôtis-la / <lb n="5"/>et pique sa
+               peau avec une lame droite fraîchement aiguisée. / <lb/>Enduis-la avec beaucoup de
+               fromage et d’huile d’olive. / <lb/>Car elle se réjouit de voir que l’on dépense de
+               l’argent : elle est sans retenue. /</p>
+
+
+            <p>Fragment 33 (Ath. 7. 307b) <lb/>θαυμαστοὶ δʹ εἰσὶ τῶν κεστρέων οἱ περὶ Ἄβδηρα
+               ἁλισκόμενοι, ὡς καὶ Ἀρχέστρατος εἴρηκε. δεύτεροι δὲ οἱ ἐκ Σινώπης.<note>habent
+                  ACE</note></p>
+
+            <p><lb/>Les mulets pris vers <placeName ref="#Abd">Abdère</placeName> sont admirables, à
+               ce que dit Archestrate. Ceux de <placeName ref="#Sin">Sinope</placeName> arrivent en
+               second.</p>
+
+            <p>Fragment 34 (Ath. 7.307d) <lb/>κεστρέα δʹ Αἰγίνης ἐξ ἀμφιρύτης ἀγόραζε, / <lb/><app>
+                  <lem wit="#A">ἀνδράσι τʹἀστείοισιν ὁμιλήσεις</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. /<note>habent ACE</note></p>
+
+            <p><lb/>Achète un mulet d’<placeName ref="#Egi">Égine</placeName> baigné de tous côtés,
+               <lb/>tu compteras parmi les hommes intelligents.<note>Durant l'Antiquité, il existait
+                  un stéréotype selon lequel ceux qui vivaient dans les villes étaient sophistiqués
+                  et intelligents alors que ceux des campagnes étaient rustres et stupides. Cela
+                  était bien ancré dans l’esprit populaire au moins à <placeName ref="#Athè"
+                     >Athènes</placeName>. Ἀστείος (asteios) est couramment utilisé comme un terme
+                  général d’approbation suggérant une large gamme d’attributs positifs incluant
+                  intelligence, vivacité d’esprit, séduction et une belle apparence (OLSON et SENS
+                  2000).</note></p>
+
+            <p>Fragment 35 (Ath. 7. 310a, b-e) <lb/>ἐν δὲ Τορωναίων ἄστει τοῦ καρχαρία χρὴ /
+               <lb/>τοῦ κυνὸς ὀψωνεῖν ὑπογάστρια κοῖλα κάτωθεν, / <lb/>εἶτα κυμίνωι αὐτὰ πάσας ἁλὶ
+               μὴ συχνῶι ὄπτα. / <lb/>ἄλλο δʹ ἐκεῖσε, φίλη κεφαλή, <app>
+                  <lem wit="#A #E">μηδὲν</lem>
+                  <rdg wit="#C"><lacunaStart/></rdg>
+               </app>μηδὲν προσενέγκωις, / <lb n="5"/>εἰ μὴ γλαυκὸν ἔλαιον. ἐπειδὰν δʹ ὀπτὰ γένηται,
+               / <lb/>ἤδη τριμμάτιόν δέ φέρειν καὶ ἐκεῖνα μετʹ αὐτοῦ.<app>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app><lb/>ὅσσα δʹ ἂν ἐν λοπάδος κοίλης πληρώμασιν ἕψῃς, / <lb/>μήθʹ ὕδατος <app>
+                  <lem wit="#A">πληγὴν</lem>
+                  <rdg wit="#C #E">πηγὴν</rdg>
+               </app> μήτ́ οἴνινον ὄξος / <lb/>συμμίξηις, ἀλλʹ αὐτὸ μόνον κατάχευον ἔλαιον / <lb
+                  n="10"/><app>
+                  <lem wit="#A #E">αὐχμηρόν</lem>
+                  <rdg wit="#C">αὐχηρόν</rdg>
+               </app> τε κύμινον, ὁμοῦ δʹ εὐώδεα φύλλα. / <lb/>ἕψε δʹ ἐπʹ ἀνθρακιῆς φλόγα τούτοις μὴ
+               προσενεγκὼν / <lb/>καὶ κίνει πυκινῶς, μὴ προσκαυθέντα λάθηι σε. / <lb/>ἀλλʹ οὐ πολλοὶ
+               ἴσασι βροτῶν τόδε θεῖον ἔδεσμα, / <lb/>οὐδʹ ἔσθειν ἐθέλουσιν ὅσοι <app>
+                  <lem wit="#A">κόυφαν γε λεβώδη</lem>
+                  <rdg wit="#C #E">κόυφαν καὶ λεβώδη</rdg>
+               </app> / <lb n="15"/>ψυχὴν κέκτηνται θνητῶν <app>
+                  <lem wit="#A">τʹ εἰσὶν</lem>
+                  <rdg wit="#C #E">εἰσὶν</rdg>
+               </app> ἀπόπληκτοι, / <lb/>ὡς δʹ ἀνθρωποφάγου τοῦ θηρίου ὄντος. ἅπας δὲ / <lb/>ἰχθὺς
+               σάρκα φιλεῖ βροτεάν, ἄν που περικύρσηι.<note>habent ACE</note>
+               <lb/>Dans la cité des Toraniens, il faut acheter / <lb/>les parties creuses du
+               bas-ventre du chien-requin, <lb/>puis saupoudre-les de cumin et fais-les rôtir avec
+               un peu de sel, / <lb/>mais n’ajoute, cher ami, rien d’autre, / <lb n="5"/>sinon de
+               l’huile d’olive verte. Et lorsqu’elles seront cuites, verse immédiatement / <lb/>une
+               sauce pour les accompagner. / <lb/>Et pour les parties que l’on fait mijoter dans une
+               marmite profonde, ne mets ni eau / <lb/>de source ni vinaigre de vin, mais ajoute
+               seulement l’huile d’olive, / <lb/>du cumin séché et quelques feuilles parfumées. /
+                  <lb n="10"/>Fais-les mijoter sur la braise sans qu’aucune flamme ne les touche /
+               <lb/>et en remuant sans cesse afin d’éviter qu’elles ne brûlent sans que l’on ne s’en
+               rende compte. / <lb/>Mais peu de mortels connaissent ce plat divin / <lb/>et ces
+               mortels qui ont une cervelle de moineau et qui sont stupides ne veulent pas en
+               manger, / <lb/>sous prétexte que cette bête sauvage mange des hommes. / <lb n="15"
+               />Mais tout poisson mange de la chair humaine s’il en croise un quelque part. /</p>
+
+            <p>Fragment 36 (Ath. 7. 311a-c) <lb/>λάμβανε δʹ ἐκ Γαίσωνος, ὅταν Μίλητον ἵκηαι, /
+               <lb/>κεστρέα τὸν κέφαλον καὶ τὸν θεόπαιδα λάβρακα· / <lb/>εἰσὶ γὰρ ἐνθάδʹ ἄριστοι, ὁ
+               γὰρ τόπος ἐστὶ τοιοῦτος. / <lb/>πιότεροι δʹ ἕτεροι πολλοὶ Καλυδῶνί τε κλεινῆι / <lb
+                  n="5"/>Ἀμβρακίαι τʹ ἐνι πλουτοφόρωι Βόλβηι τ' ἐνὶ λίμνηι, / <lb/>ἀλλʹ οὐκ εὐώδη
+               γαστρὸς κέκτηνται ἀλοιφὴν / <lb/>οὐδʹ οὕτω δριμεῖαν. ἐκεῖνοι δʹ εἰσίν, ἑταῖρε, /
+               <lb/>τὴν ἀρετὴν θαυμαστοί. ὅλους δʹ αὐτοὺς ἀλεπίστους / <lb/>ὀπτήσας μαλακοὺς χρηστῶς
+               προσένεγκε διʹ ἅλμης. / <lb n="10"/>μηδὲ προσέλθηι σοί πρὸς τοὖψον τοῦτο ποιοῦντι /
+               <lb/>μήτε Συρακόσιος μηθεὶς μήτε Ἰταλιώτης· / <lb/>οὐ γὰρ ἐπίστανται χρηστοὺς
+               σκευαζέμεν ἰχθῦς, / <lb/>ἀλλὰ διαφθείρουσι κακῶς τυροῦντες ἅπαντα / <lb/>ὄξει τε
+               ῥαίνοντες ὑγρῶι καὶ σιλφίου ἄλμηι. / <lb n="15"/>τῶν δὲ πετραίων ἰχθυδίων τῶν
+               τρισκαταράτων / <lb/>πάντων εἰσίν ἄριστοι <app>
+                  <lem wit="#A">ἐπισταμένως</lem>
+                  <rdg wit="#C #E">ἐπιστήμονες</rdg>
+               </app> διαθεῖναι / <lb/>καὶ πολλὰς ἰδέας κομψῶς παρὰ δαιτὶ δύνανται / <lb/>ὀψαρίων
+               τεύχειν γλίσχρων <app>
+                  <lem wit="#A">ἡδυσματολήρων</lem>
+                  <rdg wit="#C #E">ἡδυσμάτων λήρων</rdg>
+               </app>.<note>habent ACE</note></p>
+
+            <p><lb/>Quand tu iras à <placeName ref="#Mil">Milet</placeName>, achète le mulet à
+               grosse tête, / <lb/>et le loup de mer, l’enfant des dieux, pêchés dans le <placeName
+                  ref="#Gés">Géson</placeName>. / <lb/>Car ils sont excellents là-bas grâce à la
+               nature du lieu. / <lb/>Il y en a beaucoup d’autres, plus gras dans l’illustre
+                  <placeName ref="#Cal">Calydon</placeName>, / <lb n="5"/>dans la riche <placeName
+                  ref="#Amb">Ambracie</placeName> et au <placeName ref="#Bol">lac Bolbé</placeName>.
+               / <lb/>Mais leur ventre ne possède pas une graisse parfumée / <lb/>et piquante. Mais
+               ceux de <placeName ref="#Mil">Milet</placeName>, mon ami, / <lb/>sont d’une qualité
+               exceptionnelle. Fais-les griller entiers et non écaillés / <lb/>en faisant attention
+               jusqu’à ce qu’ils soient bien tendres et sers-les dans la saumure. / <lb n="10"/>Ne
+               laisse aucun Syracusain ni aucun Italien / <lb/>s’approcher de toi quand tu prépares
+               ce plat, / <lb/>car ils ne savent pas préparer un poisson de première qualité /
+               <lb/>et les gâchent complètement en mettant du fromage partout, / <lb/>en les
+               arrosant de vinaigre et de bouillon de silphium. / <lb n="15"/>En revanche, ils sont
+               très bons pour préparer / <lb/>ces trois fois maudits poissons de roche à ce que l’on
+               sait, / <lb/>et lors d’un festin, ils sont capables de préparer avec finesse
+               plusieurs types / <lb/>de plats visqueux dans un délire d’assaisonnements. /</p>
+
+            <p>Fragment 37 (Ath. 7. 311e-f) <lb/>τὸν δὲ λάτον τὸν κλεινὸν ἐν Ἰταληι πολυδένδρωι /
+               <lb/>ὁ <app>
+                  <lem wit="#A">Σκυλλαῖος</lem>
+                  <rdg wit="#C #E">κυλλαῖος</rdg>
+               </app> ἔκει πορθμός, θαυμαστὸν ἔδεσμα. /<note>habent ACE</note></p>
+
+            <p><lb/>En Italie riche en arbres, le <placeName ref="#Scy">détroit de
+                  Scylla</placeName> contient / <lb/>le fameux latos, un mets extraordinaire. /</p>
+
+            <p>Fragment 38 (Ath. 7. 312f-13a) <lb/>Ἰταλίας δὲ μεταξὺ κατὰ στενοκύμονα πορθμόν, /
+               <lb/>ἡ πλωτὴ μύραινα καλουμένη ἄν ποτε ληφθνῆι, / <lb/>ὠνοῦ· τοῦτο γάρ <app>
+                  <lem wit="#A">ἐστιν</lem>
+                  <rdg wit="#C #E">ἐστ'</rdg>
+               </app> ἐκεῖ θαυμαστὸν ἔδεσμα./<note>habent ACE</note></p>
+
+            <p>Entre ici et l’<placeName ref="#It">Italie</placeName>, dans les eaux resserrées du
+               détroit, / <lb/>si jamais la murène dite flottante est prise, / <lb/>achète-la. Car
+               c’est là-bas un mets exceptionnel.</p>
+
+            <p>Fragment 39 (Ath. 7. 313.e-14 a) <lb/>μόρμυρος αἰγιαλεύς, κακὸς ἰχθὺς οὐδέ ποτʹ
+                  ἐσθλός.<note>habent ACE</note></p>
+
+            <p><lb/>Le mormyrus des rivages, un poisson mauvais, jamais bon. /</p>
+
+            <p>Fragment 40 (Ath. 7. 313e–14a) <lb/>κεστρέα τὸν θαυμαστόν, ὃταν χειμὼν
+                  ἀφίκηται.<note>habent ACE</note>
+            </p>
+
+            <p><lb/>Le mulet est admirable quand l’hiver arrive. /</p>
+
+            <p>Fragment 41 (Ath. 7.314d) <lb/>καὶ νάρκην ἑφθὴν ἐν ἐλαίωι ἠδὲ καὶ οἴνωι / <lb/>καὶ
+               χλόηι εὐώδει <app>
+                  <lem wit="#A">καὶ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> βαιῶι ξύσματι τυροῦ. /<note>habent ACE</note></p>
+
+            <p><lb/>Et une torpille bouillie dans l’huile d’olive et dans du vin / <lb/>avec des
+               herbes parfumées et un peu de fromage râpé. /</p>
+
+            <p>Fragment 42 (Ath. 7. 314e-f) <lb/>ἀλλὰ λαβὲ ξιφίου τέμαχος Βυζάντιον ἐλθών, /
+               <lb/>οὐραίου τε αὐτὸν τὸν <app>
+                  <lem wit="#A">σφόνδυλον</lem>
+                  <rdg wit="#C #E">σπόνδυλον</rdg>
+               </app>. ἔστι δὲ κεδνὸς / <lb/>κὰν πορθμῶι πρὸς ἄκραις Πελωριάδος
+                  προχοαῖσι./<note>habent ACE</note></p>
+
+            <p><lb/>Mais, quand tu viens à <placeName ref="#Byz">Byzance</placeName>, achète un
+               morceau d’espadon, / <lb/>de l’arête dorsale jusqu’à la queue. Il est convenable /
+               <lb/>dans le détroit qui est à côté du promontoire de <placeName ref="#Pél"
+                  >Pélore</placeName>. /</p>
+
+
+            <p>Fragment 43 (Ath. 7. 315f-16a) <lb/><app>
+                  <lem wit="#A">τὸν δʹὄνον,<app>
+                        <lem wit="#A">ἀνοηδων</lem>
+                        <rdg wit="#Canter">Ανθηδων</rdg>
+                     </app> τὸν καλλαρίαν καλέουσιν, / <lb/>ἐκτρέφη εὐμεγέθη,</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> σομφὴν <app>
+                  <lem wit="#A">δὲ τρέφει</lem>
+                  <rdg wit="#C #E">τρέφει</rdg>
+               </app> τινὰ σάρκα, / <lb/>καλῶς οὐχ ἡδεῖαν ἔμοιγε, ἄλλʹ / <lb/>ὑδαίνουσαν<app>
+                  <rdg wit="#C #E">ἄλλʹ οἰδαίνουσαν.</rdg>
+               </app> χαίρει γὰρ ὁ μὲν τούτοις, ὁ δʹ ἐκείνοις. /<note>habent ACE</note></p>
+
+            <p><lb/>Quant au merlu, que l’on appelle &quot;kallaria&quot;, <placeName ref="#Ant"
+                  >Anthédon</placeName> / <lb/>en nourrit de belle taille, mais sa chair est
+               spongieuse, / <lb/>et il ne me plaît pas à moi du moins, mais / <lb/>d’autres en font
+               l’éloge. Car certains aiment ce genre de chose, d’autres pas. /</p>
+
+            <p>Fragment 44 (Ath. 7. 318f) <lb/>πώλυποι ἔν τε <app>
+                  <lem wit="#A #E">θάσωι</lem>
+                  <rdg wit="#C">θάσσῳ</rdg>
+               </app> καὶ Καρίαι εἰσὶν ἄριστοι. / <lb/>καὶ Κέρκορα τρέφει πολλοὺς μεγάλους τε <app>
+                  <lem wit="#A">τὸ πλῆθος</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. /<note>habent ACE</note></p>
+
+            <p><lb/>Les poulpes à <placeName ref="#Tha">Thasos</placeName>et en <placeName
+                  ref="#Cari">Carie</placeName> sont excellents. / <lb/>Et <placeName ref="#Cor"
+                  >Corfou</placeName> en nourrit de grands, en nombre important. /</p>
+
+            <p>Fragment 45 (Ath. 7. 319 d-e) <lb/>καὶ σελάχη μέντοι καινὴ Μίλητος ἄριστα /
+               <lb/>ἐκτρέφει. ἀλλὰ γε χρὴ ῥίνης λόγον ἢ πλατυνώτου / <lb/>λειοβάτου ποιεῖσθαι ; ὁμῶς
+               κροκόδειλον <app>
+                  <lem wit="#A">ἄνοπτον</lem>
+                  <rdg wit="#C #E">ἄν ὀπτὸν</rdg>
+               </app> / <lb/>δαισαίμην ἀπʹ ἰπνοῦ τερπνὸν <app>
+                  <lem wit="#A #E">παίδεσσιν</lem>
+                  <rdg wit="#C">παίδεσιν</rdg>
+               </app> Ἰώνων. /<note>habent ACE</note></p>
+
+            <p><lb/>Quant aux requins, assurément, l’illustre <placeName ref="#Mil"
+                  >Milet</placeName> nourrit / <lb/>les meilleurs. Mais faut-il donc mentionner la
+               baudroie / <lb/>et la raie à dos large alors que je pourrais manger / <lb/>un lézard
+               rôti au four faisant la joie des enfants des Ioniens ? /</p>
+
+            <p>Fragment 46 (Ath. 7. 320a, vv. 1-3) <lb/>σκάρον ἐξ Ἐφέσου ζήτει, <app>
+                  <lem wit="#A #E">χειμῶνι</lem>
+                  <rdg wit="#C">χειμῶνος</rdg>
+               </app> δὲ τρίγλαν / <lb/>ἔσθι' ἐνὶ ψαφαρῆι ληφθέντα Τειχιοέσσηι, / <lb/>Μιλήτου κώμηι
+               Καρῶν πέλας <app>
+                  <lem wit="#A">ἀγκυλοκώλων</lem>
+                  <rdg wit="#C #E">ἀγκυλοκώλων τόξ</rdg>
+               </app>. /<note>habent ACE</note></p>
+
+            <p><lb/>Cherche un scare d’<placeName ref="#Eph">Éphèse</placeName> mais mange en hiver
+               / <lb/>un grondin pris dans la sablonneuse <placeName ref="#Tic"
+                  >Tichiousse</placeName>, / <lb/>bourg de <placeName ref="#Mil">Milet</placeName>
+               près des Cariens aux membres tors. /</p>
+
+            <p>Fragment 47 (Ath. 7. 320a-b) <lb/>καὶ σκάρον ἐν παράλωι <app>
+                  <lem wit="#A">Καρχηδόνι</lem>
+                  <rdg wit="#C #E">Χαλχηδόνι (κ ρχ)</rdg>
+               </app> τὸν μέγαν ὄπτα / <lb/>πλύνας εὖ· χρηστὸν δὲ καὶ ἐν Βυζαντίωι ὄψει / <lb/>καὶ
+               μέγεθος, κυκλίας ἴσον ἀσπίδι νῶτα φοροῦντα./ <lb/>τοῦτον ὅλον θεράπευε τρόπον
+               τοιόνδε. λαβών νῦν, / <lb n="5"/>ἡνίκʹ ἂν <app>
+                  <lem wit="#A">εὖ</lem>
+                  <rdg wit="#C #E">ἐν</rdg>
+               </app> τυρῶι τε καὶ ἐλαίωι πάντα πυκασθῆι, / <lb/>κρίβανον ἐς θερμὸν κρέμασον κἄπειτα
+               κατόπτα· / <lb/>πάσσειν δʹ ἁλσὶ κυμινοτρίβοις καὶ γλαυκῶι ἐλαίωι / <lb/>ἐκ χειρὸς
+               κατακρουνίζων θεοδέγμονα πηγήν. /<note>habent ACE</note></p>
+
+            <p><lb/>Quant au grand scare des côtes de <placeName ref="#Cha">Chalcédoine</placeName>,
+               rôtis-le / <lb/>après l’avoir bien lavé. À <placeName ref="#Byz">Byzance</placeName>
+               également, tu en verras un de qualité / <lb/>et de belle taille dont le dos est
+               identique à un bouclier rond. / <lb/>Prépare-le entier de la façon suivante.
+               Achètes-en un dès à présent, / <lb n="5"/>puis recouvre-le soigneusement tout entier
+               de fromage et d’huile, / <lb/>suspends-le dans un four chaud et ensuite rôtis-le. /
+               <lb/>Mets-y du sel mêlé de cumin et d’huile d’olive verte, / <lb/>comme versant de ta
+               main une libation divine. /</p>
+
+            <p>Fragment 48 (Ath. 7. 320f-1a) <lb/>ἐν <app>
+                  <lem wit="#A">δὴ</lem>
+                  <rdg wit="#C #E">δὲ</rdg>
+               </app> Θάσωι τὸν σκορπίον <app>
+                  <lem wit="#A #E">ὠνοῦ</lem>
+                  <rdg wit="#C">ὠνοῦσιν</rdg>
+               </app>, ἂν ῆι / <lb/>μὴ μείων πυγόνος· μεγάλου δʹ ἀπὸ χεῖρας ἴαλλε.<note>habent
+                  ACE</note></p>
+
+            <p><lb/>À <placeName ref="#Tha">Thasos</placeName>, achète le poisson-scorpion, pourvu
+               qu’il ne soit pas / <lb/>plus grand qu’une coudée. Quant au gros, éloignes-en tes
+               mains. /</p>
+
+            <p>Fragment 49 (Ath. 7. 321c-d) <lb/>ἡνίκα δʹ ἂν δύνοντος ἐν οὐρανῶι Ὠρίωνος /
+               <lb/>μήτηρ οἰνοφόρου βότρυος χαίτην <app>
+                  <lem wit="#A #C">ἀποβάλληι</lem>
+                  <rdg wit="#E">ἀποβάλη</rdg>
+               </app>, / <lb/>τῆμος ἔχειν ὀπτὸν σαργὸν τυρῶι κατάπαστον / <lb/>εὐμεγέθη <app>
+                  <lem wit="#A">θερμὸν</lem>
+                  <rdg wit="#C #E">θερμὴ</rdg>
+               </app> δριμεῖ δεδαϊγμένον ὄξει· / <lb n="5"/>σκληρὸς γὰρ φύσει ἐστίν. ἅπαντα δέ μοι
+               θεράπευε / <lb/>τὸν στερεὸν τοιῶιδε τρόπωι μεμνημένος ἰχθύν. / <lb/>τὸν δʹ ἀγαθὸν
+               μαλακόν τε φύσει καὶ πίονα σάρκα / <lb/>ἁλσὶ μόνον <app>
+                  <lem wit="#A">λεπτοῖς</lem>
+                  <rdg wit="#C #E">θερμὴ</rdg>
+               </app> πάσας καὶ ἐλαίωι ἀλείψας· / <lb/>τὴν ἀρετὴν γὰρ ἔχει τῆς τέρψιος αὐτὸς ἐν
+               αὑτῶι. /<note>habent ACE</note></p>
+
+            <p><lb/>Lorsqu’Orion<note>Dans la mythologie grecque, c’est un chasseur réputé pour sa
+                  beauté et sa violence. Orion est aussi une constellation dont le lever et le
+                  coucher indiquent le début et la fin de l’année (HÉSIODE, <hi rend="italic">Les
+                     Travaux et les jours</hi>). </note>se couche dans le ciel, / <lb/>la mère des
+               grappes de raisin produisant du vin perd sa chevelure, / <lb/>prends alors un sargue
+               grillé, saupoudré de fromage, / <lb/>d’une bonne taille et chaud, arrosé de vinaigre
+               acide ; / <lb n="5"/>il est de nature sèche. Rappelle-toi / <lb/>de préparer tous les
+               poissons à chair ferme de cette manière. / <lb/>Mais pour ceux qui sont bons, tendres
+               par nature et à chair grasse, / <lb/>saupoudre-les seulement de sel et enduis-les
+               d’huile d’olive ; / <lb/>car ils ont en eux la vertu du plaisir. /</p>
+
+            <p>Fragment 50 (Ath. 7. 321e) <lb/>σάλπην δὲ κακὸν μὲν ἔγωγε / <lb/>ἰχθυὺν εῖς ἀεὶ
+               κρίνω· βρωτὴ δὲ μάλιστα / <lb/>ἐστὶ θεριζομένου σίτου· λαβὲ δʹ ἐν Μιτυλνηι /
+               <lb/>αὐτήν. / <note>habent ACE</note></p>
+
+            <p><lb/>Quant à moi, je considère / <lb/>toujours la saupe comme un mauvais poisson,
+               mais elle est la plus mangeable / <lb/>au moment des moissons. Achète-la <lb/>à
+                  <placeName ref="#Myt">Mytilène</placeName>. /</p>
+
+            <p>Fragment 51 (Ath. 7. 322c) <lb/>ἀυτὰρ <app>
+                  <lem wit="#A #C">σινόδοντα</lem>
+                  <rdg wit="#E">συνόδοντα</rdg>
+               </app> μὲν ὃν ζήτει παχὺν εἶναι · / <lb/>ἐκ πορθμοῦ δὲ λαβεῖν πειρωι καὶ τοῦτον,
+               ἑταῖρε. / <lb/><app>
+                  <lem wit="#A">ταὐτα δὲ ταῦτα κυρωι φράζων καὶ πρὸς σέ, Κλεαινε</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. / <note>habent ACE</note></p>
+
+            <p><lb/>Mais, quant au sinodon, recherche seulement celui qui est gras. / <lb/>Essaie de
+               l’attraper avant tout dans le détroit, mon ami. /<note> Il s’agit de
+               Moschos.</note><lb/>Ce même conseil, il se trouve que je le donne à toi aussi,
+               Cleaïnos. /</p>
+
+            <p>Fragment 52 (Ath. 7. 324b) <lb/>σηπίαι Ἀβδήροις τε <app>
+                  <lem wit="#A #C">Μαρωνίαι</lem>
+                  <rdg wit="#E">Μαρωνεία</rdg>
+               </app> τʹ ἐνι <app>
+                  <lem wit="#A #Ε">μέσσηι</lem>
+                  <rdg wit="#C">μέση</rdg>
+               </app>.<note>habent ACE</note></p>
+
+            <p><lb/>Des seiches à <placeName ref="#Abd">Abdère</placeName> et dans le centre de
+                  <placeName ref="#Mar">Maronie</placeName>./</p>
+
+            <p>Fragment 53 (Ath. 7. 325d-e) <lb/>κἀν Θάσζωι ὀψώνει τρίγλαν, κοὐ χείρονα λήψηι /
+               <lb/>ταύτης· <app>
+                  <lem wit="#A">ἐν δὲ <app>
+                        <lem wit="#A">τῶι</lem>
+                        <rdg wit="#Schneider">Τέῳ</rdg>
+                     </app> χείρω, κεδνὴ δὲ καὶ αὐτὴ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app>. / <lb/>ἐν δʹ ̓Ερυθραῖς ἀγαθὴ θηρεύεται αἰγιαλῖτις. / <note>habent
+               ACE</note></p>
+
+            <p><lb/>À <placeName ref="#Tha">Thasos</placeName>, achète un rouget et tu n’en auras
+               pas un pire / <lb/>que le précédent. À <placeName ref="#Téo">Téos</placeName>, c’est
+               le pire, mais il est encore convenable. / <lb/>Et en <placeName ref="#Ery"
+                  >Érythres</placeName>, on en pêche de bons en bord de mer. /</p>
+
+
+            <p>Fragment 54 (Ath. 7. 326b) <lb/>καὶ νεαροῦ μεγάλου ταὐλωπία ἐν <app>
+                  <lem wit="#A">θέρι</lem>
+                  <rdg wit="#C #E">θέρει</rdg>
+               </app> ὠνοῦ / <lb/>κρανίον, ὅταν Φαέτων πυμάτην ἁψῖδα διφρεύηι· / <lb/>καὶ παράθες
+               θερμὸν ταχέως καὶ τρῖμμα μετʹ αὐτοῦ·/ <lb/>ὄπτα δʹ ἀμφʹ ὀβελίσκον ἑλὼν ὑπογάστριον
+               αὐτοῦ. / <note>habent ACE</note></p>
+
+            <p><lb/>Quant au jeune et grand aulopias, achètes-en la tête / <lb/>en été, lorsque
+                  Phaéton<note>Dans la mythologie grecque, Phaéton (Φαέθων : le Brillant) est le
+                  fils du dieu Soleil et symbolise ici l’été. </note>conduit son char au plus haut
+               de la voûte. / <lb/>Sers-le tant qu’il est chaud, sur le champ, avec une sauce. /
+               <lb/>Prends son ventre et rôtis-le à la broche. /</p>
+
+            <p>Fragment 55 (Ath. 7. 326d) <lb/>τευθίδες ἐν Δίωι τῶι <app>
+                  <lem wit="#A">Πιερκῶι</lem>
+                  <rdg wit="#C #E">Πιερικῷ</rdg>
+               </app> παρὰ χεῦμα / <lb/><app>
+                  <lem wit="#A">Βαφύραι</lem>
+                  <rdg wit="#C #E">Βαφύρα</rdg>
+               </app> · καὶ ἐν Ἀμβρακίαι παμπληθέας ὄψει. / <note>habent ACE</note></p>
+
+            <p><lb/>Tu verras à <placeName ref="#Dion">Dion</placeName> en <placeName ref="#Pié"
+                  >Piérie</placeName> des calmars dans le courant / <lb/>du <placeName ref="#Bap"
+                  >Baphyre</placeName>, et à <placeName ref="#Amb">Ambracie</placeName> en grand
+               nombre. /</p>
+
+            <p>Fragment 56 (Ath. 7. 326f-7a) <lb/>ἐν δʹ Αἴνωι καὶ τῶι Πόντωι <app>
+                  <lem wit="#A #C">τὴν</lem>
+                  <rdg wit="#E"><lacunaStart/></rdg>
+               </app> ὗν ἀγόραζε, / <lb/>ἣν καλέουσί τινες θνητῶν ψαμμῖτιν ὀρυκτήν. / <lb/>τούτου
+               τήν κεφαλὴν ἕψει μηδὲν προσενεγκὼν / <lb/>ἥδυσμʹ , ἀλλʹ ἐς μόνον ὕδωρ ἐνθεὶς καὶ θαμὰ <app>
+                  <lem wit="#A">κείνων</lem>
+                  <rdg wit="#C #E">κινῶν</rdg>
+               </app> / <lb n="5"/>ὕσσωπον παράθες τρίψας, κἂν ἄλλο τι χρήιζηις, / <lb/>δριμὺ διεὶς
+               ὄξος. κἆιτʹ <app>
+                  <lem wit="#A">ἐμβάπτευ</lem>
+                  <rdg wit="#C #E">ἐμβάπτε</rdg>
+               </app> καὶ ἐπείγου / <lb/>οὕτως ὡς πνίγεσθαι ὑπὸ σπουδῆς καταπίνων. / <lb/>τὴν λοφιὰν
+               δʹ ὀπτᾶν αὐτῆς καὶ <app>
+                  <lem wit="#A">τ' ἄλλα</lem>
+                  <rdg wit="#C #E">τἄλλα</rdg>
+               </app> τὰ πλεῖστα. /<note>habent ACE</note></p>
+
+            <p><lb/>Mais à <placeName ref="#Ain">Ainos</placeName> et en <placeName ref="#Noi">Mer
+                  Noire</placeName>, achète la truie de mer, / <lb/>que certains mortels appellent
+               &quot;fouilleurs de sable&quot;. / <lb/>Fais bouillir la tête sans ajouter
+               /<lb/>d’assaisonnement, mais plonge-la simplement dans l’eau, remue souvent, / <lb
+                  n="5"/>ajoute l’hysope ciselée et si tu veux autre chose, / <lb/>arrose-la de
+               vinaigre fort. Puis imbibe-la bien et engouffre-la / <lb/>avec empressement, quitte à
+               t’étouffer. / <lb/>Quant au dos, fais-le rôtir comme la plupart des autres parties.
+               /</p>
+
+            <p>Fragment 57 (Ath. 7. 327d-e) <lb/>Σειρίου ἀντέλλοντος δεῖν τὸν φάγρον ἐσθίειν / <lb/><app>
+                  <lem wit="#A">δόλωι</lem>
+                  <rdg wit="#C #E">Δήλῳ</rdg>
+               </app> τʹ Εἰρετρίαι τε κατʹ <app>
+                  <lem wit="#A #C">εὐλιμένους</lem>
+                  <rdg wit="#E">εὐλιμένα</rdg>
+               </app> ἁλὸς οἴκους . / <lb/>τὴν κεφαλὴν δʹ αὐτοῦ μόνον <app>
+                  <lem wit="#A #E">ὠνοῦ</lem>
+                  <rdg wit="#C">ὠνοῦσι</rdg>
+               </app> καὶ μετʹ ἐκείνης / <lb/>οὐραῖον· τὰ δὲ λοιπὰ <app>
+                  <lem wit="#A #C">δόμον</lem>
+                  <rdg wit="#E">δόμων</rdg>
+               </app> μηδʹ εἰσενέγκηις. /<note>habent ACE</note></p>
+
+            <p><lb/>Au lever de Sirius,<note>Également appelée, selon Wikipédia, Alpha Canis Majoris
+                  (α Canis Majoris/α CMa) par la désignation de Bayer, Sirius est l’étoile
+                  principale de la constellation du Grand Chien. Vue de la Terre, Sirius est
+                  l’étoile la plus brillante du ciel après le Soleil. Archestrate désigne la saison
+                  au cours de laquelle un poisson particulier doit être mangé. Il s’agit ici de
+                  l’été. Sirius se lève le 28 juillet à la latitude d’Érétrie (WILKINS et HILL
+                  2017). Archestrate nomme de temps à autre une saison par une figure mythologique :
+                  voir fragments 54, 14 et 49.</note>il faut manger le pagre / <lb/>à <placeName
+                  ref="#Dél">Délos</placeName> et à <placeName ref="#Eré">Érétrie</placeName> dans
+               les maisons des bons ports de mer. / <lb/>Achète seulement la tête et avec elle, /
+               <lb/>sa queue. Quant au reste, ne l’emporte pas à la maison. /</p>
+
+            <p>Fragment 58 (Ath. 7.328a) <lb/>τὸν χρόμιν ἐν Πέλληι λήψηι μεγάν – ἔστι δὲ πίων, /
+               <lb/>ἄνθέρος ἢ – καὶ ἐν Ἀμβρακίαι. /<note>habent ACE</note></p>
+
+            <p><lb/>Tu trouveras le chromis de belle taille à <placeName ref="#Pel"
+                  >Pella</placeName> – il est gras, / <lb/>si c'est l'été – et à <placeName
+                  ref="#Amb">Ambracie</placeName>. /</p>
+
+            <p>Fragment 59 (Ath. 7. 328b) <lb/>χρύσοφρυν ἐξ Ἐφέσου τὸν πίονα μὴ παράλειπε, / <lb/>ὅν
+               κεῖνοι καλέουσιν ἰωνίσκον. λαβὲ δʹ αὐτόν, / <lb/>θρέμμα Σελινοῦντος σεμνοῦ, πλῦνον δὲ
+               νιν ὀρθῶς,/ <lb/>εἶθʹ ὄλον ὀπτήσας παράθες κἄν ἦι δεκάπηχυς. /<note>habent
+               ACE</note></p>
+
+            <p><lb/>Ne néglige pas la grasse dorade d’<placeName ref="#Eph">Éphèse</placeName>, /
+               <lb/>que certains appellent “petite ionienne”. Achète-la, / <lb/>progéniture de
+               l’auguste <placeName ref="#Sél">Sélinοnte</placeName>, lave-la soigneusement, /
+               <lb/>rôtis-la puis sers-la entière même si elle fait dix coudées<note>Ancienne mesure
+                  de longueur qui va de l'extrémité du grand doigt jusqu’au coude. Une coudée
+                  équivaut à 45 cm. On note ici l’exagération d’Archestrate quant à la longueur de
+                  la dorade.</note>de long. /</p>
+
+            <p>Fragment 60 (Ath. 9. 383b) <lb/>περίεργον δʹ ἐστὶν ὡς ἀληθῶς τὸ πολὺ τῶν μαγείρων
+               γένος περί τε τὰς ἱστορίας καὶ τὰ ὀνόματα. λέγουσι γοῦν αὐτῶν οἱ λογιώτατοι
+               &quot;γόνυ κνήμης ἔγγιον&quot; καὶ <lb/>✝ &quot;περιῆλθον Ἀσίαν καὶ Εὐρώπην &quot;✝./
+                  <note>habent ACE</note></p>
+
+
+            <p> La plupart des cuisiniers sont vraiment curieux des problèmes historiques et des
+               noms. Les plus savants d’entre eux, du moins, disent : &quot;le genou est plus proche
+               que le tibia&quot;<note>Par cette expression, il faut entendre qu'il s'agirait de
+                  donner la préférence aux plus proches, comme aider son frère plutôt que son
+                  cousin. On pourrait traduire ainsi : &quot;Charité bien ordonnée commence par
+                  soi-même&quot;. Je remercie Aurélien Berra pour ses éclaircissements.</note> et
+               <lb/>✝ “j’ai voyagé à travers l’Asie et l’Europe”✝ . </p>
+
+            <p>Fragment 61 (Ath. 9. 384b) <lb/>καὶ σιτευτοῦ χηνὸς ὁμοῦ σκευάζει νεοττόν, /
+               <lb/>ὀπτὸν ἁπλῶς καὶ τόνδε. /<note>habet A</note></p>
+
+            <p><lb/>En même temps, prépare une jeune oie nourrie de grains / <lb/>et celle-ci sera
+               simplement rôtie. /</p>
+
+            <p>Fragment 62 (Ath. 9. 399d-e) <lb/>τοῦ <app>
+                  <lem wit="#A">δὲ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> λαγὼ πολλοί <app>
+                  <lem wit="#A">τε</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> τρόποι πολλαί τε θέσεις / <lb/>σκευασίας εἰσί. κεῖνος δʹ οὖν ἐστιν ἄριστος, /
+               <lb/>ἂν πεινῶσι μεταξὺ φέρηις κρέας ὀπτὸν ἑκάστωι, / <lb/>θερμόν, ἁπλῶς ἁλίπαστον,
+               ἀφαρπάζων ὀβελίσκου / <lb n="5"/>μικρὸν ἐνωμότερον. μὴ λυπείτω δέ σʹ ὁρῶντα /
+               <lb/>ἰχῶρα στάζοντα κρεῶν, ἀλλʹ ἔσθε λάβρως. / <lb/>αἱ δʹ ἄλλαι περίεργοι <app>
+                  <lem wit="#A">ἔμοιγʹ εἰσὶν</lem>
+                  <rdg wit="#C #E">ἔμοιγε εἰσὶ</rdg>
+               </app> διὰ παντὸς / <lb/>σκευασίαι, <app>
+                  <lem wit="#A">γλυῶν</lem>
+                  <rdg wit="#C #E">γλοιῶν</rdg>
+               </app> καταχύσματα <app>
+                  <lem wit="#A">καὶ</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
+               </app> κατὰτυρα / <lb/>καὶ κατέλαια λίαν, ὥσπερ <app>
+                  <lem wit="#A">γαλῆ ὀψοποιούντες</lem>
+                  <rdg wit="#C #E">γαλῆι ὀψοποιούντων</rdg>
+               </app>. /<note>habent ACE</note></p>
+
+            <p><lb/>Quant au lièvre, il existe différentes manières de le préparer / <lb/>et de
+               l’accommoder. Mais celle-ci est la meilleure : / <lb/>si, pendant qu’ils boivent, tu
+               sers à chacun une viande rôtie, / <lb/>chaude, simplement salée, retirée de la
+               broche, / <lb n="5"/>alors qu’elle encore saignante, ne sois pas troublé / <lb/>quand
+               tu verras du jus couler de la chair, mais mange-la voracement. / <lb/>Les autres
+               façons de préparer le lièvre sont pour moi vraiment / <lb/>trop élaborées, avec des
+               sauces visqueuses, très grasses <lb/>en fromage et en huile, comme si on le préparait
+               pour une belette !<note>La présence de cet animal était tolérée dans les foyers
+                  grecs. Les belettes sont aussi connues pour voler la viande et aimer le gras
+                  (OLSON et SENS 2000). </note></p>
+
+         </div>
+         <div n="2">
+            <head>Commentaire des passages introduisant les fragments</head>
+            <p>Si les fragments d’<persName ref="#Arc">Archestrate de Géla</persName> sont cités
+               dans l’œuvre d’<persName ref="#Ath">Athénée</persName>, c’est qu’ils étaient encore
+               connus au tournant du IIe et IIIe siècle de notre ère, soit plus de six siècles après
+               leur écriture. On peut se demander quel regard <persName ref="#Ath"
+                  >Athénée</persName> porte sur ce poète du IVe avant notre ère et on appréciera les
+               relations complexes et changeantes qu’entretient ce dernier avec <persName ref="#Arc"
+                  >Archestrate</persName>. On verra tout d’abord qu’<persName ref="#Ath"
+                  >Athénée</persName> donne des renseignements sur le poète et son œuvre sur un ton
+               relativement neutre. Puis, on montrera qu’<persName ref="#Ath">Athénée</persName>,
+               par le choix de ses formules, peut se montrer très élogieux et faire d’<persName
+                  ref="#Arc">Archestrate</persName> une référence. Enfin, <persName ref="#Ath"
+                  >Athénée</persName> peut faire preuve d’ambivalence à son égard et même se révéler
+               hostile.</p>
+            <div type="sous-section" n="1">
+               <head>Quelques renseignements sur le poète et son œuvre</head>
+
+               <div type="sous-sous-section" n="1">
+                  <head>Une origine sicilienne</head>
+                  <p>Peu de choses nous sont parvenues aujourd’hui sur la vie d’<persName ref="#Arc"
+                        >Archestrate</persName> et déjà au temps d’<persName ref="#Ath">Athénée de
+                        Naucratis</persName>, les indications biographiques étaient peu nombreuses.
+                     L’un des rares renseignements que nous donne <persName ref="#Ath"
+                        >Athénée</persName> est la ville de naissance d’<persName ref="#Arc"
+                        >Archestrate</persName> : ce dernier serait de <placeName ref="#Gé"
+                        >Géla</placeName> ou de <placeName ref="#Syr">Syracuse</placeName>, deux
+                     villes se trouvant en <placeName ref="#Sic">Sicile</placeName>, la première au
+                     sud de l’île, la seconde à l’est : </p>
+                  <p><lb/>Ἀρχέστρατος ὁ Συρακούσιος ἢ Γελῷος (ap. Ath. I. 4d-e) <lb/><persName
+                        ref="#Arc"><hi rend="italic">Archestrate</hi></persName><hi rend="italic">
+                        de </hi><placeName ref="#Syr"><hi rend="italic">Syracuse</hi></placeName><hi
+                        rend="italic"> ou de </hi><placeName ref="#Gé"><hi rend="italic"
+                        >Géla</hi></placeName>.</p>
+
+                  <p>Si<persName ref="#Arc">Archestrate</persName> fait mention à plusieurs reprises
+                     de la ville de <placeName ref="#Syr">Syracuse</placeName> dans ses fragments,
+                     jamais il n’est question de <placeName ref="#Gé">Géla</placeName>. Peut-être
+                     que le nom de <placeName ref="#Gé">Géla</placeName> apparaissait ailleurs dans
+                     son poème et que ce nom s’est perdu en même temps que certains fragments ou
+                     bien qu’<persName ref="#Arc">Archestrate</persName> n’en fait réellement jamais
+                     mention. Cela peut s’expliquer par le fait que dans la première moitié du IVe
+                     siècle avant notre ère, <placeName ref="#Gé">Géla</placeName> est une ville
+                     dangereuse. <persName ref="#Arc">Archestrate</persName> et sa famille ont
+                     possiblement fui <placeName ref="#Gé">Géla</placeName> pour se réfugier à
+                        <placeName ref="#Syr">Syracuse</placeName>. <persName ref="#Arc"
+                        >Archestrate</persName> a peut-être préféré oublier ce pénible souvenir.
+                     Quoi qu’il en soit, l’origine sicilienne d’<persName ref="#Arc"
+                        >Archestrate</persName> ne semble pas faire débat. Par ailleurs, la
+                        <placeName ref="#Sic">Sicile</placeName>, colonisée par les Grecs entre les
+                     VIIIe et VIIe siècles avant notre ère, est alors renommée à travers la
+                        <placeName ref="#Gra">Grande Grèce</placeName> pour ses plaines fertiles et
+                     sa gastronomie qui sont chantées par plusieurs poètes siciliens. <persName
+                        ref="#Arc">Archestrate</persName> s’inscrit dans cette tradition sicilienne
+                     où la cuisine est célébrée : <persName ref="#Mith">Mithécos de
+                        Syracuse</persName> est sans doute le premier cuisinier ayant écrit un livre
+                     de cuisine à la fin du Vème siècle av. J.-C et <persName ref="#Héra">Héraclide
+                        de Syracuse</persName> a écrit un <hi rend="italic">Art culinaire</hi> au
+                     IVème siècle avant notre ère.</p>
+               </div>
+
+               <div type="sous-sous-section" n="2">
+                  <head>Un voyageur</head>
+                  <p>Outre son origine, <persName ref="#Ath">Athénée</persName> nous renseigne sur
+                     le fait qu’<persName ref="#Arc">Archestrate</persName> a beaucoup voyagé. Cela
+                     nous est dit dans les passages suivants :</p>
+                  <p><lb/>Γῆν πᾶσαν θάλασσαν περιῆλθεν ἀκριβῶς (ap. Ath. 7. 278d-e) <lb/><hi
+                        rend="italic">Il [Archestrate] a parcouru rigoureusement toute la terre et
+                        toute la mer.</hi></p>
+                  <p><lb/>Ἀρχέστρατος μὲν ὀ περιπλεύσας τὴν οἰκουμένην ( ap. Ath. 3. 116f-17b)
+                        <lb/><hi rend="italic">Archestrate qui a navigué tout autour du monde
+                        habité.</hi></p>
+                  <p><lb/>Ἀρχέστρατος δ´ ὀ πᾶσαν γῆν καὶ θάλασσαν [...] περιελθών (ap. Ath. 7. 326d)
+                        <lb/><hi rend="italic">Archestrate qui a parcouru toute la terre et toute la
+                        mer.</hi></p>
+
+                  <p><persName ref="#Arc">Archestrate de Géla</persName> a ainsi parcouru l’<hi
+                        rend="italic">oikouménè</hi> c’est-à-dire l’ensemble des terres connues et
+                     habitées de son époque. Cela nous est confirmé par les soixante-deux fragments
+                     que nous avons traduits. Nous avons pu en effet dénombrer plus d’une
+                     cinquantaine de cités toutes situées en <placeName ref="#Gr">Grèce</placeName>
+                     et en <placeName ref="#Gra">Grande-Grèce</placeName>. <persName ref="#Arc"
+                        >Archestrate de Géla</persName> semble avoir des connaissances précises et
+                     bien délimitées de la géographie du monde grec de son temps. C’est un espace
+                     structuré : à l’ouest par la <placeName ref="#Sic">Sicile</placeName>, à l’est
+                     par des cités comme <placeName ref="#Mil">Milet</placeName>, au nord par
+                        l’<placeName ref="#Hel">Hellespont</placeName>, au sud par la<placeName
+                        ref="#Crè">Crète</placeName>. Si<persName ref="#Arc">Archestrate de
+                        Géla</persName> semble être un voyageur infatigable, il n’en reste pas moins
+                     qu’il ne s’est pas vraiment aventuré dans l’<hi rend="italic">érème</hi>
+                     c’est-à-dire dans des terres non explorées, dans le monde des barbares. En
+                     effet, ces derniers n’y ont presque aucune place à l’exception de deux
+                     références à la <placeName ref="#Phé">Phénicie</placeName> et à la <placeName
+                        ref="#Lyd">Lydie</placeName>. Cela s’explique par le fait que le but
+                        d’<persName ref="#Arc">Archestrate</persName> n’était pas de découvrir dans
+                     de nouvelles contrées de nouveaux mets mais de rechercher les meilleurs
+                     produits connus de ses contemporains.</p>
+               </div>
+
+               <div type="sous-sous-section" n="3">
+                  <head>Une œuvre qui a parcouru le monde</head>
+                  <p>Quoi qu’il en soit, si<persName ref="#Arc">Archestrate</persName> n’a peut-être
+                     pas visité le monde qu’il décrit, son œuvre a sans aucun doute beaucoup voyagé.
+                     Elle porte en effet plusieurs titres, preuve qu’elle a circulé et qu’elle a été
+                     connue pendant l’Antiquité. L’œuvre d’<persName ref="#Arc"
+                        >Archestrate</persName> est tout d’abord citée par quatre auteurs :</p>
+                  <p><lb/>ἐν τῇ ὡς Χρύσιππος ἐπιγράφει Γαστρονομίᾳ, ὡς δὲ Λυγκεὺς καὶ Καλλίμαχος
+                     Ἡδυπαθείᾳ, ὡς δὲ Κλέαρχος Δειπνολογία, ὡς δ᾽ ἄλλοι Ὀψοποιία. (ap. Ath. I.
+                     4d)<lb/>Dans l’ouvrage intitulé, selon <persName ref="#Chrys"
+                           >Chrysippe<note>Chrysippe de Soles, philosophe stoïcien (280-206 av.
+                           J.-C.).</note></persName> la <hi rend="italic">Gastronomie</hi>, selon
+                        <persName ref="#Lyn">Lyncée<note>Lyncée de Samos, poète comique et
+                           grammairien du IVème siècle av. J.-C. Il est aussi l’auteur de livres de
+                           cuisine et d’un ouvrage sur la manière d’acheter le poisson.
+                        </note></persName>et<persName ref="#Call">Callimaque<note>Callimaque de
+                           Cyrène, poète (305-240 av. J.-C.).</note></persName>la<hi rend="italic"
+                        >Vie de plaisirs</hi>, selon <persName ref="#Clé">Cléarque<note>Cléarque de
+                           Soles, philosophe péripatéticien du IVème siècle av.
+                        J.-C.</note></persName>, <hi rend="italic">La science du repas</hi>, selon
+                     d’autres la <hi rend="italic">Cuisine</hi>.</p>
+
+                  <p>En 4. 162b et 7. 278a-d.,<persName ref="#Ath">Athénée</persName>cite<persName
+                        ref="#Lyc">Lycophron de Chalcis<note>Lycophron de Chalcis, poète grec du
+                           IVème siècle av. J.-C.</note></persName>qui appelle l’œuvre d’<persName
+                        ref="#Arc">Archestrate</persName>Γαστρολογία (<hi rend="italic"
+                        >Gastrologia</hi>). <persName ref="#Ath">Athénée</persName> qualifie enfin
+                     le poème d’<persName ref="#Arc">Archestrate</persName> des façons suivantes :
+                     ἐν ταῖς Ὑποθήκαις (dans ses <hi rend="italic">Conseils</hi>) (ap. Ath. 7. 328b,
+                     7. 310a, 7. 284e), ἱστορία (<hi rend="italic">Informations</hi>) (ap. Ath. 7.
+                     298e, 7. 326b, 9. 383b), et de ἐν ταῖς Γνώμαις (dans ses <hi rend="italic"
+                        >Maximes</hi>) (ap. Ath. 7.286d). </p>
+
+                  <p>Ainsi le poème d’<persName ref="#Arc">Archestrate</persName> est-il désigné de
+                     huit façons différentes et parmi ses huit titres, il est impossible de savoir
+                     lequel <persName ref="#Arc">Archestrate</persName> avait choisi, si toutefois
+                     celui-ci figure bien parmi ces huit propositions. Nous n’en avons en effet
+                     aucune mention dans aucun manuscrit.</p>
+
+                  <p>Nous constatons tout d’abord que deux titres - <hi rend="italic"
+                        >Gastrologia</hi> et <hi rend="italic">Gastronomia</hi> - sont formés sur le
+                     radical <hi rend="italic">gastros</hi>. Dans le premier cas, ce radical est
+                     suivi du suffixe -logos : la Gastrologia signifie littéralement <hi
+                        rend="italic">le discours du ventre</hi>. Le terme <hi rend="italic"
+                        >Gastronomia</hi>, quant à lui, est formé à partir du suffixe <hi
+                        rend="italic">-nomos</hi>, suffixe qui entre dans la composition de mots
+                     savants pour désigner une discipline : la <hi rend="italic">Gastronomia</hi>
+                     serait littéralement <hi rend="italic">la science du ventre</hi>. Ces deux
+                     titres annoncent, non sans une certaine dérision, un ouvrage
+                     pseudo-scientifique. Il en de même pour la <hi rend="italic">Deipnologia</hi>
+                     ou <hi rend="italic">le Discours des repas</hi>. Il semble ainsi que <persName
+                        ref="#Lyc">Lycophron</persName>, <persName ref="#Chry">Chrysippe</persName>
+                     et <persName ref="#Clé">Cléarque</persName> aient un avis négatif sur l'œuvre
+                        d’<persName ref="#Arc">Archestrate</persName> et cherchent à la dénigrer :
+                     le manque de maîtrise des appétits va à l’encontre du mode de vie philosophique
+                     pour les Stoïciens et la gastronomie relèverait de la vie de plaisirs
+                     disqualifiée par la tradition aristotélicienne au profit de la vie politique et
+                     théorétique. <persName ref="#Lyn">Lyncée</persName> et <persName ref="#Call"
+                        >Callimaque</persName>, quant à eux, emploient un autre terme, celui d’
+                     Ἡδυπαθείας (cité quatre fois par Athénée<note>Cf. les phrases introductives aux
+                        fragments 14, 32, 39, 40.</note>) et que le Bailly définit comme la vie de
+                        <hi rend="italic">jouissance ou de mollesse</hi>. Si nous éliminons les noms
+                        <hi rend="italic">Hypothekai</hi>, <hi rend="italic">Gnomai</hi>, et <hi
+                        rend="italic">Historiai</hi> - beaucoup trop généralistes et n’ayant par
+                     conséquent que peu d’intérêt pour désigner l'œuvre d’<persName ref="#Arc"
+                        >Archestrate</persName> -, Ἡδυπαθείας est considéré, selon <persName
+                        ref="#Ols">S. Douglas Olson</persName> et <persName ref="#Sen">Alexander
+                        Sens</persName>, comme le titre le meilleur qui puisse être attribué au
+                     poème d’<persName ref="#Arc">Archestrate</persName>. Ce titre annonce de façon
+                     explicite qu’il y est question des plaisirs de la vie sans qu’il n’y ait la
+                     moindre critique sous-jacente de la part de <persName ref="#Lyn"
+                        >Lyncée</persName> et de <persName ref="#Call">Callimaque</persName>. C’est
+                     d’ailleurs celui-ci que les deux chercheurs ont adopté pour désigner l'œuvre
+                        d’<persName ref="#Arc">Archestrate</persName>. Il en va de même pour
+                        <persName ref="#Wil">John Wilkins</persName> et <persName ref="#Hil">Shaun
+                        Hill</persName>. Parmi tous ces titres, <persName ref="#Ath">Athénée de
+                        Naucratis</persName> ne semble pas prendre position. Au contraire. Il
+                     rappelle tout ce qu’il a entendu afin de conserver la mémoire d’<persName
+                        ref="#Arc">Archestrate</persName>. À une époque où la culture romaine prend
+                     le pas sur la culture grecque et où cette dernière est en déclin, <persName
+                        ref="#Ath">Athénée</persName> se pose en garant et défenseur de la
+                     littérature hellénistique. N’est-ce pas là, d’ailleurs, tout l’enjeu des <hi
+                        rend="italic">Deipnosophistes</hi> ?</p>
+               </div>
+            </div>
+            <div type="sous-section" n="2">
+               <head>Du gastronome au glouton : le regard duel d’<persName ref="#Ath"
+                     >Athénée</persName> sur <persName ref="#Arc">Archestrate</persName></head>
+
+               <p><persName ref="#Ath">Athénée de Naucratis</persName> nous donne ainsi des
+                  renseignements sur le poète et son œuvre de façon objective lorsqu’il introduit
+                  certains fragments d’<persName ref="#Arc">Archestrate de Géla</persName>. Mais, à
+                  d’autres moments, il nous livre son jugement qui peut être, dans certains cas,
+                  laudatif et, dans d’autres, très négatif.</p>
+
+               <div type="sous-sous-section" n="1">
+                  <head>Expressions laudatives</head>
+                  <p>Nous constatons tout d’abord qu’<persName ref="#Arc">Archestrate</persName> est
+                     caractérisé de façon positive par <persName ref="#Ath">Athénée</persName>. En
+                     effet, les adjectifs σοφός (ap. Ath. 7. 321c-d et 7. 311a-c) et καλός (ap. Ath.
+                     7. 307d) présentent <persName ref="#Arc">Archestrate</persName> comme un homme
+                        <hi rend="italic">sage</hi> et <hi rend="italic">beau</hi>. Les Grecs
+                     pensaient que la beauté externe (καλός) était associée à une beauté interne
+                     (σοφός) et qu’un beau visage était l’expression d’une belle âme. <persName
+                        ref="#Arc">Archestrate</persName> incarne l’idéal grec selon <persName
+                        ref="#Ath">Athénée</persName>.</p>
+                  <p>L’adjectif καλὸς revient accompagné d’un substantif au fragment 20 :</p>
+
+                  <p><lb/>Περὶ τῶν κατ´ Ἰταλίαν τόπων διεξιών [...] ὁ καλὸς οὗτος περιηγητής (ap.
+                     Ath. 7. 294a) <lb/><hi rend="italic">Ce noble explorateur poursuivant sur les
+                        régions d’Italie.</hi></p>
+
+                  <p><persName ref="#Arc">Archestrate</persName> est désigné comme <hi rend="italic"
+                        >le guide sage</hi> qui a parcouru le monde méditerranéen, mettant ainsi en
+                     valeur le choix sûr de ses destinations et sur sa façon de voyager. <persName
+                        ref="#Ath">Athénée de Naucratis</persName> semble assez admiratif de ce
+                     voyageur qui, six siècles plus tôt, a passé une partie de sa vie à parcourir
+                     terres et mers, peut-être même au péril de sa vie dans la mesure où les voyages
+                     en bateau étaient considérés comme dangereux.</p>
+                  <p>D’autres expressions sont aussi appliquées à <persName ref="#Arc"
+                        >Archestrate</persName> : ὀ ὀψαρτυτὴς Ἀρχέστρατος (ap. Ath. 7. 320f-1a) -
+                     expression que l’on pourrait traduire par le <hi rend="italic">chef
+                        Archestrate</hi>, <hi rend="italic">celui qui apprête les mets</hi> - et
+                     Ἀρχέστρατος τοῦ δειπνολόγου (ap. Ath. 1. 29a-d) - <hi rend="italic">l’expert
+                        des banquets</hi>. <persName ref="#Arc">Archestrate</persName> semble être
+                     quelqu’un qui détient une certaine autorité dans les domaines de la gastronomie
+                     et des voyages, à qui l’on peut faire confiance et dont la parole n’est pas à
+                     remettre en question. Archestrate est ainsi une référence.</p>
+               </div>
+
+               <div type="sous-sous-section" n="2">
+                  <head>Expressions négatives</head>
+                  <p>Mais on constate très vite que ces expressions positives sont peu nombreuses et
+                        qu’<persName ref="#Ath">Athénée</persName> recourt aussi à plusieurs figures
+                     de style pour disqualifier <persName ref="#Arc">Archestrate</persName>.
+                        <persName ref="#Ath">Athénée</persName> semble ainsi être amateur de bons
+                     mots pour frapper les esprits et se moquer des conseils culinaires d’un poète
+                     qui, à six siècles de distance, semblent dépassés et vieillis.</p>
+
+                  <div type="sous-sous-sous-section" n="1">
+                     <head>Usage du superlatif</head>
+                     <p><persName ref="#Ath">Athénée</persName> se moque volontiers d’<persName
+                           ref="#Arc">Archestrate</persName>. À cinq reprises, Athénée fait en effet
+                        un usage du superlatif pour le désigner :</p>
+
+                     <p><lb/>ὁ πολυίστωρ Ἀρχέστρατος (ap. Ath. 7. 325d) : <lb/><hi rend="italic">le
+                           très instruit </hi><persName ref="#Arc"><hi rend="italic"
+                              >Archestrate</hi></persName></p>
+
+                     <p><lb/>ὁ σοφώτατος Ἀρχέστρατος (ap. Ath. 7. 286c et 7. 286d) <lb/><hi
+                           rend="italic">le très sage </hi><persName ref="#Arc"><hi rend="italic"
+                              >Archestrate</hi></persName></p>
+
+
+                     <p><lb/>ὁ δὲ πολυμαθέστατος Ἀρχέστρατος (ap. Ath. 7. 324b et 9. 384b) <lb/><hi
+                           rend="italic">le Très-Érudit</hi><persName ref="#Arc"><hi rend="italic"
+                              >Archestrate</hi></persName></p>
+
+                     <p>Le superlatif absolu indique qu’<persName ref="#Arc">Archestrate</persName>
+                        l’emporte sur tous ses contemporains en sagesse et en connaissance, ce qui
+                        pourrait apparaître dans un premier temps très laudatif. Mais les Grecs
+                        n’étaient-ils pas sensibles à la σωφροσύνη (<hi rend="italic"
+                           >sophrosuné</hi>) c’est-à-dire à la <hi rend="italic">tempérance</hi> ?
+                        Dès lors que l’on a recours à un superlatif, ne dépasse-t-on pas cette
+                        modération dont l’emploi zéro de l’adjectif serait le garant ? <persName
+                           ref="#Ath">Athénée</persName> introduit ici une pointe d’ironie à l’égard
+                           d’<persName ref="#Arc">Archestrate</persName> qui, n’hésitant pas à faire
+                        montre de son savoir, peut agacer son public par son érudition. D’ailleurs,
+                        l’adjectif κίμβιξ est employé pour introduire le fragment 29. Le Bailly
+                        donne deux sens à cet adjectif. Il désigne tout d’abord celui qui est <hi
+                           rend="italic">pingre</hi>, <hi rend="italic">avare</hi>. Mais cela ne
+                        fait pas sens ici. Le deuxième sens indique un homme <hi rend="italic"
+                           >pointilleux</hi>, <hi rend="italic">vétilleux</hi> : <persName
+                           ref="#Ath">Athénée</persName> critique ici <persName ref="#Arc"
+                           >Archestrate</persName> en pointant son goût excessif pour le détail. Par
+                        exemple, dans le fragment 29, il faut trouver une queue de grande thonne
+                        provenant de <placeName ref="#Byz">Byzance</placeName>. <persName ref="#Arc"
+                           >Archestrate</persName> ne fait-il pas là preuve d’un peu trop d’excès ?
+                        Cela se retourne contre lui et il se ridiculise aux yeux d’<persName
+                           ref="#Ath">Athénée</persName> et des convives de <persName ref="#P.Liv"
+                           >Larensis</persName>, qui se moquent d’une époque et de coutumes
+                        lointaines et révolues. Plus de six siècles séparent en effet les deux
+                        auteurs.</p>
+                  </div>
+
+                  <div type="sous-sous-sous-section" n="2">
+                     <head>Expressions oxymoriques</head>
+                     <p><persName ref="#Ath">Athénée</persName> utilise, par ailleurs, d’autres
+                        expressions tournant en dérision <persName ref="#Arc"
+                        >Archestrate</persName>. Par deux fois, <persName ref="#Ath"
+                           >Athénée</persName> a recours à des expressions oxymoriques. <persName
+                           ref="#Arc">Archestrate</persName> est désigné comme un
+                           ὀψοδαίδαλος<note>Cf. phrases introduisant les fragments 11, 23, 26, 36,
+                           57 et 60.</note> (<hi rend="italic">opsodaidalos</hi>) - <hi
+                           rend="italic">le Dédale des plats savoureux</hi>. Expression uniquement
+                        attestée dans <hi rend="italic">Les Deipnosophistes</hi>, <persName
+                           ref="#Ath">Athénée</persName> met en relation l’ingéniosité technique et
+                        scientifique de <persName ref="#Déd">Dédale</persName>, auteur du célèbre
+                        Labyrinthe et inventeur des ailes d’<persName ref="#Ica">Icare</persName>,
+                        et un mets de luxe c’est-à-dire ici les poissons. L’opposition entre les
+                        constructions de <persName ref="#Déd">Dédale</persName> - un véritable
+                        savoir scientifique - et l’apprêt du poisson - un savoir-faire - introduit
+                        un décalage comique dans la désignation d’<persName ref="#Arc"
+                           >Archestrate</persName>. Mais <persName ref="#Ath">Athénée</persName> va
+                        plus loin dans sa critique : <persName ref="#Arc">Archestrate</persName>
+                        nous perd dans le choix des mets et dans les conseils qu’il donne pour les
+                        apprêter : nous nous retrouvons ainsi perdus comme dans un labyrinthe.</p>
+                     <p>L’expression ὁ ἡδονικὸς φιλόσοφος<note>Ap. Ath. 7. 312f.</note> (<hi
+                           rend="italic">edonikos filosofos</hi>) que l’on pourrait traduire par le
+                           <hi rend="italic">philosophe du plaisir</hi> est un autre oxymore qui
+                        qualifie - ou disqualifie - <persName ref="#Arc">Archestrate</persName>.
+                        Comment peut-on mêler philosophie et plaisir ? <persName ref="#Pla"
+                           >Platon</persName> dénigre les plaisirs gustatifs car ils vont à
+                        l’encontre de la maîtrise de soi à laquelle le philosophe doit rester
+                        fidèle. C’est le sophiste qui fait l’éloge du plaisir et non le philosophe.
+                           <persName ref="#Epi">Épicure</persName>, quant à lui, met en valeur le
+                        plaisir dans sa philosophie mais il ne s’agit pas de n’importe quel plaisir
+                        : il faut savoir rester, même en ce domaine, dans la modération en se
+                        limitant à ce qui est nécessaire et naturel.</p>
+                  </div>
+
+                  <div type="sous-sous-sous-section" n="3">
+                     <head>Métaphore militaire</head>
+                     <p><persName ref="#Ath">Athénée</persName> emploie aussi une métaphore
+                        militaire pour caractériser <persName ref="#Arc">Archestrate</persName> : ὁ
+                        τῶν δείπνων λοχαγός (ap. Ath. 7. 301c) - <hi rend="italic">le capitaine des
+                           banquets</hi>. Il s’agit d’une image commune dans les textes portant sur
+                        la nourriture, mais rare chez <persName ref="#Arc"
+                           >Archestrate</persName><note>Nous retrouvons cette ambiance militaire
+                           dans un seul fragment d’Archestrate : le numéro 8.</note>. <persName
+                           ref="#Mat">Matron de Pitane</persName> - un poète du IVème siècle avant
+                        notre ère - qui a écrit le Δει̑πνον Ἀττικόν (<hi rend="italic">Deípnon
+                           Attikón</hi> : <hi rend="italic">le Banquet attique</hi>), emploie en le
+                        parodiant le vocabulaire militaire d’<persName ref="#Hom">Homère</persName>
+                        de façon importante<note>WILKINS et HILL 2011.</note>. Par cette métaphore
+                        comique qui allie commandement militaire et art du banquet, <persName
+                           ref="#Ath">Athénée</persName> indique de façon astucieuse ses
+                        connaissances en gastronomie littéraire. Faut-il y voir une critique dressée
+                        contre <persName ref="#Arc">Archestrate</persName> qui ne fait pas comme les
+                        autres poètes en n’ayant jamais recours au vocabulaire militaire ou bien,
+                           <persName ref="#Ath">Athénée</persName> indique-t-il le renouveau de
+                        cette tradition en montrant qu’<persName ref="#Arc">Archestrate</persName>
+                        en fait abstraction ?</p>
+                  </div>
+
+                  <div type="sous-sous-sous-section" n="4">
+                     <head>Périphrases</head>
+                     <p>Par ailleurs, <persName ref="#Ath">Athénée</persName> caractérise <persName
+                           ref="#Arc">Archestrate</persName> par plusieurs périphrases : Ἀρχέστρατος
+                        ὅν ἀντι τοῦ Ὁμήρου προσκυνεῖς<note>ap. Ath. 4. 162b.</note> -<hi
+                           rend="italic"><persName ref="#Arc">Archestrate</persName> que l’on vénère
+                           comme un autre Homère</hi>-, Ἀρχέστρατος τῶν ὀψοφάγων Ἡσίοδος ἢ
+                           Θέογνις<note> ap. Ath. 7. 310a.</note> - <hi rend="italic"><persName
+                              ref="#Arc">Archestrate</persName>, l’<persName ref="#Hés"
+                              >Hésiode</persName> ou le <persName ref="#Thé">Théognis</persName> des
+                           mangeurs de poissons</hi> -, et ὁ Πυθαγορικὸς δὲ δι’ ἐγκράτειαν
+                           Ἀρχέστρατος<note> ap. Ath. 7. 288a.</note>- <hi rend="italic"
+                           >Archestrate, dont la tempérance a fait un disciple de <persName
+                              ref="#Pyt">Pythagore</persName></hi>.</p>
+                     <p>La poésie d’<persName ref="#Arc">Archestrate</persName> peut être comparée à
+                        celle de plusieurs grands noms de la littérature grecque pour ce qui
+                        concerne la forme puisque l'emploi de l’hexamètre dactylique leur est
+                        commun. Par contre, pour ce qui est du fond, <persName ref="#Ath"
+                           >Athénée</persName> met en relation des poètes qui traitent de sujets
+                        forts différents et qui, de surcroît, n’ont aucun lien avec la nourriture,
+                        en général, et avec les poissons, en particulier. Le voyage méditerranéen
+                        fait par <persName ref="#Arc">Archestrate</persName> peut faire penser à une
+                        parodie du retour d’Ulysse à Ithaque. La trivialité du sujet d’<persName
+                           ref="#Arc">Archestrate</persName> s’oppose à l’épopée d’<persName
+                           ref="#Hom">Homère</persName> qui célèbre les hauts faits des héros et des
+                        dieux, le combat d’un mortel contre les immortels. <persName ref="#Arc"
+                           >Archestrate</persName>, quant à lui, célèbre le bon goût contre le
+                        mauvais. Mais, mis à part cela, <persName ref="#Arc">Archestrate</persName>
+                        et <persName ref="#Hom">Homère</persName> n’ont rien en commun d’autant plus
+                           qu’<persName ref="#Hom">Homère</persName> ne parle jamais de poissons
+                        lorsqu’il mentionne la nourriture de ses personnages. Il est seulement
+                        question dans l’<hi rend="italic">Iliade</hi> de la préparation de la
+                        viande. Peut-être le poème d’<persName ref="#Arc">Archestrate</persName>
+                        donnait-il une place plus importante à la viande. Mais comme il ne nous est
+                        parvenu que de façon fragmentaire, il est difficile de dire si <persName
+                           ref="#Arc">Archestrate</persName> n’avait que peu d’intérêt pour le
+                           viande<note>cf. fragments 57 et 58 qui portent le lièvre et l’oie.</note>
+                        ou si, au contraire, le poème portait davantage dessus et, dans ce cas,
+                           <persName ref="#Ath">Athénée</persName> aurait fait un tri dans ce qui
+                        l’intéressait pour son catalogue du Livre VII placé sous le signe des
+                        poissons. Notre regard pourrait donc être biaisé.</p>
+                     <p>En comparant <persName ref="#Arc">Archestrate</persName> à <persName
+                           ref="#Hés">Hésiode</persName> ou à <persName ref="#Thé">Théognis de
+                           Mégare</persName>, <persName ref="#Ath">Athénée</persName> laisse
+                        entendre son rire sarcastique et cherche à faire rire son public. En effet,
+                           <persName ref="#Arc">Archestrate</persName> représente l’exact opposé de
+                        ces auteurs. <persName ref="#Hés">Hésiode</persName> qui vécut à la fin du
+                        VIIIème siècle ou au début du VIIème siècle av. J.-C. est l’auteur du poème
+                        intitulé <hi rend="italic">Les Travaux et les jours</hi> qui décrit les
+                        travaux agraires en <placeName ref="#Béo">Béotie</placeName> et donne le
+                        calendrier précis de l’année agricole. Cet ouvrage a été composé pendant une
+                        grave crise agraire et lors de la colonisation grecque - les Grecs
+                        cherchaient alors de nouvelles terres à travailler. Les rudes tâches
+                        agricoles présentées sur fond de pauvreté et de frugalité contrastent avec
+                        le luxe et la profusion des plats présentés par <persName ref="#Arc"
+                           >Archestrate</persName>. Quant à <persName ref="#Thé">Théognis de
+                           Mégare</persName>, poète élégiaque du VIème siècle avant notre ère, il
+                        dénonce notamment la décadence et l’effondrement des valeurs aristocratiques
+                        : deux thèmes très éloignés des préoccupations d’ <persName ref="#Arc"
+                           >Archestrate</persName>.</p>
+                     <p><persName ref="#Arc">Archestrate</persName> est aussi désigné comme un <hi
+                           rend="italic">disciple de <persName ref="#Pyt">Pythagore</persName></hi>,
+                        ce qui est paradoxal puisque le régime dit de <persName ref="#Pyt"
+                           >Pythagore</persName> (né vers 580 av. J.-C.) repose sur la frugalité et
+                        proscrit la chair animale : on pouvait selon lui vivre sans faire souffrir
+                        et sans ôter la vie. En faisant l’éloge de la gastronomie halieutique et en
+                        étant par conséquent tout le contraire d’un disciple de <persName ref="#Pyt"
+                           >Pythagore</persName>, <persName ref="#Arc">Archestrate</persName> est à
+                        nouveau l’objet d’une ironie mordante de la part d’<persName ref="#Ath"
+                           >Athénée</persName>. Par ailleurs, dans le fragment 24 où il est question
+                        de <persName ref="#Pyt">Pythagore</persName>, <persName ref="#Arc"
+                           >Archestrate</persName> se défend de cette accusation et fait à son tour
+                        une vive critique de la philosophie de <persName ref="#Pyt"
+                           >Pythagore</persName> et de ses disciples. Selon lui, le végétarisme de
+                           <persName ref="#Pyt">Pythagore</persName> est absurde. Tout l’art
+                           d’<persName ref="#Ath">Athénée</persName> est de faire revivre par le
+                        biais du discours, le temps d’un banquet, des auteurs morts depuis
+                        longtemps. En s’affranchissant de toute temporalité, <persName ref="#Ath"
+                           >Athénée</persName> leur redonne la parole : <persName ref="#Arc"
+                           >Archestrate</persName> et <persName ref="#Pyt">Pythagore</persName> se
+                        répondent ainsi en écho au début du IIIème siècle de notre ère. Bien que <hi
+                           rend="italic">Les Deipnosophistes</hi> donnent l’impression d’être une
+                        discussion à bâtons rompus entre les différents convives sans plan
+                        préétabli, il n’en reste pas moins qu’il y a dans sa structure interne une
+                        composition bien présente. Enfin, <persName ref="#Ath">Athénée</persName> a
+                        beau se moquer d’<persName ref="#Arc">Archestrate</persName>, il n’apparaît
+                        pas lui non plus comme un disciple de <persName ref="#Pyt"
+                           >Pythagore</persName>. Son catalogue des poissons, notamment, au Livre
+                        VII ne condamne pas le fait de le préparer ni d’en manger. </p>
+                  </div>
+
+                  <div type="sous-sous-sous-section" n="4">
+                     <head>Le paroxysme de la critique</head>
+                     <p>Enfin, <persName ref="#Arc">Archestrate</persName> est désigné comme un
+                        glouton : τένθης Ἀρχέστρατος - <hi rend="italic">Archestrate le glouton</hi>
+                        (ap. Ath. 3. 112b et 7. 285e). L’introduction au fragment 55 y fait aussi
+                        référence :</p>
+                     <p><lb/>Ἀρχέστρατος δ´ ὁ πᾶσαν γῆν καὶ θάλασσαν διὰ γαστριμαργίαν περιελθών.
+                           <lb/><hi rend="italic">Archestrate qui explora au nom de la gloutonnerie
+                           l’ensemble des terres et des mers.</hi></p>
+
+                     <p>La seule motivation d’<persName ref="#Arc">Archestrate</persName>, selon
+                           <persName ref="#Ath">Athénée</persName>, est la satisfaction de son
+                        ventre. Le glouton est celui qui engloutit la nourriture avec voracité : il
+                        désigne celui qui est incapable de se restreindre, de faire preuve de
+                        tempérance. En somme, il est un débauché qui ne se préoccupe pas de la
+                        qualité de ce qu’il mange contrairement à ce que recherche <persName
+                           ref="#Arc">Archestrate</persName>. Ce dernier est d’ailleurs comparé à
+                           <persName ref="#Sar">Sardanapale</persName> (ap. Ath. 294f), empereur
+                           d’<placeName ref="Ass">Assyrie</placeName> et symbole de la vie dissolue
+                        et des plaisirs assouvis. Cela est d’ailleurs explicitement dit au moment
+                        d’introduire le fragment 12 où nourriture et sexe sont associés :</p>
+
+                     <p><lb/>τῆς γαστρὸς ἕνεκα καὶ τῶν ὑπὸ τὴν γαστέρα <lb/><hi rend="italic">pour
+                           son ventre et les parties de son anatomie en-dessous de son
+                        ventre.</hi></p>
+
+                     <p>L’insulte est poussée ici à son paroxysme. Le manque de mesure caractérise
+                        ainsi <persName ref="#Arc">Archestrate</persName>, l’éloignant de l’homme
+                        sage et bon que l’on a pu apercevoir à quelques reprises.</p>
+
+                     <p>Mais comment expliquer le passage du gastronome au glouton ? Il semblerait
+                        que ce soit la façon intrinsèque d’écrire d’<persName ref="#Ath"
+                           >Athénée</persName> qui n’a de cesse de passer de la louange à la
+                        critique la plus sévère puis de revenir à l’éloge. Il détourne les citations
+                        à son profit, s’amuse avec les auteurs et les malmène afin d’animer la
+                        discussion lors du banquet au moment où l’ivresse domine. Endroit propice où
+                        les mots peuvent avoir un double sens, où ils peuvent entrer en
+                        contradiction au sein d’une même expression et où l’on peut faire état d’une
+                        observation et dire ensuite le contraire. Le banquet où la recherche du mot
+                        d’esprit prévaut renouvelle ainsi les possibilités du langage.</p>
+                     <p>Par ailleurs, la façon changeante d’<persName ref="#Ath">Athénée</persName>
+                        de nous présenter Archestrate influence aussi grandement notre façon de lire
+                        les vers qui sont cités par la suite. Notre regard sur Archestrate et la
+                        lecture que nous en faisons ne peuvent qu’en ressortir biaisés.</p>
+                     <p>Finalement, on oublie ce que pense <persName ref="#Ath">Athénée</persName>
+                           d’<persName ref="#Arc">Archestrate</persName>. Cela est de plus redoublé
+                        par le fait qu’<persName ref="#Ath">Athénée</persName> ne cite pas toujours
+                        directement le poète : il cite souvent un auteur (comme par exemple
+                           <persName ref="#Daph">Daphnis l’Éphésien</persName> ou <persName
+                           ref="#Ulp">Ulpien</persName>) qui cite <persName ref="#Arc"
+                           >Archestrate</persName>. Dans cet enchâssement de paroles, les voix
+                        finissent par se confondre comme dans le brouhaha du σύμποσιον.</p>
+
+                     <div> </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
