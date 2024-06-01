@@ -49,7 +49,7 @@
 	<!-- default: 'Welcome to an edition created with EVT' -->
 	<xsl:param name="welcomeMsg">
 		<div>
-			<p class="title main">Welcome to an edition created with EVT</p>
+			<p class="title main">Bienvenue dans cette édition numérique créée avec EVT.</p>
 		</div>
 		<!--<div>This archive includes a few examples of editions created using EVT,
 			by default you are shown a small excerpt of the
