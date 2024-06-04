@@ -475,16 +475,20 @@
             <p>Fragment 5 (Ath. 2. 64a) βολβῶν καὶ καυλῶν χαίρειν λέγω ὀξυβάφοισι / τ’ ταῖς παροψίσι
                πάσῃσι.</p>
          </div>
-         <pb n="6" facs="data/images/single/archestratus_ms_a_fr_6.png"
-            xml:id="archestratus_ms_a_fr_6"/>
-         <div n="6" type="fragment">
-            <p>Fragment 6 (Ath. 3. 92d-e) τοὺς μῦς θʹ ἡ Αἶνος ἔχει μεγάλους, ὄστρεια δʹ Ἄβυδος, /
-               τὰς ἄρκτους Πάριον, τοὺς δὲ κτένας ἡ Μιτυλίνη, / πλείστους δʹ Ἀμβρακία παρέχει καὶ
-               ἄπλατα μετʹ αὐτῶν. / Μεσσήνῃ δὲ πελωριαδαῖς στενοπορθμίδᾳ κόγχας / κὰν Ἐφέσῳ λήψει
-               τὰς λείας οὔτι πονηράς. / τήθεα Καλχηδών, τοὺς κήρυκας δʹ ἐπιτρίψαι / ὁ Ζεὺς τούς τε
-               θαλασσογενεῖς καὶ τοὺς ἀγοραίους, / πλὴν ἑνὸς ἀνθρώπου, κεῖνος δέ μοί ἐστιν ἑταῖρος /
-               Λέσβον ἐπιστάφυλον ναίων, Ἀγάθων δὲ καλεῖται.</p>
-         </div>
+          <pb n="6" facs="data/images/single/archestratus_ms_a_fr_7.png"
+               xml:id="archestratus_ms_a_fr_7"/>
+            <div n="6" type="fragment">
+               <head>Fragment 6 (Ath. 3. 92d-e)</head> 
+               <l n="1">τοὺς <app><lem wit="#A">μῦς θʹ ἡ Αἶνος</lem><rdg wit="#C #E">μῦς ἡ Αἶνος</rdg></app> ἔχει μεγάλους, ὄστρεια δʹ Ἄβυδος,</l> 
+                  <l n="2"><app><lem wit="#A">τὰς ἄρκτους</lem><rdg wit="#C #E">τοὺς ἄρκτους</rdg></app> Πάριον, τοὺς δὲ κτένας ἡ <app><lem wit="#A">Μιτυλίνη</lem><rdg wit="#C #E">Μιτυλήνη</rdg></app>,</l>
+               <l n="3"><app><lem wit="#A">πλείστους</lem><rdg wit="#C">πλεῖστα</rdg></app> δʹ Ἀμβρακία παρέχει <app><lem wit="#A">καὶ ἄπλατα μετʹ αὐτῶν.</lem><rdg wit="#C #E"><lacunaStart/></rdg></app></l>
+               <l n="4"><app><lem wit="#A">Μεσσήνηι δὲ <app><lem wit="#Aac">πελωριαδαῖς</lem><rdg wit="#Apc">πελωριάδες</rdg></app> στενοπορθμίδαι κόγχας</lem><rdg wit="#C #E"><lacunaStart/></rdg></app></l>
+                        <l n="5"><app><lem wit="#A">κὰν</lem><rdg wit="#C #E">ἐν</rdg></app> Ἐφέσωι <app><lem wit="#A">λήψει</lem><rdg wit="#C #E">λήψη</rdg></app> τὰς λείας οὔτι πονηράς.</l> 
+                        <l n="6"><app><lem wit="#A">τήθεα Καλχηδών</lem><rdg wit="#C #E"><lacunaStart/></rdg></app>, τοὺς κήρυκας δʹ ἐπιτρίψαι</l>
+                        <l n="7">ὁ Ζεὺς τούς τε θαλασσογενεῖς καὶ τοὺς ἀγοραίους,</l>
+                        <l n="8">πλὴν ἑνὸς ἀνθρώπου, κεῖνος δέ μοί <app><lem wit="#A #C">ἐστιν</lem><rdg wit="#E">ἐστι</rdg></app>ἑταῖρος</l> 
+                        <l n="9">Λέσβον ἐπιστάφυλον ναίων, Ἀγάθων δὲ καλεῖται.</l><note>habent
+                           ACE</note></div>
          <pb n="7" facs="data/images/single/archestratus_ms_a_fr_7.png"
             xml:id="archestratus_ms_a_fr_7"/>
          <div n="7" type="fragment">
