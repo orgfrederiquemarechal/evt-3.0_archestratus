@@ -29,6 +29,37 @@
                     <name xml:id="Cas">Casaubon</name>
                     <name xml:id="Desr">Desrousseaux</name>
                     <name xml:id="Di">Dindorf</name>
+<editor role="editor">Kaibel</editor>
+                    <publisher>In Aedibus B.G. Teubneri</publisher>
+                    <pubPlace>Lipsiae</pubPlace>
+                    <date>1887</date>
+                </bibl>
+                <!-- Liste des manuscrits -->
+                <listWit>
+                    <witness xml:id="A">A : Marcianus gr. 447 (coll. 820)</witness>
+                    <witness xml:id="C">C : Parisinus suppl. gr. 841</witness>
+                    <witness xml:id="E">E : Laurentianus 60, 2</witness>
+                    <witness xml:id="B">B : Laurentianus 60, 1</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction status="high" method="silent">
+                    <p>optical character recognition</p>
+                </correction>
+            </editorialDecl>
+            <refsDecl>
+                <refState unit="book" delim="."/>
+                <refState unit="chapter"/>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
   <name xml:id="Grot">Grotius</name>
                     <name xml:id="Herw">Van Herwerden</name>
                     <name xml:id="K">Kaibel</name>
