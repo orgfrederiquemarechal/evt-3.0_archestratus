@@ -1,1 +1,31 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Deipnosophistae</title>
+                <title type="sub">Machine readable text</title>
+                <author>Athenaeus</author>
+                <editor role="editor">Kaibel</editor>
+                <sponsor>Perseus Project, Tufts University</sponsor>
+                <principal>Gregory Crane</principal>
+                <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Lisa Cerrato</name>
+                    <name>Alison Babeu</name>
+                    <name>Bridget Almas</name>
+                    <name>Monica Berti</name>
+                </respStmt>
+                <funder n="org:NEH">The National Endowment for the Humanities</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>Kaibel<date>1887</date>
+                </edition>
+                <!-- Liste des auteurs de conjectures -->
+                <respStmt>
+                    <resp>Emendations by</resp>
+                    <name xml:id="Adam">Adam</name>
+                    <name xml:id="Cas">Casaubon</name>
+                    <name xml:id="Desr">Desrousseaux</name>
+                    <name xml:id="Di">Dindorf</name>
