@@ -4,20 +4,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Deipnosophistae</title>
-                <title type="sub">Machine readable text</title>
-                <author>Athenaeus</author>
-                <editor role="editor">Kaibel</editor>
-                <sponsor>Perseus Project, Tufts University</sponsor>
-                <principal>Gregory Crane</principal>
+                <title>Fragments</title>
+                <author>Archestrate de Géla</author>
                 <respStmt>
                     <resp>Prepared under the supervision of</resp>
-                    <name>Lisa Cerrato</name>
-                    <name>Alison Babeu</name>
-                    <name>Bridget Almas</name>
-                    <name>Monica Berti</name>
+                    <name>Aurélien Berra</name>
                 </respStmt>
-                <funder n="org:NEH">The National Endowment for the Humanities</funder>
             </titleStmt>
             <editionStmt>
                 <edition>Kaibel<date>1887</date>
