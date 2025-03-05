@@ -108,3 +108,33 @@
             </refsDecl>
         </encodingDesc>
         <profileDesc>
+ <revisionDesc>
+            <change when="2019-11-05" who="Aurélien Berra">Revise file</change>
+            <change when="2017-11-19" who="Aurélien Berra">Remove attribute on teiHeader
+                tag</change>
+            <change when="2015-10-22" who="Aurélien Berra">Pedagogical adaptation of I.1-5</change>
+            <change when="2013-09-30" who="Bridget Almas">Added headers</change>
+            <change when="2012-12-17T09:02:00.000-05:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">First version.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text n="Test EVT" xml:id="Test" xml:lang="Greek">
+        <body>
+            <pb n="v.1.p.1" xml:id="page_1.jpg"/>
+            <head>
+                <app>
+                    <lem resp="#K">ΑΘΗΝΑΙΟΥ ΝΑΥΚΡΑΤΙΤΟΥ ΔΕΙΠΝΟΣΟΦΙΣΤΩΝ ΕΚ ΤΟΥ Α</lem>
+                    <rdg wit="#C #E">βίβλος ἡ λεγομένη δειπνοσοφιστής</rdg>
+                </app>
+            </head>
+            <div type="book" n="1" org="uniform" sample="complete">
+                <div type="chapter" n="1" org="uniform" sample="complete">
+                    <p>
+                        <persName>Ἀθήναιος</persName> μὲν ὁ τῆς βίβλου πατήρ· ποιεῖται δὲ τὸν λόγον
+                        πρὸς <persName>
+                            <app>
+                                <lem resp="#Mus">Τιμοκράτην</lem>
+                                <rdg wit="#E">ἐχεκράτην</rdg>
+                                <rdg wit="#C">ἐχικράτην</rdg>
+                            </app>
+                        </persName>· <app>
