@@ -29,3 +29,25 @@
                     <name xml:id="Cas">Casaubon</name>
                     <name xml:id="Desr">Desrousseaux</name>
                     <name xml:id="Di">Dindorf</name>
+  <name xml:id="Grot">Grotius</name>
+                    <name xml:id="Herw">Van Herwerden</name>
+                    <name xml:id="K">Kaibel</name>
+                    <name xml:id="Mein">Meineke</name>
+                    <name xml:id="Mus">Musurus</name>
+                    <name xml:id="Pors">Porson</name>
+                    <name xml:id="Schw">Schweighäuser</name>
+                    <name xml:id="Suid">Suidas</name>
+                    <name xml:id="Toup">Toup</name>
+                    <name xml:id="Wilam">Wilamowitz</name>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Athenaeus</author>
+                    <title>Deipnosophistae</title>
