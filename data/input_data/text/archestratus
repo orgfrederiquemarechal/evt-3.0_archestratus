@@ -28,8 +28,18 @@
                 <witness xml:id="A">Manuscrit A, Venise, Bibliothèque Marciana, gr. Z. 447 (coll.
                   0820)<note>Ce manuscrit byzantin a été copié, en écriture humaniste, par Jean le Calligraphe à Constantinople au Xe siècle. Il a été apporté en Italie en 1423 par 
                 l'husmaniste sicilien Giovanni Aurispa. Puis, il a été acheté par le Cardinal Bessarion vers le milieu de XVe siècle qui le légua, avec le reste de sa bibliothèque à 
-                la République de Venise.</note>
+                la République de Venise. Il s'agit d'un codex vestissimus rédigé en minuscule. Il comporte 372 folios de parchemin mesurant 395 sur 261 mm. Le texte est réparti sur deux colonnes,
+                chaque colonne comprenant un nombre moyen de 43 lignes. Les lettres sont formées lisiblement et sans abréviations.
+                Mais ce manuscrit, qui est la seuls version non abrégée des <hi rend="italic">Deipnosophistes</hi>, n'est pas complet : il manque en effet quelques folios après les folios 214 et 239.
+                Enfin, les folios 370 à 372 ont été détériorés en raison de mauvaises conditions de conservation. On se sert des manuscrits C et E pour combler les lacunes.</note>
                  </witness>
+                 <witness xml:id="C">Manuscrit C, Paris, Bibliothèque Nationale de France, Parisinus supplément
+                grec 841<note>Ce manuscrit est version abrégée des <hi rend="italic">Deipnosophistes</hi>. Il s'inscrit dans la tradition de l'épitomé.
+                Il a été copié par Démétrios Damilas entre 1476 et 1506. Il est d'un format moyen et comporte 203 folios.
+                Il est rédigé en écriture humaniste. C'est un manuscrit lisible qui contient quelques abréviations non usuelles. Il complète les folios manquants du manuscrit A.</note></witness>
+               <witness xml:id="E">Manuscrit E, Florence, Bibliothèque Laurentienne, Pluteus LX.2. 
+                <note>Ce manuscrit a été copié par Jacob Questenberg vers 1490 à Rome et mesure 190 sur 280 mm. Il est, lui aussi, rédigé en écriture humaniste.
+               Ce manuscrit comporte plus de fautes que le manuscrit et les mots sont souvent abrégés. Il supplée aux folios manquants du Marcianus. </note></witness>
                <witness xml:id="Aac">Manuscrit A avant correction</witness>
                <witness xml:id="Apc">Manuscrit A après correction</witness>
                <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288</witness>
@@ -38,36 +48,13 @@
                <witness xml:id="CE7.330">Manuscrits C E livre 7.330</witness>
                <witness xml:id="ACE7.330">Manuscrits A C E livre 7.330</witness>
                <witness xml:id="A7.330">Manuscrit A livre 7.330</witness>
-               <witness xml:id="C">Manuscrit C, Paris, Bibliothèque Nationale de France, supplément
-                  grec 841</witness>
-               <witness xml:id="E">Manuscrit E, Florence, Bibliothèque Laurentienne, Pluteus LX.
-                  2</witness>
-               <witness xml:id="Valckenaer">Correction de Valckenaer</witness>
-               <witness xml:id="Canter">Correction de Canter</witness>
-               <witness xml:id="Schneider">Correction de Schneider</witness>
-               <witness xml:id="ACE7.278">Manuscrits A C E livre 7.278</witness>
-               <witness xml:id="CE7.278">Manuscrits C E livre 7.278</witness>
-               <witness xml:id="A7.278">Manuscrit A livre 7.278</witness>
-               <witness xml:id="ACE7.313-314">Manuscrits A C E livre 7.313 et 7.314</witness>/witness>
-               <witness xml:id="Aac">Manuscrit A avant correction</witness>
-               <witness xml:id="Apc">Manuscrit A après correction</witness>
-               <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288</witness>
-               <witness xml:id="A7.288">Manuscrit A livre 7.288</witness>
-               <witness xml:id="CE7.288">Manuscrits C E livre 7.288</witness>
-               <witness xml:id="CE7.330">Manuscrits C E livre 7.330</witness>
-               <witness xml:id="ACE7.330">Manuscrits A C E livre 7.330</witness>
-               <witness xml:id="A7.330">Manuscrit A livre 7.330</witness>
-               <witness xml:id="C">Manuscrit C, Paris, Bibliothèque Nationale de France, supplément
-                  grec 841</witness>
-               <witness xml:id="E">Manuscrit E, Florence, Bibliothèque Laurentienne, Pluteus LX.
-                  2</witness>
-               <witness xml:id="Valckenaer">Correction de Valckenaer</witness>
-               <witness xml:id="Canter">Correction de Canter</witness>
-               <witness xml:id="Schneider">Correction de Schneider</witness>
                <witness xml:id="ACE7.278">Manuscrits A C E livre 7.278</witness>
                <witness xml:id="CE7.278">Manuscrits C E livre 7.278</witness>
                <witness xml:id="A7.278">Manuscrit A livre 7.278</witness>
                <witness xml:id="ACE7.313-314">Manuscrits A C E livre 7.313 et 7.314</witness>
+               <witness xml:id="Valckenaer">Correction de Valckenaer</witness>
+               <witness xml:id="Canter">Correction de Canter</witness>
+               <witness xml:id="Schneider">Correction de Schneider</witness>
             </listWit>
 
             <listPerson>
