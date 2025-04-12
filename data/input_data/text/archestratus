@@ -26,7 +26,29 @@
             </bibl>
             <listWit>
                 <witness xml:id="A">Manuscrit A, Venise, Bibliothèque Marciana, gr. Z. 447 (coll.
-                  0820)</witness>
+                  0820)<note>Ce manuscrit byzantin a été copié, en écriture humaniste, par Jean le Calligraphe à Constantinople au Xe siècle. Il a été apporté en Italie en 1423 par 
+                l'husmaniste sicilien Giovanni Aurispa. Puis, il a été acheté par le Cardinal Bessarion vers le milieu de XVe siècle qui le légua, avec le reste de sa bibliothèque à 
+                la République de Venise.</note>
+                 </witness>
+               <witness xml:id="Aac">Manuscrit A avant correction</witness>
+               <witness xml:id="Apc">Manuscrit A après correction</witness>
+               <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288</witness>
+               <witness xml:id="A7.288">Manuscrit A livre 7.288</witness>
+               <witness xml:id="CE7.288">Manuscrits C E livre 7.288</witness>
+               <witness xml:id="CE7.330">Manuscrits C E livre 7.330</witness>
+               <witness xml:id="ACE7.330">Manuscrits A C E livre 7.330</witness>
+               <witness xml:id="A7.330">Manuscrit A livre 7.330</witness>
+               <witness xml:id="C">Manuscrit C, Paris, Bibliothèque Nationale de France, supplément
+                  grec 841</witness>
+               <witness xml:id="E">Manuscrit E, Florence, Bibliothèque Laurentienne, Pluteus LX.
+                  2</witness>
+               <witness xml:id="Valckenaer">Correction de Valckenaer</witness>
+               <witness xml:id="Canter">Correction de Canter</witness>
+               <witness xml:id="Schneider">Correction de Schneider</witness>
+               <witness xml:id="ACE7.278">Manuscrits A C E livre 7.278</witness>
+               <witness xml:id="CE7.278">Manuscrits C E livre 7.278</witness>
+               <witness xml:id="A7.278">Manuscrit A livre 7.278</witness>
+               <witness xml:id="ACE7.313-314">Manuscrits A C E livre 7.313 et 7.314</witness>/witness>
                <witness xml:id="Aac">Manuscrit A avant correction</witness>
                <witness xml:id="Apc">Manuscrit A après correction</witness>
                <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288</witness>
