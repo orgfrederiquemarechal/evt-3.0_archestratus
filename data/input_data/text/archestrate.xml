@@ -41,7 +41,7 @@
                 <note>Ce manuscrit a été copié par Jacob Questenberg vers 1490 à Rome et mesure 190 sur 280 mm. Il est, lui aussi, rédigé en écriture humaniste.
                Ce manuscrit comporte plus de fautes que le manuscrit et les mots sont souvent abrégés. Il supplée aux folios manquants du Marcianus. </note></witness>
                <witness xml:id="Aac">Manuscrit A avant correction<note>Texte avant modification d'un correcteur ultérieur</note></witness>
-               <witness xml:id="Apc">Manuscrit A après correction<note>Texte modifié par une main ultérieure, correction orthographique ou grammaticale. Identifiable par le changement d'encre.</note>/witness>
+               <witness xml:id="Apc">Manuscrit A après correction<note>Texte modifié par une main ultérieure, correction orthographique ou grammaticale. Identifiable par le changement d'encre.</note></witness>
                <witness xml:id="ACE7.288">Manuscrits A C E livre 7.288<note>Concordance des trois manuscrits pour ce passage</note></witness>
                <witness xml:id="A7.288">Manuscrit A livre 7.288<note>Lecture propre au manuscrit A pour ce passage</note></witness>
                <witness xml:id="CE7.288">Manuscrits C E livre 7.288<note>Concordance des deux manuscrits pour ce passage</note></witness>
