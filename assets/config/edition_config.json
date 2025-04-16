@@ -1,6 +1,6 @@
 {
-  "editionTitle": "Les divinités dans les Métamorphoses d’Ovide",
-  "badge": "Apollon et Minerve",
+  "editionTitle": "Les fragments d’Archestrate de Géla",
+  "badge": "",
   "editionHome": "",
   "availableEditionLevels": [
     {
@@ -12,14 +12,14 @@
     {
       "id": "interpretative",
       "label": "interpretative",
-      "enable": true,
+      "enable": false,
       "hidden": false
     },
     {
       "id": "critical",
       "label": "critical",
-      "enable": false,
-      "hidden": true
+      "enable": true,
+      "hidden": false
     },
     {
       "id": "changesView",
@@ -30,13 +30,13 @@
   ],
   "downloadableXMLSource": true,
   "namedEntitiesLists": {
-    "MIN": {
-      "defaultLabel": "Minerve",
+    "persons": {
+      "defaultLabel": "Persons",
       "enable": true
     },
-    "APO": {
-      "defaultLabel": "Apollon",
-      "enable": false
+    "places": {
+      "defaultLabel": "Places",
+      "enable": true
     },
     "organizations": {
       "defaultLabel": "Organizations",
@@ -44,53 +44,35 @@
     },
     "relations": {
       "defaultLabel": "Relations",
-      "enable": true
+      "enable": false
     },
     "events": {
       "defaultLabel": "Events",
-      "enable": true
+      "enable": false
     }
   },
   "showLists": true,
   "entitiesSelectItems": [
     {
-      "label": "Entités nommées",
+      "label": "Named Entities",
       "items": [
         {
           "value": "persName",
-          "label": "Divinités",
-          "color": "#ff4aff",
+          "label": "persons",
+          "color": "#FFB74D",
           "enable": true
         },
         {
-          "value": "persName[ana='act']",
-          "label": "Acteur de métamorphose",
-          "color": "#6698ed",
-          "enable": true
-        },
-        {
-          "value": "persName[ana='auto']",
-          "label": "Acteur de sa propre métamorphose",
-          "color": "#f7a760",
-          "enable": true
-        },
-        {
-          "value": "persName[ana='obj']",
-          "label": "Objet de métamorphose",
-          "color": "#f7a760",
-          "enable": true
-        },
-        {
-          "value": "persName[ana='NA']",
-          "label": "Pas de lien avec une métamorphose ici",
-          "color": "#995079m",
-          "enable": true
+          "value": "name[type='divin']",
+          "label": "Noms divins",
+          "color": "rgb(139, 98, 236)",
+          "enable": false
         },
         {
           "value": "placeName,geogName",
           "label": "places",
           "color": "#A5D6A7",
-          "enable": false
+          "enable": true
         },
         {
           "value": "orgName",
@@ -108,26 +90,26 @@
           "value": "event",
           "label": "events",
           "color": "#fcfc60",
-          "enable": true
+          "enable": false
         },
         {
           "value": "rolename",
           "label": "roles",
-          "enable": true
+          "enable": false
         },
         {
           "value": "measure",
           "label": "measures",
-          "enable": true
+          "enable": false
         }
       ],
       "enable": false
     }
   ],
   "notSignificantVariants": ["type=orthographic"],
-  "defaultEdition": "interpretative",
-  "defaultViewMode": "readingText",
-  "proseVersesToggler": false,
+  "defaultEdition": "critical",
+  "defaultViewMode": "imageText",
+  "proseVersesToggler": true,
   "defaultTextFlow": "verses",
   "verseNumberPrinter": 5,
   "readingColorLight": "rgb(208, 220, 255)",
@@ -182,7 +164,7 @@
       "strato-5": "#100077"
     }
   },
-  "defaultImageZoomLevel": 0.8,
-  "maxImageZoomLevel": 2,
+  "defaultImageZoomLevel": 1,
+  "maxImageZoomLevel": 3,
   "multiPageEngineForCriticalEdition": false
 }
