@@ -1598,7 +1598,8 @@
          <div n="33" type="fragment">
             <head>Fragment 33 (Ath. 7. 307b)</head>
             <p>θαυμαστοὶ δʹ εἰσὶ τῶν κεστρέων οἱ περὶ Ἄβδηρα ἁλισκόμενοι, ὡς καὶ Ἀρχέστρατος εἴρηκε.
-               δεύτεροι δὲ οἱ ἐκ Σινώπης.<note>habent ACE</note></p>
+               δεύτεροι δὲ οἱ ἐκ Σινώπης.</p>
+            <!-- <note>habent ACE</note> -->
          </div>
          <pb n="34" facs="archestratus_ms_a_fr_34.jpg" xml:id="archestratus_ms_a_fr_34"/>
          <div n="34" type="fragment">
