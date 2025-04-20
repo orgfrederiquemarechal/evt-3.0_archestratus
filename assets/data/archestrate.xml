@@ -537,7 +537,7 @@
             <lb/>
 
             <docTitle>
-               <titlePart type="main">Archestrate de Géla, fragments</titlePart>
+               <titlePart type="main" rend="text-align(center)" color="gray">Archestrate de Géla, fragments</titlePart>
                <titlePart type="sub">Une édition numérique</titlePart>
             </docTitle>
 
