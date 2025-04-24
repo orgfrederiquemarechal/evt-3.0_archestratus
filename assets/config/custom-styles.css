@@ -92,21 +92,27 @@ evt-addition evt-note {
   margin-top: -1.5rem;
 }
 
-
 /* CUSTOM STYLES: CLASSNUM */
 
 body evt-text {
   font-family: "Libertinus Serif", Times, Junicode, serif;
-  /* font-size: 150%; */
 }
 
 /* display of title page (front matter) */
 
-evt-page[data-id="archestratus_front"] {
-  /* display: inline;
-  vertical-align: middle; */
+evt-page[data-id="archestratus_front"] evt-text {
+  display: block;
+  text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+evt-generic-element.titlepart[type="main"] * {
+  padding-top: 3em;
+}
+
+.hi * {
+  font-weight: bold;
 }
 
 evt-generic-element.titlepart[type="main"] {
@@ -114,8 +120,6 @@ evt-generic-element.titlepart[type="main"] {
   font-size: 150% !important;
   font-style: italic;
   font-weight: bold;
-  padding-top: 25em;
-  padding-bottom: 1em;
   white-space: pre;
 }
 
@@ -123,8 +127,6 @@ evt-generic-element.titlepart[type="sub"] {
   color: orange; /* grey; */
   font-size: 120% !important;
   font-style: italic;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
   white-space: pre;
 }
 
@@ -134,19 +136,19 @@ evt-text span {
 
 /* space between paragraphs */
 evt-paragraph {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 div.app-detail-tabs {
-    display:none;
+  display: none;
 }
 
 /* Critical Apparatus panel */
 /* .app-detail-content */
 card-body {
-    background-color: red;
-    /* background-color:#2042512e */
+  background-color: red;
+  /* background-color:#2042512e */
 }
 /* div.card-body { */
 
