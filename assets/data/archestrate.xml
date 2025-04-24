@@ -552,7 +552,7 @@
             <lb/>
             <lb/>
 
-            <byline>dans le cadre de son mémoire de master 2</byline>
+            <byline>dans le cadre de son mémoire de master 2<lb/></byline>
             <byline>sous la direction d’<hi>Aurélien Berra</hi></byline>
 
             <lb/>
@@ -1114,7 +1114,7 @@
          </div>
          <pb n="12" facs="archestratus_ms_a_fr_12_fin.jpg" xml:id="archestratus_ms_a_fr_12_fin"/>
          <div n="12" type="fragment">
-            <head>(Ath. 3. 116f-17b)</head>
+            <head>Fragment 12 (Ath. 3. 116f-17b)</head>
             <l n="1">καὶ Σικελοῦ <app>
                   <lem wit="#A #C">θύννου</lem>
                   <rdg wit="#E">θύνου</rdg>
@@ -1224,10 +1224,10 @@
          <div n="15" type="fragment">
             <head>Fragment 15 (Ath. 7. 278d-e)</head>
             <l n="1">ὅπου ἐστὶν ἕκαστον</l>
-            <l n="2">κάλλιστον βρωτόν τε.<app>
+            <l n="2">κάλλιστον βρωτόν <app>
                   <lem wit="#A">τε</lem>
                   <rdg wit="#C #E"><lacunaStart/></rdg>
-               </app></l>
+               </app>.</l>
             <!-- <note>habent ACE</note> -->
          </div>
          <pb n="16" facs="archestratus_ms_a_fr_16.jpg" xml:id="archestratus_ms_a_fr_16"/>
@@ -1342,7 +1342,8 @@
                         <lem wit="#CE7.288">ταύτην δὲ θέρευς</lem>
                         <rdg wit="#A7.288">ταύτην δὲ θερεὺς</rdg>
                         <rdg wit="#ACE7.330"><lacunaStart/></rdg>
-                     </app><app>
+                     </app>
+                     <app>
                         <lem wit="#ACE7.330">περὶ Χαλκίδρα κεδνήν</lem>
                         <rdg wit="#A7.288">καὶ Χαλκίδρα κεδνήν</rdg>
                      </app></lem>
@@ -1619,7 +1620,7 @@
             <l n="4">ἄλλο δʹ ἐκεῖσε, φίλη κεφαλή, <app>
                   <lem wit="#A #E">μηδὲν</lem>
                   <rdg wit="#C"><lacunaStart/></rdg>
-               </app>μηδὲν προσενέγκωις,</l>
+               </app> προσενέγκωις,</l>
             <l n="5">εἰ μὴ γλαυκὸν ἔλαιον. ἐπειδὰν δʹ ὀπτὰ γένηται,</l>
             <l n="6">ἤδη τριμμάτιόν δέ φέρειν καὶ ἐκεῖνα μετʹ αὐτοῦ.<app>
                   <rdg wit="#C #E"><lacunaStart/></rdg>
@@ -1736,7 +1737,7 @@
          <div n="43" type="fragment">
             <head>Fragment 43 (Ath. 7. 315f-16a)</head>
             <l n="1"><app>
-                  <lem wit="#A">τὸν δʹὄνον,<app>
+                  <lem wit="#A">τὸν δʹὄνον, <app>
                         <lem wit="#A">ἀνοηδων</lem>
                         <rdg wit="#Canter">Ανθηδων</rdg>
                      </app> τὸν καλλαρίαν καλέουσιν,</lem>
