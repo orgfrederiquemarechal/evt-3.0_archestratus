@@ -1891,11 +1891,11 @@
          <pb n="53" facs="archestratus_ms_a_fr_53.jpg" xml:id="archestratus_ms_a_fr_53"/>
          <div n="53" type="fragment">
             <head>Fragment 53 (Ath. 7. 325d-e)</head>
-            <l n="1">κἀν Θάσωι ὀψώνει τρίγλαν, κοὐ χείρονα λήψηι</l>
+            <l n="1">κἀν Θάσζωι ὀψώνει τρίγλαν, κοὐ χείρονα λήψηι</l>
             <l n="2">ταύτης· <app>
-                  <lem wit="#A">ἐν</lem><rdg wit="#C #E"><lacunaStart>δὲ τῶι
-                      χείρω, κεδνὴ δὲ καὶ αὐτὴ
-                  </lacunaStart</rdg>
+                  <lem wit="#A">ἐν δὲ τῶι Τέῳ
+                  χείρω, κεδνὴ δὲ καὶ αὐτὴ.</lem>
+                  <rdg wit="#C #E"><lacunaStart/></rdg>
                </app>.</l>
             <l n="3">ἐν δʹ ̓Ερυθραῖς ἀγαθὴ θηρεύεται αἰγιαλῖτις.</l>
             <!-- <note>habent ACE</note> -->
